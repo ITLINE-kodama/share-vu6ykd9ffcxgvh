@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex,nofollow">
+<title>公式Webサイトリニューアル 御提案書（一次審査提出用）｜日本産業カウンセラー協会</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* 提出仕様: A4・10ページ以内・最小文字サイズ10pt（=13.34px）を全要素で厳守 */
+:root{
+ --blue:#004299; --blue-d:#00306e; --blue-l:#E8EFF9; --sky:#3b7fd4;
+ --ink:#1b2733; --sub:#5b6875; --faint:#7d8a97; --line:#d7dee7; --rule:#e7ecf2;
+ --paper:#fff; --band:#f3f6fb; --accent:#00A0A8; --ok:#2E8B57; --red:#B4372F;
+ --sans:"Noto Sans JP",sans-serif; --en:"Inter",sans-serif;
+ --fs10:13.4px; --fs105:14px; --fs11:14.7px; --fs12:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);color:var(--ink);font-size:var(--fs105);line-height:1.6;background:#e9edf2;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;min-height:297mm;background:var(--paper);margin:0 auto;padding:11mm 13mm 15mm;position:relative;page-break-after:always;overflow:hidden}
+.page:last-child{page-break-after:auto}
+@media print{body{background:none}.page{margin:0}}
+@page{size:A4;margin:0}
+
+.rhead{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--blue);padding-bottom:4px;margin-bottom:10px}
+.rhead .doc{font-size:var(--fs10);color:var(--sub)}
+.rhead .brand{font-family:var(--en);font-weight:800;font-size:var(--fs10);color:var(--blue);letter-spacing:.1em}
+.rfoot{position:absolute;left:13mm;right:13mm;bottom:7mm;display:flex;justify-content:space-between;font-size:var(--fs10);color:var(--faint);border-top:1px solid var(--rule);padding-top:4px}
+
+.sec{display:flex;align-items:baseline;gap:11px;margin:0 0 9px}
+.sec .no{font-family:var(--en);font-weight:800;font-size:21px;color:var(--blue);line-height:1}
+.sec h2{font-size:17px;font-weight:700;letter-spacing:.01em}
+.sec .en{font-family:var(--en);font-size:var(--fs10);letter-spacing:.12em;color:var(--faint);font-weight:700;margin-left:auto;white-space:nowrap}
+.lead{font-size:var(--fs105);color:var(--sub);line-height:1.6;margin-bottom:10px}
+.lead b{color:var(--ink)}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.card{border:1px solid var(--line);border-radius:7px;padding:10px 12px;background:#fff}
+.card h3{font-size:var(--fs105);color:var(--blue);font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:7px}
+.card p{font-size:var(--fs10);color:var(--sub);line-height:1.55}
+.card p b{color:var(--ink)}
+.card .cn{font-family:var(--en);font-weight:800;color:#fff;background:var(--blue);width:21px;height:21px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:var(--fs10);flex:none}
+
+.band{background:var(--blue);color:#fff;border-radius:8px;padding:12px 16px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.band .st .n{font-family:var(--en);font-weight:800;font-size:21px;color:#bfe0ff;line-height:1.15}
+.band .st .n small{font-size:var(--fs10);color:#fff;font-family:var(--sans);margin-left:3px}
+.band .st .l{font-size:var(--fs10);color:#d3e2f5;line-height:1.4}
+
+.arrowrow{display:flex;align-items:stretch;gap:7px}
+.arrowrow .b{flex:1;border:1px solid var(--line);border-radius:6px;padding:7px 8px;text-align:center;font-size:var(--fs10);background:#fff;line-height:1.45}
+.arrowrow .ar{display:flex;align-items:center;color:var(--blue);font-weight:800;font-size:16px}
+
+table{width:100%;border-collapse:collapse;font-size:var(--fs10);table-layout:fixed}
+.est th{background:var(--blue);color:#fff;font-weight:700;font-size:var(--fs10);padding:4px 8px;text-align:left}
+.est td{padding:4px 8px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.5;font-size:var(--fs10);word-break:break-word}
+.est .rq{background:var(--band);font-weight:700;color:var(--blue-d)}
+.est .rq .sq{display:block;font-weight:400;color:var(--sub);margin-top:3px;line-height:1.45}
+.est .n{text-align:right;white-space:nowrap}
+
+.h3s{font-size:var(--fs12);color:var(--blue-d);font-weight:700;margin:12px 0 7px}
+.tag{display:inline-block;font-size:var(--fs10);font-weight:700;padding:0 8px;border-radius:100px;background:var(--blue-l);color:var(--blue);margin-right:4px}
+.chk{font-size:var(--fs10);color:var(--sub);line-height:1.7}
+.chk li{list-style:none;padding-left:19px;position:relative;margin-bottom:2px}
+.chk li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}
+.note{font-size:var(--fs10);color:var(--sub);line-height:1.55;margin-top:6px}
+.note b{color:var(--ink)}
+
+.cover{padding-top:0}
+.cover .kv{background:linear-gradient(120deg,var(--blue-d),var(--blue) 55%,var(--sky));border-radius:10px;color:#fff;padding:26px 28px 24px;position:relative;overflow:hidden}
+.cover .kv::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border:24px solid rgba(255,255,255,.08);border-radius:50%}
+.cover .kv .ey{font-family:var(--en);letter-spacing:.2em;font-size:var(--fs10);color:#bfe0ff;font-weight:700}
+.cover .kv h1{font-size:27px;font-weight:900;line-height:1.35;margin:8px 0 5px}
+.cover .kv .to{font-size:var(--fs12);margin-top:12px;font-weight:700}
+.cover .kv .sub{font-size:var(--fs10);color:#d3e2f5;margin-top:2px}
+.cover .meta{display:grid;grid-template-columns:1fr 1fr;gap:6px 20px;margin-top:11px;font-size:var(--fs10);color:var(--sub);line-height:1.55}
+.cover .meta div{display:flex;gap:8px}
+.cover .meta .k{color:var(--faint);white-space:nowrap;flex:none}
+.cover .meta b{color:var(--ink)}
+
+/* 強化：評価観点を伝わりやすくする補助 */
+.est th.in{background:var(--ok)}
+.est th.out{background:#7a8794}
+.mapstrip{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:9px}
+.mapstrip .mc{border:1px solid var(--line);border-radius:7px;padding:8px 11px;background:#fff}
+.mapstrip .mc .t{font-weight:700;color:var(--blue-d);font-size:var(--fs10);margin-bottom:3px}
+.mapstrip .mc .t .b{display:inline-block;background:var(--blue);color:#fff;font-family:var(--en);font-weight:800;border-radius:4px;padding:0 6px;margin-right:6px;font-size:var(--fs10)}
+.mapstrip .mc p{font-size:var(--fs10);color:var(--sub);line-height:1.5}
+.mapstrip .mc p b{color:var(--ink)}
+.tocmap{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.tocmap .tm-col{border:1px solid var(--line);border-radius:8px;padding:9px 13px;background:#fff}
+.tm-h{font-weight:700;color:var(--blue-d);font-size:var(--fs105);margin-bottom:5px;padding-bottom:5px;border-bottom:1px solid var(--rule);display:flex;align-items:center;gap:7px}
+.tm-h .b{background:var(--blue);color:#fff;font-family:var(--en);font-weight:800;border-radius:4px;padding:1px 7px;font-size:var(--fs10)}
+.tm-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:4.5px 0;font-size:var(--fs10);border-bottom:1px dashed var(--rule)}
+.tm-row:last-child{border-bottom:none}
+.tm-row .l{color:var(--ink)}
+.tm-row .pg{flex:none;font-family:var(--en);font-weight:800;color:var(--blue);background:var(--blue-l);border-radius:5px;padding:1px 10px;font-size:var(--fs10)}
+.tm-note{font-size:var(--fs10);color:var(--sub);margin-top:6px;line-height:1.5}
+.naisu{display:flex;align-items:center;gap:10px;background:#eef7f0;border:1px solid #bfe0cb;border-radius:8px;padding:8px 12px;margin-top:9px}
+.naisu .bg{flex:none;background:var(--ok);color:#fff;font-weight:800;font-size:var(--fs10);border-radius:100px;padding:2px 11px}
+.naisu p{font-size:var(--fs10);color:var(--ink);line-height:1.5}
+.naisu p b{color:var(--blue-d)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.split .sb{border:1px solid var(--line);border-radius:7px;padding:9px 11px;background:#fff}
+.split .sb.must{border-color:var(--blue);border-width:2px}
+.split .sb.add{border-color:var(--accent);border-width:2px;background:#f2fbfb}
+.split .sb h4{font-size:var(--fs105);font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.split .sb.must h4{color:var(--blue-d)}
+.split .sb.add h4{color:var(--accent)}
+.split .sb .bd{font-size:var(--fs10);color:var(--sub);line-height:1.55}
+.split .sb .bd b{color:var(--ink)}
+.wbar{display:flex;height:26px;border-radius:5px;overflow:hidden;border:1px solid var(--line);margin:6px 0 4px}
+.wbar span{display:flex;align-items:center;justify-content:center;color:#fff;font-size:var(--fs10);font-weight:700}
+.wbar .v{background:var(--blue)}
+.wbar .a{background:#9fb2c6}
+/* スケジュール・タイムライン（ガント） */
+.tl{border:1px solid var(--line);border-radius:8px;padding:9px 11px 4px;margin-top:2px;background:#fff}
+.tl-months,.tl-row{display:flex;align-items:center}
+.tl-row{margin-bottom:5px}
+.tl-lb{flex:none;width:150px;font-size:var(--fs10);font-weight:700;color:var(--blue-d);padding-right:9px;line-height:1.25}
+.tl-months .tl-lb{color:var(--sub)}
+.tl-scale{flex:1;display:flex}
+.tl-scale i{flex:1;text-align:center;font-size:var(--fs10);color:var(--sub);font-style:normal;border-left:1px solid var(--rule);padding-bottom:3px}
+.tl-scale i:first-child{border-left:none}
+.tl-track{flex:1;position:relative;height:23px;background:linear-gradient(90deg,var(--rule) 1px,transparent 1px);background-size:10% 100%}
+.tl-bar{position:absolute;top:3px;height:17px;border-radius:4px;display:flex;align-items:center;justify-content:flex-end;gap:6px;padding:0 7px;color:#fff;font-size:var(--fs10);font-weight:700;white-space:nowrap;overflow:hidden}
+.tl-bar.lbl{justify-content:space-between}
+.tl-bar .g{font-family:var(--en);font-weight:800}
+/* 安全な閉鎖領域 図解 */
+.secfig{margin-top:9px;border:1px solid var(--line);border-radius:10px;padding:11px 13px;background:#fff}
+.secfig .sf-h{font-weight:700;color:var(--blue-d);font-size:var(--fs105);margin-bottom:10px}
+.sf-row{display:flex;align-items:stretch;gap:11px}
+.sf-zone{flex:1;border:2px solid var(--ok);border-radius:9px;background:#f2f9f4;padding:12px 12px 10px;position:relative}
+.sf-zone .zt{position:absolute;top:-11px;left:12px;background:var(--ok);color:#fff;font-size:var(--fs10);font-weight:700;padding:1px 11px;border-radius:100px}
+.sf-nodes{display:flex;align-items:center;gap:6px}
+.sf-node{flex:1;border:1px solid #bfe0cb;background:#fff;border-radius:7px;padding:7px 5px;text-align:center;font-size:var(--fs10);font-weight:700;color:var(--ink);line-height:1.3}
+.sf-node small{display:block;font-weight:400;color:var(--sub);font-size:var(--fs10);margin-top:1px}
+.sf-node.ai{border-color:var(--ok);background:#e9f6ee}
+.sf-ar2{color:var(--ok);font-weight:800;font-size:15px;flex:none}
+.sf-log{margin-top:8px;font-size:var(--fs10);color:var(--ink);background:#fff;border:1px dashed #9fceb0;border-radius:6px;padding:5px 9px}
+.sf-out{flex:0 0 29%;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;text-align:center}
+.sf-cut{color:#B4372F;font-weight:800;font-size:var(--fs10)}
+.sf-block{background:#fdecea;border:1px solid #f2b8b0;border-radius:8px;padding:8px 10px;font-size:var(--fs10);color:#8a2c22;line-height:1.45}
+.sf-block b{color:#B4372F}
+</style>
+</head>
+<body>
+
+<!-- ============ P1 表紙＋サマリー ============ -->
+<div class="page cover">
+ <div class="rhead"><span class="doc">一次審査提出用 提案書（A4・10ページ以内・最小文字10pt）</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="kv">
+  <div class="ey">OFFICIAL WEBSITE RENEWAL — PROPOSAL</div>
+  <h1>公式Webサイト リニューアル<br>御提案書</h1>
+  <div style="font-size:13.4px;color:#e7f0fb;max-width:86%">900ページ超・8階層の情報を<b style="color:#fff">ターゲット別・約100ページ</b>へ再設計。<br>WordPress移行と<b style="color:#fff">AIによる更新支援</b>で、「自分たちで育て続けられる」本部サイトへ。</div>
+  <div class="to">一般社団法人 日本産業カウンセラー協会 御中</div>
+  <div class="sub">本部サイト（https://www.counselor.or.jp/）の全面リニューアル——<b style="color:#fff">LPを含む全ページ</b>が対象です</div>
+ </div>
+ <div class="meta">
+  <div><span class="k">提出日：</span><b>2026年7月6日（月）</b></div>
+  <div><span class="k">稼働目標：</span><b>2027年5月6日（木）</b>　5月連休明け稼働</div>
+  <div><span class="k">提案元：</span><b>株式会社インフォネット</b></div>
+  <div><span class="k">基盤：</span><b>Xサーバー ＋ WordPress</b>（支部と統一）</div>
+  <div><span class="k">制作パートナー：</span><b>株式会社ITLINE</b></div>
+  <div><span class="k">基盤検証：</span>物販・会員ログインの実現性を検証</div>
+ </div>
+
+ <div class="sec" style="margin-top:12px"><span class="no">01</span><h2>提案コンセプト</h2><span class="en">CONCEPT</span></div>
+ <div class="lead"><b>「整理して、届けて、育て続ける。」</b>——現行サイトの「探しにくい・更新しにくい・保守が限界」を根本から解消し、公開後も貴会自身で維持できるサイトをご提案します。柱は3つです。</div>
+ <div class="grid3">
+  <div class="card"><h3><span class="cn">1</span>情報を1/9へ整理</h3><p>900ページ超・8階層を、目的別入口×<b>4〜5階層・約100ページ</b>へ。当社は既に<b>現行サイト全ページを実査</b>し、静的155ページ全件の移行判定台帳を作成済みです（別紙サイトマップ）。</p></div>
+  <div class="card"><h3><span class="cn">2</span>資格取得者に届く導線</h3><p>資格取得希望者（メイン）・会員・相談希望者・法人を<b>ターゲット別に整理</b>。「探せない」を解消し、集客と収益貢献（目的(2)）につなげます。</p></div>
+  <div class="card"><h3><span class="cn">3</span>WordPressに統一し内製化</h3><p>支部サイトと<b>基盤を統一</b>（運用ノウハウ・コスト最適化）。職員が<b>自力で編集</b>でき、インフォCMSの高コスト・使いにくさを解消。<b>ライセンス料¥0</b>（OSS）の標準技術で拡張性も安心。</p></div>
+ </div>
+ <div class="band" style="margin-top:11px">
+  <div class="st"><div class="n">900P超→約100<small>P</small></div><div class="l">情報は捨てずに管理対象を1/9へ（350P選別済）</div></div>
+  <div class="st"><div class="n">8→4〜5<small>階層</small></div><div class="l">階層を整理し到達性・操作性を改善</div></div>
+  <div class="st"><div class="n">2027.5.6<small>稼働</small></div><div class="l">保守限界前の安全な移行スケジュール</div></div>
+ </div>
+ <div class="tocmap">
+  <div class="tm-col">
+   <div class="tm-h"><span class="b">構成①</span>提案の骨子 ─ 本書での該当ページ</div>
+   <div class="tm-row"><span class="l">提案コンセプト</span><span class="pg">P.1</span></div>
+   <div class="tm-row"><span class="l">協会要求事項への対応</span><span class="pg">P.4–5</span></div>
+   <div class="tm-row"><span class="l">活動概要・スコープ</span><span class="pg">P.3・6・7</span></div>
+   <div class="tm-row"><span class="l">実施体制・作業分担</span><span class="pg">P.9</span></div>
+   <div class="tm-row"><span class="l">スケジュール</span><span class="pg">P.9</span></div>
+  </div>
+  <div class="tm-col">
+   <div class="tm-h"><span class="b">構成②</span>必須項目と追加提案の切り分け</div>
+   <div class="tm-row"><span class="l">提案必須（協会要求事項）</span><span class="pg">P.4–5</span></div>
+   <div class="tm-row"><span class="l">追加提案（当社判断）</span><span class="pg">P.8</span></div>
+   <div class="tm-note">追加提案（AIによるHP更新支援）は<b>費用を分離</b>し、見積上限の<b>除外対象</b>として記載します。</div>
+  </div>
+ </div>
+ <div class="naisu"><span class="bg">内数で最適</span><p>機能・ページ数・体制はすべて<b>協会ご要求の範囲内（内数）</b>で設計。過剰でも過少でもない最適解とし、上乗せの追加提案のみ<b>分離・任意選択</b>としています。</p></div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.1 / 10</span></div>
+</div>
+
+<!-- ============ P2 現状認識と課題 ============ -->
+<div class="page">
+ <div class="rhead"><span class="doc">公式Webサイトリニューアル 御提案書</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="sec"><span class="no">02</span><h2>現状認識と課題（全ページ実査に基づく）</h2><span class="en">ISSUES</span></div>
+ <div class="lead">ご提案にあたり、当社で<b>現行サイトの全ページ構造調査を実施</b>しました（2026年7月）。「探しにくい」の原因は感覚ではなく、構造として特定できています。</div>
+
+ <div class="card" style="background:var(--band);border-color:var(--blue-l);margin-bottom:10px">
+  <h3 style="color:var(--blue-d)">実査で判明した現行サイトの実態</h3>
+  <div class="grid4" style="margin-top:6px">
+   <div class="card"><p style="text-align:center"><b style="font-size:19px;color:var(--blue);font-family:var(--en)">155</b><br>静的ページ（実測）<br>＋記事 約400〜600件</p></div>
+   <div class="card"><p style="text-align:center"><b style="font-size:19px;color:var(--blue);font-family:var(--en)">19</b><br>ADR関連だけで19ページ<br>（手引きを16分割）</p></div>
+   <div class="card"><p style="text-align:center"><b style="font-size:19px;color:var(--blue);font-family:var(--en)">5層+</b><br>講座案内は実質5階層超<br>（二重ネスト構造）</p></div>
+   <div class="card"><p style="text-align:center"><b style="font-size:19px;color:var(--blue);font-family:var(--en)">3系統</b><br>CMS外の静的サブサイト<br>（シニア特設・eラーニング・こころのアドバイザー）</p></div>
+  </div>
+ </div>
+
+ <div class="grid2">
+  <div class="card"><h3>❶ 複雑すぎる構造で到達できない</h3><p>900ページ超・8階層。設計コンセプトが継承されず、運用ルールが無いまま作成だけを繰り返した結果、目的の情報に辿り着けない。特に<b>資格取得希望者向け情報が見つけにくい</b>。</p></div>
+  <div class="card"><h3>❷ 運用ルール・体制の不在</h3><p>各事業部門が<b>個別にメンテ業者へ依頼</b>し、デザインの統一性が無い。掲載・削除の基準が無く、役目を終えた特設・告知が現役ナビに残存。</p></div>
+  <div class="card"><h3>❸ システムが保守限界</h3><p>現行基盤が保守限界を迎え<b>移行が必須</b>。2026年4月からプロジェクトが始動し、移行対象の選別が進行中（900→現在350ページまで）。</p></div>
+  <div class="card"><h3>❹ インフォCMSの高コスト・使いにくさ</h3><p>ライセンス費用が高く使いにくい現行CMS。職員が自力で編集しづらく、<b>更新が特定業者依存</b>になっている。</p></div>
+ </div>
+
+ <div class="card" style="margin-top:10px;background:var(--band);border-color:var(--blue-l)">
+  <h3 style="color:var(--blue-d)">⚠ 移行時に必ず守るべき資産：外部被リンクと検索評価</h3>
+  <p style="color:var(--ink)">現行サイトは<b>URL規則が3種類混在</b>しており（実査で確認）、行政・関連団体からの被リンクも多数あります。ページを大幅削減する今回こそ、<b>旧URL全件→新URLの301リダイレクト設計が必須</b>です。当社は静的155件の全URL台帳を既に作成済みで、初日から移行設計に着手できます。</p>
+ </div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.2 / 10</span></div>
+</div>
+
+<!-- ============ P3 活動スコープと全体戦略 ============ -->
+<div class="page">
+ <div class="rhead"><span class="doc">公式Webサイトリニューアル 御提案書</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="sec"><span class="no">03</span><h2>活動スコープと全体戦略</h2><span class="en">SCOPE &amp; STRATEGY</span></div>
+
+ <div class="h3s" style="margin-top:0">活動スコープ — 「どこからどこまで」を明確化（境界を色で区別）</div>
+ <table class="est">
+  <tr><th style="width:17%">区分</th><th class="in">✓ 当社が実施（スコープに含む）</th><th class="out" style="width:30%">対象外・別途（境界を明示）</th></tr>
+  <tr><td class="rq">対象サイト</td><td>本部サイト全体（<b>LPを含む全ページ</b>）・CMS外静的サブサイト3系統の統合</td><td>支部サイト13（移行済のため対象外・接続は維持）</td></tr>
+  <tr><td class="rq">工程</td><td>要件定義／設計／デザイン／WordPress構築／コンテンツ移行・301設計／検証・研修・公開／公開後の保守運用</td><td>取材・撮影（不要のご指定）／原稿の新規ライティング（未定・別途ご相談）</td></tr>
+  <tr><td class="rq">機能</td><td>部署別権限・承認フロー／掲載期限・アーカイブ自動化／サイト内検索／各種フォーム／物販・会員ログイン（基盤検証のうえ実装）</td><td>FAQ自動応答チャットボット等（追加提案にも含まない）</td></tr>
+  <tr><td class="rq">追加提案</td><td><b>AIによるHP更新支援</b>（下書き・チェック・分析要約）＝P.8。費用は見積書で必須費用と分離</td><td>—</td></tr>
+ </table>
+
+ <div class="h3s">全体戦略 — 4つの方針</div>
+ <div class="grid4">
+  <div class="card"><h3 style="font-size:13.4px">① 情報の再設計</h3><p>約100ページ・4〜5階層へ。掲載期限つき運用で鮮度を維持。</p></div>
+  <div class="card"><h3 style="font-size:13.4px">② ターゲット別IA</h3><p>資格取得者（主）・会員・相談・法人の目的別入口を最上位に。</p></div>
+  <div class="card"><h3 style="font-size:13.4px">③ WordPress内製化</h3><p>Xサーバー＋WordPressへ移行。部署別権限で職員が自力更新。</p></div>
+  <div class="card" style="border-color:var(--accent)"><h3 style="font-size:13.4px;color:var(--accent)">④ AI更新支援（追加提案）</h3><p>下書き・チェック・分析をAIが支援。少人数でも回る運用へ。</p></div>
+ </div>
+
+ <div class="h3s">「900ページ超 → 約100ページ」の考え方（情報は捨てません）</div>
+ <div class="grid3">
+  <div class="card"><h3><span class="cn">1</span>記事はデータ化</h3><p>ニュース記事 約400〜600件・書籍約20点は<b>投稿・商品データ</b>へ。テンプレートが自動表示し、数百件が管理対象から消えます（記事は残ります）。</p></div>
+  <div class="card"><h3><span class="cn">2</span>バラバラを統合</h3><p>静的155件のうち<b>75件を約25ページへ統合</b>。例：ADRの19ページ→1つの総合ガイド、法人研修9ページ→テーマ別1ページ。</p></div>
+  <div class="card"><h3><span class="cn">3</span>過去は保管庫へ</h3><p>役目を終えた26件は<b>検索できるアーカイブ</b>へ退避。掲載期限の到来で自動移動し、削除日も設定可能（課題認識④対応）。</p></div>
+ </div>
+ <div class="arrowrow" style="margin-top:9px">
+  <div class="b"><b style="font-size:15px">900P超</b><br>現行（未整理）</div>
+  <div class="ar">→</div>
+  <div class="b"><b style="font-size:15px;color:var(--blue)">約350P</b><br>選別中（現在地）</div>
+  <div class="ar">→</div>
+  <div class="b" style="border-color:var(--blue);background:var(--blue-l)"><b style="font-size:15px;color:var(--blue-d)">約100P</b><br>移行51＋統合後25＋新規24</div>
+ </div>
+ <div class="note"><b>協会要求の内数でご提案します</b>——機能・ページ数・体制はいずれもRFP要求事項の範囲内で最適化し、過剰実装は追加提案（P.8）として分離・任意選択としています。全ページの判定台帳（155件・現行URL・行き先つき）は別紙サイトマップに掲載済みです。</div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.3 / 10</span></div>
+</div>
+
+<!-- ============ P4 要求対応表① ============ -->
+<div class="page">
+ <div class="rhead"><span class="doc">公式Webサイトリニューアル 御提案書</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="sec"><span class="no">04</span><h2>要求対応表①　課題認識・機能要求への対応</h2><span class="en">COMPLIANCE 1/2</span></div>
+ <div class="lead">RFP「協会の要求事項」の<b>全項目に対応</b>します（提案書構成②：提案必須の項目）。○＝本提案で充足。</div>
+ <table class="est">
+  <tr><th style="width:23%">協会のご要求</th><th style="width:6%">対応</th><th>当社の対応方針</th><th style="width:11%">該当</th></tr>
+  <tr><td class="rq"><b>課題認識①</b> 設計コンセプト未継承・運用ルール不明瞭</td><td style="text-align:center">○</td><td>共通テンプレート＋<b>スタイルガイド・設計資料一式を納品</b>し継承可能に（対策①-1）。部署別権限・承認フロー・掲載期限の<b>運用ルールを要件定義で明文化</b>し、研修で定着（対策①-2）</td><td>P.6・P.7</td></tr>
+  <tr><td class="rq"><b>課題認識②</b> 900ページ超と膨大</td><td style="text-align:center">○</td><td>全件を5分類台帳で精査し<b>約100ページへ</b>（基本構成検討384ページ→さらなる精査のご意向に対応）。類似ページは<b>30グループ・75件を統合</b>し情報の分散を防止（対策②-1/2）</td><td>P.3・別紙</td></tr>
+  <tr><td class="rq"><b>課題認識③</b> 9階層で閲覧者が断念</td><td style="text-align:center">○</td><td><b>4〜5階層に制限</b>（対策③-1）。ターゲット別入口・パンくず・ページ内アンカー・サイト内検索・関連リンクで「断念させない」導線を随所に設計（対策③-2）</td><td>P.6</td></tr>
+  <tr><td class="rq"><b>課題認識④</b> 過去情報が放置</td><td style="text-align:center">○</td><td><b>掲載期限＋削除日を記事単位で設定</b>（対策④-1）。期限到来で検索可能なアーカイブへ自動移動→削除日に削除（対策④-2）。仕組みで放置を再発防止</td><td>P.3・P.7</td></tr>
+  <tr><td class="rq"><b>機能要求①</b> 基本方針<span class="sq">統一スタイル／トップとサブの役割／操作性・検索／主管部署明確化／自力作成／マルチデバイス</span></td><td style="text-align:center">○</td><td>ページ設計の<b>基本スタイルをスタイルガイドで統一</b>。トップ＝入口特化・サブ＝内容、と役割を分離設計。キーワード検索＋絞込で行先案内。全ページに<b>主管部署タグ</b>。ブロックエディタで<b>主管部署が自力作成</b>。レスポンシブでPC/スマホ/タブレット対応</td><td>P.6・P.7</td></tr>
+  <tr><td class="rq"><b>機能要求②</b> トップページ<span class="sq">組織トップのアピール可変／目的別の道先案内／コンセプト継承</span></td><td style="text-align:center">○</td><td>ヒーロー・ピックアップ枠を<b>CMSから差し替え可能</b>にし「毎回同じで飽きる」を脱却。<b>ターゲット別ゲートウェイ</b>で目的に呼応する道先案内。デザインガイドラインで構成コンセプトを継承</td><td>P.6</td></tr>
+  <tr><td class="rq"><b>機能要求③</b> サブページ<span class="sq">コンセプト統一／閲覧者を限定した案内／カテゴリ分類／過去記事の分別／ページ数削減</span></td><td style="text-align:center">○</td><td>カテゴリ共通テンプレートで統一。<b>9カテゴリ×閲覧者別</b>に分類区分け。オンタイム記事と過去記事を分別し、過去分は検索可能な保管データへ。<b>約100ページ＝目標（200ページ以下）を大幅達成</b></td><td>P.6・別紙</td></tr>
+  <tr><td class="rq"><b>機能要求④</b> 部単位・収益事業単位で閲覧者属性が違う</td><td style="text-align:center">○</td><td>部・事業単位の閲覧者属性を前提に<b>サブページのカテゴリを設計</b>（相談／資格・講座／試験／法人／会員／協会 ほか9カテゴリ）。全ページに主管部署を割当て、部署別の更新権限と紐づけ</td><td>P.6</td></tr>
+ </table>
+ <div class="note">別紙サイトマップには、現行155ページ全件の行き先（どのページがどこへ移行・統合されるか）を1件ずつ掲載しています。</div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.4 / 10</span></div>
+</div>
+
+<!-- ============ P5 要求対応表② ============ -->
+<div class="page">
+ <div class="rhead"><span class="doc">公式Webサイトリニューアル 御提案書</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="sec"><span class="no">05</span><h2>要求対応表②　非機能要求・プロジェクト活動支援要求への対応</h2><span class="en">COMPLIANCE 2/2</span></div>
+ <table class="est">
+  <tr><th style="width:23%">協会のご要求</th><th style="width:6%">対応</th><th>当社の対応方針</th><th style="width:11%">該当</th></tr>
+  <tr><td class="rq"><b>非機能要求①</b> システム基盤<span class="sq">Xserver・WordPress最優先／欠点補完／実現不可なら基盤提案</span></td><td style="text-align:center">○</td><td>支部と同じ<b>Xserver＋WordPressを第一候補</b>とし協会全体最適を優先。欠点補完として<b>WAF設定・自動バックアップ・ステージング環境・脆弱性監視</b>を標準装備。物販・会員限定ログインは要件定義で実現性を検証し、<b>不足時はクラウド型サーバーの基盤提案</b>（費用差異は事前提示）</td><td>P.7</td></tr>
+  <tr><td class="rq"><b>非機能要求②</b> 基盤運用<span class="sq">情シス2名で運用／実施すべき運用事項の提案／ランニング提案と費用見積</span></td><td style="text-align:center">○</td><td>情シス2名で回る前提の運用設計（日常更新は主管部署へ分散）。実施すべき運用事項として<b>月次更新・バックアップ・監視・障害対応・年次の脆弱性点検</b>を提案。ランニングの内容と費用は<b>別紙見積書【2】に明記</b>（従量課金なしの定額）</td><td>P.7・見積書</td></tr>
+  <tr><td class="rq"><b>非機能要求③</b> HPは主管部署がメンテナンスすることを基本とする</td><td style="text-align:center">○</td><td><b>主管部署ごとの更新権限＋承認フロー</b>を構築し、ブロックエディタ・部署別マニュアル・操作研修で自力メンテを定着。さらに追加提案のAI支援（P.8）で下書き・チェックの負担を軽減</td><td>P.7・P.8</td></tr>
+  <tr><td class="rq"><b>支援要求①</b> 制作機能のチェックリスト提供<span class="sq">協会がチェックすべき事の明確化</span></td><td style="text-align:center">○</td><td>工程ごとに<b>検収用チェックリストを当社が作成・提供</b>（機能・表示・権限・フォーム・リダイレクト）。協会がチェックすべき項目・手順・合否基準を明確化し、検収作業を最小負担に</td><td>P.9</td></tr>
+  <tr><td class="rq"><b>支援要求②</b> PMO活動への支援<span class="sq">進捗管理・リスク対策・活動計画の検証・ゲート判定評価＋追加提案</span></td><td style="text-align:center">○</td><td><b>週次進捗レポート・課題/リスク管理表・各ゲートの判定資料を当社が作成</b>しPMOへ提供。追加提案として<b>変更管理ルール（スコープ変動の見える化）と予算消化の月次報告</b>を運用します</td><td>P.9</td></tr>
+  <tr><td class="rq"><b>支援要求③</b> PMO配置／PMO調達への参加意思表示</td><td style="text-align:center">○</td><td>プロジェクト体制にPMO支援担当を配置します。<b>別途のPMO調達についても参加の意思があります</b>——本紙をもって意思表示いたします</td><td>P.9</td></tr>
+ </table>
+ <div class="h3s" style="margin-bottom:4px">提案の切り分け（提案書構成②）— 必須は「内数」で充足、追加提案は「分離」</div>
+ <div class="split">
+  <div class="sb must"><h4><span class="pin" style="background:var(--blue);color:#fff">提案必須</span>協会要求事項への対応</h4><div class="bd">別ページ記載の要求事項（課題認識①〜④・機能要求①〜④・非機能要求①〜③・支援要求①〜③）に<b>全項目○で対応</b>（P.4〜5）。すべて<b>協会ご要求の内数</b>で構成し、<b>要求を満たさない項目はありません</b>。</div></div>
+  <div class="sb add"><h4><span class="pin" style="background:var(--accent);color:#fff">追加提案</span>当社判断で必要と考える事項</h4><div class="bd">①<b>AIによるHP更新支援</b>（P.8・費用は見積書で分離・<b>上限除外</b>）　②<b>変更管理・予算消化の月次報告</b>（支援要求②への上乗せ・費用本体に内包）。範囲は必須作業の効果を高める所までに限定。</div></div>
+ </div>
+ <div class="naisu"><span class="bg">過不足なし</span><p><b>過少</b>＝要求全項目に○対応で回避。<b>過剰</b>＝FAQ自動応答ボット等の大型AI機能は含めず、追加提案は分離・任意選択に限定。よって<b>過剰実装はありません</b>。</p></div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.5 / 10</span></div>
+</div>
+
+<!-- ============ P6 サイト構成 ============ -->
+<div class="page">
+ <div class="rhead"><span class="doc">公式Webサイトリニューアル 御提案書</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="sec"><span class="no">06</span><h2>サイト構成（ターゲット別IA・9カテゴリ）</h2><span class="en">STRUCTURE</span></div>
+ <div class="lead">トップページを<b>「目的別の入口」</b>に特化。閲覧者は迷わず自分の入口を選び、最短で目的情報へ到達します。詳細は別紙「サイトマップ（第4階層・全URL台帳つき）」をご参照ください。</div>
+
+ <div class="card" style="background:var(--band);border-color:var(--blue-l)">
+  <div style="text-align:center;font-weight:700;color:var(--blue-d);font-size:13.4px;margin-bottom:8px">本部サイト トップ（目的別ゲートウェイ）</div>
+  <div class="grid4">
+   <div class="card" style="border-color:var(--blue);border-width:2px;position:relative"><span class="tag" style="position:absolute;top:9px;right:10px;margin:0">主</span><h3 style="font-size:13.4px;white-space:nowrap">資格を取りたい</h3><p>養成講座・講習・試験・資格更新</p></div>
+   <div class="card"><h3 style="font-size:13.4px">会員の方</h3><p>会員サービス・手続き・<b>会員限定ログイン</b></p></div>
+   <div class="card"><h3 style="font-size:13.4px">相談したい</h3><p>電話/SNS相談・全国の相談室</p></div>
+   <div class="card"><h3 style="font-size:13.4px">企業・団体の方</h3><p>研修・EAP・ストレスチェック</p></div>
+  </div>
+ </div>
+
+ <div class="h3s">グローバルナビ（9カテゴリ・約100ページの内訳）</div>
+ <table class="est">
+  <tr><th style="width:34%">カテゴリ</th><th style="width:14%">想定</th><th>現行からの主な出元（実査済み）</th></tr>
+  <tr><td><b>01 相談・カウンセリング</b></td><td>約18P</td><td>/consultation/ ほか</td></tr>
+  <tr><td><b>02 資格・講座</b>（メイン）</td><td>約38P</td><td>/course/ 21P＋CMS外サブサイト（シニア特設・こころのアドバイザー・eラーニング）を統合</td></tr>
+  <tr><td><b>03 試験情報</b></td><td>約20P</td><td>/examination/ 11P</td></tr>
+  <tr><td><b>04 法人向けサービス</b></td><td>約16P</td><td>/group/ 15P（研修9ページをテーマ別に統合）</td></tr>
+  <tr><td><b>05 会員・入会案内</b></td><td>約22P</td><td>/admission/ 15P＋マイページ＋無料職業紹介</td></tr>
+  <tr><td><b>06 協会について</b></td><td>約28P</td><td>/about/ 10P＋/adr/ 19P（→1ガイドに統合）ほか</td></tr>
+  <tr><td><b>07 ニュース</b>／<b>08 研究・刊行物</b>／<b>09 お問い合わせ</b></td><td>投稿型＋約8P</td><td>記事400〜600件を年度・種別で再分類／書籍・コラム・映像／フォーム集約</td></tr>
+ </table>
+ <div class="note">第4階層（記事詳細・年度別・全国13支部・16拠点[事務所・相談室]別 等）は<b>投稿タイプ＋共通テンプレートで自動生成</b>し、固定ページの増殖と階層の深掘りを防止。サイト内検索はカテゴリ・タグ・年度・主管部署で絞り込めます。</div>
+
+ <div class="grid2" style="margin-top:9px">
+  <div class="card"><h3>資格取得者向けの強化（メイン）</h3><p><b>資格の選び方チャート・講座比較・イベントカレンダー</b>を新設。産業カウンセラー／キャリアコンサルタント／シニア等の違いを迷わず選べます。</p></div>
+  <div class="card"><h3>時期ものは「ピックアップ枠」へ</h3><p>講座募集・研究大会などの告知は<b>掲載期限つきバナー枠</b>で運用（部署申請→広報部承認→期限で自動非表示）。バナー乱立を仕組みで再発防止（機能要求②対応）。</p></div>
+ </div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.6 / 10</span></div>
+</div>
+
+<!-- ============ P7 基盤・CMS移行 ============ -->
+<div class="page">
+ <div class="rhead"><span class="doc">公式Webサイトリニューアル 御提案書</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="sec"><span class="no">07</span><h2>基盤・CMS移行の方針（非機能要求対応）</h2><span class="en">PLATFORM</span></div>
+ <div class="lead">支部サイトで実績のある<b>Xサーバー＋WordPress</b>を第一候補に、本部特有の要件の実現性を検証したうえで基盤を確定します（協会全体最適を最優先）。</div>
+
+ <div class="grid2">
+  <div class="card"><h3>WordPressへ移行する理由</h3><p>・支部サイトと<b>基盤を統一</b>（運用ノウハウ・コスト最適化）<br>・職員が<b>自力で編集できる</b>（インフォCMSの高コスト・使いにくさを解消）<br>・<b>ライセンス料¥0</b>（オープンソース）で標準技術。人材確保・拡張性も安心</p></div>
+  <div class="card"><h3>Xserver構成の欠点補完（機能強化提案）</h3><p>・<b>WAF設定・ログイン保護</b>（不正アクセス対策）<br>・<b>自動バックアップ＋復元手順の整備</b><br>・<b>ステージング環境</b>で更新を事前確認<br>・プラグイン脆弱性の監視・月次アップデート</p></div>
+ </div>
+
+ <div class="card" style="margin-top:9px;background:var(--band);border-color:var(--blue-l)">
+  <h3 style="color:var(--blue-d)">基盤選定の進め方（物販・会員限定ログインの実現性検証）</h3>
+  <div class="arrowrow" style="margin-top:6px">
+   <div class="b">① 要件の確定<br><span style="color:var(--sub)">物販・会員ログイン等</span></div>
+   <div class="ar">→</div>
+   <div class="b">② Xserver検証<br><span style="color:var(--sub)">実現可否・制約の確認</span></div>
+   <div class="ar">→</div>
+   <div class="b">③ 判定<br><span style="color:var(--sub)">充足＝Xserver</span></div>
+   <div class="ar">→</div>
+   <div class="b" style="border-color:var(--blue)">④ 基盤提案<br><span style="color:var(--blue-d)">不足時：クラウド型（費用差異を事前提示）</span></div>
+  </div>
+ </div>
+
+ <div class="h3s">安全な移行（301リダイレクト設計）— 台帳は作成済み</div>
+ <ul class="chk">
+  <li><b>静的155ページの全URL台帳（判定・行き先つき）を提案時点で作成済み</b>——初日から移行設計に着手できます</li>
+  <li>現行URLは3規則が混在（実査で確認）。全パターンを対象に<b>旧URL→新URLの301リダイレクトマップ</b>を作成・実装・検証</li>
+  <li>ニュース記事（約400〜600件）・書籍データも全件台帳化し、年度・種別を付与して移行</li>
+  <li>公開後はGA4／Search Consoleで流入・エラーを監視し、取りこぼしを補正</li>
+ </ul>
+
+ <div class="card" style="margin-top:9px"><h3>保守・セキュリティ（保守/運用：要・ランニング提案）</h3>
+ <div class="grid2" style="gap:4px 18px;margin:2px 0 6px">
+  <p style="line-height:1.75">・<b>月次更新</b>（本体・プラグイン）<br>・<b>定期バックアップ</b>＋復元手順の整備<br>・<b>障害の切り分け・復旧</b></p>
+  <p style="line-height:1.75">・<b>操作サポート</b>（職員の運用支援）<br>・<b>年次の脆弱性点検</b><br>・ステージングでの事前確認</p>
+ </div>
+ <p>情シス2名でも安全に運用できるよう、マニュアルと研修をあわせて提供します。費用は別紙見積書【2】（<b>定額・従量課金なし</b>）に明記しています。</p></div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.7 / 10</span></div>
+</div>
+
+<!-- ============ P8 追加提案：AI更新支援 ============ -->
+<div class="page">
+ <div class="rhead"><span class="doc">公式Webサイトリニューアル 御提案書</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="sec"><span class="no">08</span><h2>追加提案 — AIで「更新し続けられる」HPへ</h2><span class="en">AI-POWERED OPERATION</span></div>
+ <div class="lead">革新的なのは見た目だけではありません。<b>公開後のHP更新業務そのものをAIが支援</b>します。AIが自動で公開するのではなく、<b>下書き・チェック・分析を支援し、公開判断は必ず各部署の担当者が行います</b>。</div>
+
+ <div class="h3s">HP更新の5工程を、AIがこう支援します</div>
+ <div class="arrowrow">
+  <div class="b"><b>1. 原稿作成</b><br><span style="color:var(--sub)">お知らせ・講座案内の下書きをAIが生成</span></div>
+  <div class="ar">→</div>
+  <div class="b"><b>2. 表現チェック</b><br><span style="color:var(--sub)">誤字・表記ゆれ・わかりにくさを確認</span></div>
+  <div class="ar">→</div>
+  <div class="b"><b>3. 公開前確認</b><br><span style="color:var(--sub)">リンク・日付・掲載期限をチェック</span></div>
+  <div class="ar">→</div>
+  <div class="b"><b>4. 公開後分析</b><br><span style="color:var(--sub)">アクセス・検索・問合せを要約</span></div>
+  <div class="ar">→</div>
+  <div class="b"><b>5. 定期改善</b><br><span style="color:var(--sub)">月次で改善候補を部署へ提示</span></div>
+ </div>
+
+ <div class="grid3" style="margin-top:10px">
+  <div class="card"><h3>全部署で使える</h3><p>広報・養成・試験・総務・研究所など<b>部署別のプロンプトとチェックリスト</b>を整備。部門ごとの運用差を抑え、品質を標準化します（機能要求①「自力作成」を後押し）。</p></div>
+  <div class="card"><h3>安全な閉鎖領域で利用</h3><p>一般公開のAIと異なり、<b>貴会専用の閉鎖領域</b>で利用。入力情報は領域外に出ず、<b>AIの学習にも利用されない契約・設定</b>。部署別アカウントと利用ログで管理します。</p></div>
+  <div class="card"><h3>GA4×AIの月次診断</h3><p>アクセスデータをAIが毎月診断し、「数値の羅列」ではなく<b>「次に何をすべきか」</b>まで整理してお届け（GA4が利用可能な場合）。</p></div>
+ </div>
+
+ <div class="card" style="margin-top:9px">
+  <h3 style="margin-bottom:5px">具体例 — こんな更新・分析ができます</h3>
+  <div class="grid2" style="gap:2px 20px">
+   <p style="font-size:var(--fs10);color:var(--ink);line-height:1.65"><b>更新（作成・修正）の例</b><br>・お知らせ／講座募集／イベント告知の下書き作成<br>・既存ページの文面リライト・長文の要約<br>・FAQの追記、専門用語のやさしい言い換え<br>・公開前のリンク・日付・掲載期限の点検</p>
+   <p style="font-size:var(--fs10);color:var(--ink);line-height:1.65"><b>アクセス分析（GA4連携）の例</b><br>・月間アクセス上位／離脱の多いページの抽出<br>・検索キーワード・流入元の傾向<br>・問い合わせ・申込の増減サマリー<br>・「次に直すべきページ」の改善提案</p>
+  </div>
+ </div>
+
+ <div class="card" style="margin-top:9px;background:var(--band);border-color:var(--blue-l)">
+  <h3 style="color:var(--blue-d)">貴会にとっての意味 — 「100ページを保ち続けられる」</h3>
+  <p style="color:var(--ink)">ページを100に減らしても、運用が従来のままでは再び散らかります。<b>AIが更新の負担を下げ、掲載期限つきの仕組みが放置を防ぐ</b>——この2つで、少人数でも「見やすいサイト」を維持し続けられます。</p>
+ </div>
+
+ <div class="secfig">
+  <div class="sf-h">安全な閉鎖領域のしくみ ― 入力情報は外に出ず、AIの学習にも使われません</div>
+  <div class="sf-row">
+   <div class="sf-zone"><span class="zt">貴会専用の閉鎖領域（セキュアゾーン）</span>
+    <div class="sf-nodes">
+     <div class="sf-node">職員<small>部署別アカウント</small></div>
+     <div class="sf-ar2">▶</div>
+     <div class="sf-node ai">AI更新支援<small>下書き・チェック・分析</small></div>
+     <div class="sf-ar2">▶</div>
+     <div class="sf-node">成果物<small>公開判断は職員</small></div>
+    </div>
+    <div class="sf-log">すべての利用を<b>利用ログ</b>に記録・管理（誰が・いつ・何に使ったか）</div>
+   </div>
+   <div class="sf-out">
+    <div class="sf-cut">✕ 外に出ない</div>
+    <div class="sf-block">一般公開のAI／外部サーバー／<b>AIの学習</b>には<b>渡りません</b>（契約・設定で担保）</div>
+   </div>
+  </div>
+ </div>
+ <div class="note">※ 本章は<b>ベンダー追加提案項目</b>です（RFP提案書構成②）。費用は別紙見積書で提案必須費用と分離し、<b>見積上限の除外対象</b>として記載。範囲は<b>「HP更新業務のAI活用」まで</b>に限定し（FAQ自動応答等は含みません）、<b>過剰実装はありません</b>。医療・心理に関わる表現はAIの提案をそのまま使わず、貴会の専門的判断を優先する運用とします。</div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.8 / 10</span></div>
+</div>
+
+<!-- ============ P9 体制・作業分担・スケジュール ============ -->
+<div class="page">
+ <div class="rhead"><span class="doc">公式Webサイトリニューアル 御提案書</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="sec"><span class="no">09</span><h2>実施体制・作業分担・スケジュール</h2><span class="en">TEAM &amp; SCHEDULE</span></div>
+
+ <div class="card" style="background:var(--band);border-color:var(--blue-l);margin-bottom:9px">
+  <p style="color:var(--ink);text-align:center"><b>貴会（ご発注主・PMO事務局）</b>　⇄　<b style="color:var(--blue)">インフォネット</b>＝窓口・進行管理・品質監修　⇄　<b>ITLINE</b>＝設計・デザイン・構築・移行・AI導入</p><p style="color:var(--sub);text-align:center;font-size:13.4px;margin-top:3px">※ 貴会体制に整合：<b>PMOベンダー（別調達）へ資料提供・基盤ベンダー（別調達）へ技術連携</b></p>
+ </div>
+
+ <div class="h3s" style="margin-top:0">作業分担 — ベンダー作業と協会作業（作業量の目安つき）</div>
+ <div class="wbar"><span class="v" style="width:80%">当社（ベンダー作業）　約8割</span><span class="a" style="width:20%">貴会　約2割</span></div>
+ <div style="font-size:13.4px;color:var(--sub);margin-bottom:7px">貴会の作業は<b style="color:var(--ink)">レビュー・確認・検収が中心</b>。定例（週1回程度）＋ピークは検収期の1〜2週に集中し、日常運用はAI支援で軽量です。下表に工程別の<b style="color:var(--ink)">協会側の作業量目安</b>を明記しました。</div>
+ <table class="est">
+  <tr><th style="width:16%">工程</th><th>ベンダー作業（当社）</th><th style="width:34%">協会作業（貴会）と作業量の目安</th></tr>
+  <tr><td class="rq">要件定義</td><td>ヒアリング設計・移行台帳の確定案・基盤検証・運用ルール案・チェックリスト整備</td><td>主管部署ヒアリング同席・台帳の確認判定<br><b>目安：週1回×1.5h＋資料確認</b></td></tr>
+  <tr><td class="rq">設計・デザイン</td><td>サイトマップ確定・ワイヤーフレーム・デザインカンプ（複数案）・スタイルガイド</td><td>各成果物のレビュー・案の選定<br><b>目安：レビュー会 隔週×1h</b></td></tr>
+  <tr><td class="rq">構築・移行</td><td>WordPress構築・全コンテンツ移行・301実装・AI実装（追加提案ご採用時）</td><td>原稿素材のご提供・移行内容の抜取確認<br><b>目安：週0.5〜1h</b></td></tr>
+  <tr><td class="rq">検証・研修</td><td>総合テスト・<b>検収用チェックリスト提供</b>・マニュアル整備・操作研修の実施</td><td>チェックリストに沿った検収・研修参加（主管部署・情シス）<br><b>目安：検収1〜2週＋研修2h×2回</b></td></tr>
+  <tr><td class="rq">公開・運用</td><td>DNS切替・公開後監視・月次保守・月次レポート</td><td>公開判断・通常の更新業務（AI支援あり）</td></tr>
+ </table>
+
+ <div class="h3s">スケジュール — 貴会プロジェクト日程・4ゲートに整合（契約開始 2026.8/24想定）</div>
+ <div class="tl">
+  <div class="tl-months"><span class="tl-lb">工程 ＼ 月</span><span class="tl-scale"><i>26/8</i><i>9</i><i>10</i><i>11</i><i>12</i><i>27/1</i><i>2</i><i>3</i><i>4</i><i>5</i></span></div>
+  <div class="tl-row"><span class="tl-lb">参画・HP詳細検討の支援</span><span class="tl-track"><span class="tl-bar" style="left:0;width:20%;background:#6b93c9"><span class="g">◆G1</span></span></span></div>
+  <div class="tl-row"><span class="tl-lb">基盤検証・決定支援</span><span class="tl-track"><span class="tl-bar" style="left:10%;width:20%;background:#4a7ec0"><span class="g">◆G2</span></span></span></div>
+  <div class="tl-row"><span class="tl-lb">開発（設計・デザイン・構築・移行）</span><span class="tl-track"><span class="tl-bar lbl" style="left:20%;width:50%;background:var(--blue)">設計・デザイン・構築・移行<span class="g">◆G3</span></span></span></div>
+  <div class="tl-row"><span class="tl-lb">実装テスト・研修</span><span class="tl-track"><span class="tl-bar" style="left:70%;width:20%;background:#3f96a0"><span class="g">◆G4</span></span></span></div>
+  <div class="tl-row"><span class="tl-lb">公開・保守運用へ</span><span class="tl-track"><span class="tl-bar lbl" style="left:90%;width:10%;background:var(--ok)">★<span class="g">5/6</span></span></span></div>
+ </div>
+ <div class="note" style="margin-top:6px">判定ゲート（RFP準拠・判定資料は当社が作成し貴会の意思決定を支援）：◆<b>G1</b> 実装範囲の決定（26.9）／◆<b>G2</b> 基盤の決定（26.10）／◆<b>G3</b> 開発終了（27.2）／◆<b>G4</b> 本稼働判定（27.4）／★<b>公開 2027.5.6（木）</b>・5月連休明け稼働。契約開始 2026.8/24想定。</div>
+ <div class="note"><b>PMO支援</b>：週次進捗レポート・課題/リスク管理表・<b>4ゲートの判定資料</b>を当社が作成しPMOへ提供。<b>別途のPMO調達にも参加意思があります</b>。追加提案として変更管理・予算消化の月次報告も運用（支援要求①〜③対応）。</div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.9 / 10</span></div>
+</div>
+
+<!-- ============ P10 デザイン方針・留意事項・まとめ ============ -->
+<div class="page">
+ <div class="rhead"><span class="doc">公式Webサイトリニューアル 御提案書</span><span class="brand">INFONET × ITLINE</span></div>
+ <div class="sec"><span class="no">10</span><h2>デザイン方針／ご留意事項・まとめ</h2><span class="en">DESIGN &amp; TERMS</span></div>
+
+ <div class="h3s" style="margin-top:0">デザイン方針 — 革新的に、しかし迷わせない（クリック可能なデモ制作済み）</div>
+ <div class="grid3">
+  <div class="card"><h3>ビジョンを訴求</h3><p>「働く人と組織を心理で支える」姿勢をファーストビューで印象的に。組織トップのメッセージも時候で差し替え可能（機能要求②）。</p></div>
+  <div class="card"><h3>ターゲット別に明快</h3><p>資格取得者・会員・相談・法人が自分の入口を一目で選べる導線。見やすく・参照しやすく・操作しやすいUI。</p></div>
+  <div class="card"><h3>誰にでも使える</h3><p>スマホ最適化・文字サイズ・コントラストに配慮（JIS X 8341-3 を参考）。幅広い年代の閲覧者に対応。</p></div>
+ </div>
+ <div class="note"><b>クリック可能な「リニューアル構成デモ」を制作済み</b>——本提案のIA・導線・主要ページを<b>実際に動く全ページ試作</b>としてご用意しています。複数のデザイン方向性を検討のうえ推奨案に集約しました。<b>二次審査では実機（実際に動くデモ）をご提示</b>します。</div>
+
+ <div class="card" style="margin-top:10px;background:var(--band);border-color:var(--blue-l)">
+  <h3 style="color:var(--blue-d)">概算お見積りについて</h3>
+  <p style="color:var(--ink)">費用の詳細は<b>別紙「概算見積書」</b>にてご提出します（提出物②）。RFP見積書構成に沿って<b>提案必須の費用（¥13,200,000・見積上限¥1,500万円の範囲内）</b>と<b>追加提案の費用（AI導入・上限除外）</b>を分離し、初期費用／ランニング費用（従量課金なし）の内訳と<b>費用増大リスク・回避策</b>も明記しています。</p>
+ </div>
+
+ <div class="h3s">ご留意事項</div>
+ <ul class="chk">
+  <li>本提案の対象は本部サイト全体（<b>LPを含む全ページ</b>）です。支部サイトは対象外（既存基盤と整合して接続）。</li>
+  <li>基盤はXサーバー第一候補。物販・会員限定ログインの実現性を検証し、不足時はクラウド型を代替提案（費用差異は事前提示）。</li>
+  <li>AI導入は追加提案項目（費用分離・上限除外）。範囲は「HP更新業務のAI活用」まで。</li>
+  <li>撮影・取材は含みません（不要のご指定）。ライティングは範囲確定後に別途ご相談（未定のご指定）。</li>
+  <li>工程別の契約形態・再委託の有無・SL要件、および会社概要（規模・体制・類似実績）は<b>別資料にてご提出</b>します。</li>
+ </ul>
+
+ <div class="card" style="margin-top:10px;background:var(--band);border-color:var(--blue-l)">
+  <h3 style="color:var(--blue-d)">本提案のまとめ — 選ばれる3つの理由</h3>
+  <p style="color:var(--ink)">① <b>準備が済んでいる</b>：全ページ実査・155件の移行判定台帳・9カテゴリ設計・<b>クリック可能な全ページ試作（リニューアル構成デモ）</b>まで作成済みで、採択後すぐ走り出せます。<br>② <b>要求の内数で最適提案</b>：協会要求の全項目に対応（P.4〜5）し、過剰実装は追加提案として分離・任意選択に。<br>③ <b>革新性が運用に効く</b>：AI更新支援×掲載期限の仕組みで、「約100ページの見やすいサイト」を公開後も維持し続けられます。</p>
+ </div>
+ <div class="rfoot"><span>© INFONET inc. / ITLINE inc.　CONFIDENTIAL</span><span>P.10 / 10</span></div>
+</div>
+
+</body>
+</html>

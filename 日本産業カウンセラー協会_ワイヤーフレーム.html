@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>ワイヤーフレーム（テンプレート別）｜日本産業カウンセラー協会 リニューアル提案</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--green:#1E6A42;--green-d:#154D30;--lime:#8FC31C;--lime-d:#6E9A0F;--ink:#1F2A24;--sub:#5C6B60;--line:#D8E0D8;--bg:#F4F7F3;
+--wfb:#F0F2EF;--wbd:#C2CCC4;--wdk:#46584C;--wimg:repeating-linear-gradient(45deg,#DFE6E0,#DFE6E0 10px,#ECF0EC 10px,#ECF0EC 20px);
+--sans:"Noto Sans JP",sans-serif;--en:"Inter",sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.8;font-size:14px;padding:52px 28px 90px}
+.sheet{max-width:1280px;margin:0 auto}
+.head{border-left:6px solid var(--lime);padding-left:20px;margin-bottom:8px}
+.head .en{font-family:var(--en);letter-spacing:.26em;color:var(--green);font-size:12.5px;font-weight:700}
+h1{font-size:25px;font-weight:700;letter-spacing:.03em}
+.meta{color:var(--sub);font-size:12.5px;margin:8px 0 44px;padding-left:26px}
+
+/* template section */
+.tpl{margin-bottom:72px}
+.tpl-head{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+.tpl-head .no{background:var(--green);color:#fff;font-family:var(--en);font-weight:700;font-size:15px;padding:6px 16px;border-radius:4px}
+.tpl-head h2{font-size:19px;font-weight:700;letter-spacing:.04em}
+.tpl-head .use{font-size:12px;color:var(--sub);background:#fff;border:1px solid var(--line);border-radius:100px;padding:3px 16px}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:36px;align-items:start}
+
+/* wires */
+.frame{background:#fff;border:2px solid var(--wdk);border-radius:6px;overflow:hidden;box-shadow:0 14px 36px rgba(21,77,48,.09)}
+.blk{border-bottom:1.5px dashed var(--wbd);padding:16px 20px;position:relative}
+.blk:last-child{border-bottom:none}
+.blk .num{position:absolute;right:14px;top:12px;width:26px;height:26px;border-radius:50%;background:var(--lime);color:#fff;font-family:var(--en);font-weight:700;font-size:12.5px;display:flex;align-items:center;justify-content:center}
+.lbl{font-size:13px;font-weight:700;color:var(--green);letter-spacing:.05em;margin-bottom:9px}
+.ph{background:var(--wimg);border:1px solid var(--wbd);display:flex;align-items:center;justify-content:center;color:#7E8E80;font-size:12.5px;letter-spacing:.1em;font-weight:500}
+.bar{background:var(--wfb);border:1px solid var(--wbd);height:16px;border-radius:3px;margin:5px 0}
+.bar.w80{width:80%}.bar.w60{width:60%}.bar.w40{width:40%}
+.bar.title{height:30px;width:66%;background:#E3E9E4}
+.btn-wf{display:inline-flex;align-items:center;justify-content:center;background:var(--wdk);color:#fff;font-size:12px;font-weight:700;padding:10px 22px;border-radius:3px;margin:6px 8px 0 0;letter-spacing:.05em}
+.btn-wf.o{background:#fff;color:var(--wdk);border:2px solid var(--wdk)}
+.btn-wf.full{display:flex;margin:8px 0 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.grid5{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.cell{background:var(--wfb);border:1px solid var(--wbd);border-radius:3px;padding:12px 10px;font-size:12px;color:var(--ink);font-weight:500;text-align:center}
+.cell .cph{height:64px;background:var(--wimg);border:1px solid var(--wbd);margin-bottom:8px;border-radius:2px}
+.cell small{display:block;font-size:10px;color:var(--sub);font-weight:400;margin-top:3px}
+.inline{display:flex;gap:12px;align-items:center}
+.sample{font-size:12.5px;color:#4A5A4E;background:#FBFDFA;border:1px dashed var(--wbd);border-radius:3px;padding:7px 12px;margin:5px 0;line-height:1.6}
+.sample .dt{font-family:var(--en);color:var(--sub);font-size:11px;margin-right:8px}
+.sample .tag{display:inline-block;font-size:10px;background:var(--wfb);border:1px solid var(--wbd);border-radius:2px;padding:0 7px;margin-right:8px;color:var(--sub)}
+.chips{position:absolute;right:50px;top:13px;display:flex;gap:6px}
+.chip{font-size:10px;background:#fff;border:1px solid var(--wbd);border-radius:100px;padding:2px 10px;color:var(--sub);white-space:nowrap}
+.chip.dept{border-color:var(--green);color:var(--green)}
+.legend{background:#fff;border:1px solid var(--line);border-radius:4px;padding:10px 16px;font-size:12px;color:var(--sub);margin-bottom:16px;line-height:1.9}
+
+/* notes */
+.notes{position:sticky;top:24px}
+.notes h3{font-size:14px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.notes h3::before{content:"";width:22px;height:3px;background:var(--lime)}
+.note{background:#fff;border:1px solid var(--line);border-left:4px solid var(--lime);border-radius:4px;padding:12px 16px;margin-bottom:12px;font-size:12.5px;color:var(--sub);line-height:1.85}
+.note b{color:var(--ink);display:flex;align-items:center;gap:8px;margin-bottom:3px;font-size:13px}
+.note b .n{width:22px;height:22px;border-radius:50%;background:var(--lime);color:#fff;font-family:var(--en);font-size:11.5px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;flex:none}
+
+/* sp frame */
+.spwrap{display:flex;gap:40px;align-items:flex-start;flex-wrap:wrap}
+.spframe{width:320px;background:#fff;border:2px solid var(--wdk);border-radius:20px;overflow:hidden;box-shadow:0 14px 36px rgba(21,77,48,.09);flex:none}
+.spframe .blk{padding:13px 15px}
+@media(max-width:1000px){.cols{grid-template-columns:1fr}.notes{position:static}}
+</style>
+</head>
+<body>
+<div class="sheet">
+ <div class="head">
+  <div class="en">WIREFRAME — TEMPLATE SET</div>
+  <h1>主要テンプレート ワイヤーフレーム（8種）</h1>
+ </div>
+ <div class="meta">PC＝1180pxコンテンツ幅／SP＝375〜390px。グレー斜線＝写真・画像エリア。ここで定義した共通テンプレートを全カテゴリ・全記事に展開し、部署ごとのページ様式ばらつきを解消します。</div>
+
+ <div style="background:#EDF5F0;border:1px solid #CFE3D6;border-left:4px solid var(--lime);border-radius:6px;padding:12px 18px;margin:0 0 30px;font-size:12.5px;color:var(--sub);line-height:1.85">
+  <b style="color:var(--green-d)">2026-07-03 ヒアリング反映：</b><b>資格取得希望者をメインターゲット</b>に設計（トップ最上部に「資格を取りたい」を最優先配置）。<b>会員限定ログイン</b>・<b>物販（書籍・教材EC）</b>は支部サイトに無い新機能のため、テンプレートに組み込みつつ<b>Xサーバーでの実現性を要件定義で検証</b>（不足時はクラウド型を代替提案）。目標<b>約100ページ</b>・<b>4〜5階層</b>で、見やすく・参照しやすく・操作しやすい構成にします。
+ </div>
+
+ <!-- ===== 01 TOP PC ===== -->
+ <div class="tpl">
+  <div class="tpl-head"><span class="no">T-01</span><h2>トップページ（PC）</h2><span class="use">適用：本部トップ 1ページ</span></div>
+  <div class="legend"><b>図の見方：</b>丸数字＝画面の上からの順番／<span style="color:var(--green);font-weight:700">緑ラベル</span>＝ブロックの名前／点線枠の薄字＝<b>実際に入る内容の例（サンプル文言）</b>／右上のタグ＝<span class="chip dept" style="position:static">主管部署</span> <span class="chip" style="position:static">更新頻度</span>（どの部署が・どのくらいの頻度で更新するか）</div>
+  <div class="cols">
+   <div class="frame">
+    <div class="blk"><span class="num">1</span>
+     <div class="lbl">ユーティリティバー ＋ ヘッダー</div>
+     <div class="chips"><span class="chip dept">共通部品</span><span class="chip">更新：なし（固定）</span></div>
+     <div class="inline">
+      <div class="ph" style="width:170px;height:40px">JAICOロゴ</div>
+      <div class="bar" style="flex:1;height:20px"></div>
+      <div class="ph" style="width:150px;height:38px">🔍 サイト内検索</div>
+      <span class="btn-wf">相談したい</span><span class="btn-wf o" style="padding:8px 14px">🔒 会員ログイン</span>
+     </div>
+     <div class="lbl" style="margin-top:12px">グローバルナビ（8カテゴリ＋英字ラベル）</div>
+     <div class="grid4">
+      <div class="cell">相談・カウンセリング</div><div class="cell">資格・講座</div><div class="cell">試験情報</div><div class="cell">法人向けサービス</div>
+      <div class="cell">会員・入会案内</div><div class="cell">協会について</div><div class="cell">ニュース・活動報告</div><div class="cell">研究・刊行物</div>
+     </div>
+    </div>
+    <div class="blk"><span class="num">2</span>
+     <div class="lbl">ファーストビュー（実写KV＋キャッチコピー）</div>
+     <div class="chips"><span class="chip dept">主管：広報部</span><span class="chip">更新：年1回程度</span></div>
+     <div class="ph" style="height:170px;flex-direction:column;gap:8px">
+      <span style="font-size:16px;color:#4A5A4E;font-weight:700;background:rgba(255,255,255,.85);padding:4px 18px">働く人と組織を、心理の専門性で支える。</span>
+      <span style="font-size:11.5px;color:#5C6B60;background:rgba(255,255,255,.85);padding:2px 14px">産業カウンセラー・キャリアコンサルタントの養成と、働く人のこころの支援を行っています</span>
+      <span style="font-size:11px;color:#7E8E80">← 実写ビジュアル（現サイトKV素材／新規撮影）に重ねて表示</span>
+     </div>
+    </div>
+    <div class="blk"><span class="num">3</span>
+     <div class="lbl">ターゲット別5大CTA（ファーストビュー直下・迷わせない入口／<span style="color:var(--lime-d)">資格取得＝メインを最優先・最左に強調配置</span>）</div>
+     <div class="chips"><span class="chip dept">共通部品</span><span class="chip">更新：なし（固定）</span></div>
+     <div class="grid5">
+      <div class="cell" style="border:2px solid var(--green);background:#F4FAE8"><div class="cph" style="height:36px"></div><b>資格を取りたい</b><small>★メイン｜養成講座・講習・試験</small></div>
+      <div class="cell"><div class="cph" style="height:36px"></div>会員の方<small>会員サービス・ログイン</small></div>
+      <div class="cell"><div class="cph" style="height:36px"></div>相談したい<small>働く人の悩み・キャリア相談</small></div>
+      <div class="cell"><div class="cph" style="height:36px"></div>企業・団体の方<small>研修・EAP・メンタル対策</small></div>
+      <div class="cell"><div class="cph" style="height:36px"></div>試験情報を見る<small>要領・申請・合否発表</small></div>
+     </div>
+    </div>
+    <div class="blk"><span class="num">4</span>
+     <div class="lbl">重要なお知らせ（オレンジ帯・最大3件・掲載期限つき）</div>
+     <div class="chips"><span class="chip dept">主管：各部署→広報部承認</span><span class="chip">更新：随時</span></div>
+     <div class="inline"><span class="btn-wf" style="background:#C77E3E;margin:0">重要なお知らせ</span>
+      <div style="flex:1">
+       <div class="sample"><span class="dt">2026.07.01</span>【重要】2026年度 産業カウンセラー試験 受験申請の受付を開始しました（8/31まで）</div>
+       <div class="sample"><span class="dt">2026.07.15</span>【重要】システムメンテナンスに伴うマイページ停止のお知らせ（7/15 22:00〜翌6:00）</div>
+      </div>
+     </div>
+    </div>
+    <div class="blk"><span class="num">5</span>
+     <div class="lbl">目的からえらぶ（主要サービス4カード・実写真）</div>
+     <div class="chips"><span class="chip dept">主管：事業推進部ほか</span><span class="chip">更新：半期ごと見直し</span></div>
+     <div class="grid4">
+      <div class="cell"><div class="cph"></div>相談・カウンセリング<small>個人/法人の導線を分離</small></div>
+      <div class="cell"><div class="cph"></div>資格・講座<small>養成講座・講習・更新</small></div>
+      <div class="cell"><div class="cph"></div>試験情報<small>要領・申請・合否</small></div>
+      <div class="cell"><div class="cph"></div>法人向けサービス<small>研修・EAP・対策支援</small></div>
+     </div>
+    </div>
+    <div class="blk"><span class="num">6</span>
+     <div class="lbl">ピックアップバナー枠 ＋ メインビジュアル直下キャンペーンカルーセル（募集中の講座・イベント・特設 ／ 現サイト中央のバナー群の正式な置き場。★RFP重点導線＝養成講座・試験・常設LP3本[ハラスメント/SNS/こころのアドバイザー]をFV直下のカルーセルで自動巡回表示し集客を最大化）</div>
+     <div class="chips"><span class="chip dept">主管：各部署申請→広報部承認</span><span class="chip">更新：随時（掲載期限つき）</span></div>
+     <div class="grid3">
+      <div class="cell"><div class="cph" style="height:52px"></div>産業カウンセラー養成講座<small>秋期クラス 募集中｜説明会・資料請求</small></div>
+      <div class="cell"><div class="cph" style="height:52px"></div>キャリアコンサルタント養成講習<small>8月開講 受講者募集中</small></div>
+      <div class="cell"><div class="cph" style="height:52px"></div>全国研究大会 in 名古屋<small>第56回「働く現場のウェルビーイング」</small></div>
+     </div>
+     <div class="lbl" style="margin-top:12px">常設サービスLPバナー（収益サービスへの直行導線・utm計測を継続）</div>
+     <div class="grid3">
+      <div class="cell"><div class="cph" style="height:44px"></div>JAICOハラスメント相談<small>企業・団体向け → 専用LPへ直行</small></div>
+      <div class="cell"><div class="cph" style="height:44px"></div>JAICO SNS相談<small>学校・人事向け → 専用LPへ直行</small></div>
+      <div class="cell"><div class="cph" style="height:44px"></div>こころのアドバイザー認定講座<small>認定講座LPへ直行</small></div>
+     </div>
+     <div class="sample" style="margin-top:8px;font-size:11px">※ 上段＝キャンペーン枠（最大6・部署申請→広報部承認・<b>掲載期限で自動非表示</b>）／下段＝<b>常設サービスLP枠（期限なし・3枠）</b>——現サイトでトップのバナーから utm_campaign=top 付きで誘導している3つのLPへの直行導線を維持します</div>
+    </div>
+    <div class="blk"><span class="num">7</span>
+     <div class="lbl">3つの活動領域（チャート図＋テキスト）＝協会の信頼を伝えるゾーン</div>
+     <div class="chips"><span class="chip dept">主管：総務部・広報部</span><span class="chip">更新：年1回程度</span></div>
+     <div class="grid2"><div class="ph" style="height:110px">活動領域チャート（現サイト素材を再構成）</div><div>
+      <div class="sample" style="font-weight:700">「カウンセリング」「養成・教育」「調査・研究」の3領域で働く人と組織を支えています</div>
+      <div class="sample">全国13支部・16拠点・60年を超える歩み・Pマーク取得（数字と実績で信頼を伝える）</div>
+      <span class="btn-wf o">協会についてくわしく</span></div></div>
+    </div>
+    <div class="blk"><span class="num">8</span>
+     <div class="lbl">ニュース・活動報告（タブ絞込）＋ 研究・刊行物</div>
+     <div class="chips"><span class="chip dept">主管：各部署（自動集約）</span><span class="chip">更新：随時</span></div>
+     <div class="grid2">
+      <div><div class="inline" style="gap:6px"><span class="btn-wf" style="margin:0;padding:6px 14px">すべて</span><span class="btn-wf o" style="margin:0;padding:6px 14px">トピック</span><span class="btn-wf o" style="margin:0;padding:6px 14px">最新情報</span><span class="btn-wf o" style="margin:0;padding:6px 14px">ニュース</span><span class="btn-wf o" style="margin:0;padding:6px 14px">活動報告</span></div>
+       <div class="sample" style="margin-top:10px"><span class="dt">2026.07.02</span><span class="tag">お知らせ</span>第56回 全国研究大会 in 名古屋「働く現場のウェルビーイング」参加申込を開始しました</div>
+       <div class="sample"><span class="dt">2026.06.28</span><span class="tag">活動報告</span>「働く人の電話相談室」実施報告を公開しました</div>
+       <div class="sample"><span class="dt">2026.06.20</span><span class="tag">報道発表</span>働く人のメンタルヘルス実態調査 結果を発表</div>
+      </div>
+      <div class="cell" style="text-align:left"><div style="font-weight:700;margin-bottom:6px">研究・刊行物（ダークグリーンBOX）</div>
+       <div class="sample"><span class="tag">コラム</span>職場のコミュニケーション連載 第12回</div>
+       <div class="sample"><span class="tag">広報誌</span>会報誌 最新号のご案内</div>
+       <small>コラム／広報誌／書籍・教材／映像ギャラリー</small></div>
+     </div>
+    </div>
+    <div class="blk"><span class="num">9</span>
+     <div class="lbl">全国の支部・相談室（支部マップ＋地域チップ）</div>
+     <div class="chips"><span class="chip dept">主管：総務部</span><span class="chip">更新：変更時のみ</span></div>
+     <div class="grid2"><div>
+      <div class="sample" style="font-weight:700">お近くの支部・相談室をさがす（全国13支部・16拠点）</div>
+      <div class="sample">地域をえらぶ → 各支部サイト（Xserver＋WordPressの支部基盤）へ接続</div>
+      <span class="btn-wf o">支部一覧を見る</span></div><div class="ph" style="height:110px">全国支部マップ（現サイト素材）</div></div>
+    </div>
+    <div class="blk"><span class="num">10</span>
+     <div class="lbl">入会CTA帯 → フッター（サイトマップ全展開＋Pマーク）</div>
+     <div class="chips"><span class="chip dept">共通部品</span><span class="chip">更新：なし（固定）</span></div>
+     <div class="ph" style="height:56px;margin-bottom:10px">「あなたの経験を、働く人の支えに。」入会のご案内（実写背景＋緑）</div>
+     <div class="grid4"><div class="cell">ロゴ・住所・Pマーク</div><div class="cell">SERVICE<small>相談/資格/試験/法人</small></div><div class="cell">MEMBERSHIP<small>入会/会員/マイページ</small></div><div class="cell">ABOUT<small>協会/ニュース/研究</small></div></div>
+    </div>
+   </div>
+
+   <aside class="notes">
+    <h3>設計メモ（T-01）</h3>
+    <div class="note"><b><span class="n">1</span>検索と相談・会員導線を常設</b>ヘッダーに検索窓・「相談したい」・会員ログインを固定。どの温度感の閲覧者も入口を見失わない。</div>
+    <div class="note"><b><span class="n">2</span>FVは「誰のためのサイトか」を宣言</b>実写ビジュアル＋キャッチコピーで協会の役割を3秒で伝える。文字は白ベールを敷いて視認性を確保。<b>ビジュアル・メッセージはCMSから時候に応じて差し替え可能</b>とし、組織トップのアピール（機能要求②「毎回同じで飽きるから脱却」）に対応。</div>
+    <div class="note"><b><span class="n">3</span>ターゲット別5CTA・資格取得を最優先</b>資格取得（メイン）／会員／相談／法人／試験。最左に「資格を取りたい」を強調配置し、トップは入口特化・詳細は各カテゴリトップへ委ねる。</div>
+    <div class="note"><b><span class="n">4</span>重要情報は特別枠</b>通常ニュースと分離したオレンジ帯。掲載期限を設定でき、古い「重要」が残らない。各部署起案→広報部承認のフローで運用。</div>
+    <div class="note"><b><span class="n">5</span>「目的からえらぶ」で迷いを回収</b>CTAで拾えなかった閲覧者を実写カード4枚で再誘導。写真は現サイト素材＋新規で「古く見えない」トーンに統一。</div>
+    <div class="note"><b><span class="n">6</span>バナーは「キャンペーン枠」と「常設LP枠」の2段構成</b>上段＝時期もの（講座募集・研究大会等）。各部署申請→広報部承認・<b>掲載期限つきで自動非表示</b>にし、バナー乱立の再発を防ぐ。下段＝<b>常設サービスLPバナー3枠（ハラスメント相談・SNS相談・こころのアドバイザー）</b>——現サイトがutm計測つきバナーで集客している収益サービスLPへの直行導線を維持・強化（計測タグも引き継ぎ）。</div>
+    <div class="note"><b><span class="n">7</span>信頼ゾーンで協会を証明</b>3つの活動領域チャート＋実績数値（13支部・16拠点・60年・Pマーク）。資格・相談を検討する人の「ここは信頼できるか」に答える。</div>
+    <div class="note"><b><span class="n">8</span>投稿タイプで自動整理</b>トピック・最新情報・ニュース・活動報告のラベルで絞込（貴会・広報部ご検討）。タイムライン表示で<b>直近2年分を表示し、以前は自動アーカイブ</b>。部署がばらばらに作っていた告知を1つの仕組みに集約。</div>
+    <div class="note"><b><span class="n">9</span>支部への導線</b>支部HP基盤（Xserver＋WordPress）と整合し、地域から支部サイトへ自然に接続。本部で迷った閲覧者を最寄りの相談室へ。</div>
+    <div class="note"><b><span class="n">10</span>締めは入会CTA＋全展開フッター</b>ページ最下部まで読んだ熱量の高い閲覧者に入会を訴求。フッターはサイトマップ全展開＋Pマークで、どこからでも1クリックで目的地へ。</div>
+   </aside>
+  </div>
+ </div>
+
+ <!-- ===== 02 TOP SP ===== -->
+ <div class="tpl">
+  <div class="tpl-head"><span class="no">T-02</span><h2>トップページ（SP：375〜390px）</h2><span class="use">適用：本部トップ（レスポンシブ）</span></div>
+  <div class="spwrap">
+   <div class="spframe">
+    <div class="blk"><span class="num">1</span>
+     <div class="lbl">ヘッダー（ロゴ＋検索＋メニュー）</div>
+     <div class="inline"><div class="ph" style="width:110px;height:28px">LOGO</div><div style="flex:1"></div><div class="ph" style="width:30px;height:30px">🔍</div><div class="ph" style="width:30px;height:30px">☰</div></div>
+    </div>
+    <div class="blk"><span class="num">2</span>
+     <div class="lbl">FV（縦構図トリミング）</div>
+     <div class="ph" style="height:130px">KV写真＋キャッチ</div>
+    </div>
+    <div class="blk"><span class="num">3</span>
+     <div class="lbl">5大CTA（2列グリッド＋1全幅）</div>
+     <div class="grid2"><div class="cell">相談したい</div><div class="cell">資格を取りたい</div><div class="cell">試験情報</div><div class="cell">法人向け</div></div>
+     <span class="btn-wf full">会員・入会案内</span>
+    </div>
+    <div class="blk"><span class="num">4</span>
+     <div class="lbl">重要なお知らせ → サービス（縦積み）</div>
+     <div class="sample" style="font-size:11px"><span class="dt">07.01</span>【重要】試験申請の受付を開始しました</div>
+     <div class="cell" style="margin-top:8px"><div class="cph" style="height:44px"></div>サービスカード ×4（縦）</div>
+     <div class="sample" style="font-size:11px;margin-top:6px">＋常設サービスLPバナー3枠（ハラスメント相談／SNS相談／こころのアドバイザー → 各LPへ直行）</div>
+    </div>
+    <div class="blk"><span class="num">5</span>
+     <div class="lbl">ニュース → 刊行物 → 支部 → 入会CTA → フッター</div>
+     <div class="sample" style="font-size:11px"><span class="dt">07.02</span><span class="tag">お知らせ</span>全国研究大会 参加申込を開始</div>
+     <div class="sample" style="font-size:11px"><span class="dt">06.28</span><span class="tag">活動報告</span>電話相談室 実施報告を公開</div>
+    </div>
+   </div>
+   <aside class="notes" style="flex:1;min-width:280px">
+    <h3>設計メモ（T-02）</h3>
+    <div class="note"><b><span class="n">1</span>検索・メニューは親指圏</b>右上に検索・ドロワー。「相談したい」と会員ログインはドロワー先頭とフッター直前にも常設。</div>
+    <div class="note"><b><span class="n">2</span>FVは縦構図で軽く</b>PCのKVを縦向きにトリミングし読み込みを軽量化。キャッチは2行以内・白ベールで視認性を確保し、スクロールでレイアウトが縮まないよう高さを固定。</div>
+    <div class="note"><b><span class="n">3</span>CTAはタップしやすい2列</b>メインの「資格を取りたい」を先頭に、最重要の「会員・入会案内」は全幅で強調。ボタン高さ48px以上を確保。</div>
+    <div class="note"><b><span class="n">4</span>重要なお知らせ→サービスの順で縦積み</b>PCと同じ優先順位を保ったままカードを縦1列に。サービスカードは写真つきでタップ領域を広く取る。</div>
+    <div class="note"><b><span class="n">5</span>表・一覧は横スクロール</b>試験日程などの表は崩さずスクロール対応。電話番号はタップ発信。ニュース→刊行物→支部→入会CTAの順序もPCと共通で迷わせない。</div>
+   </aside>
+  </div>
+ </div>
+
+ <!-- ===== 03 category top ===== -->
+ <div class="tpl">
+  <div class="tpl-head"><span class="no">T-03</span><h2>カテゴリトップ 共通テンプレート</h2><span class="use">適用：9カテゴリのトップ（相談／資格・講座／試験／法人／会員／協会 ほか）</span></div>
+  <div class="cols">
+   <div class="frame">
+    <div class="blk"><span class="num">1</span>
+     <div class="lbl">パンくず ＋ ページタイトル（下層共通ヘッダー）</div>
+     <div class="bar w40" style="height:12px"></div>
+     <div class="bar title"></div>
+    </div>
+    <div class="blk"><span class="num">2</span>
+     <div class="lbl">概要ブロック：「誰向けのページか」「何ができるか」を冒頭宣言</div>
+     <div class="grid2"><div><div class="bar"></div><div class="bar w80"></div></div><div class="ph" style="height:70px">カテゴリ写真</div></div>
+    </div>
+    <div class="blk"><span class="num">3</span>
+     <div class="lbl">アンカーナビ（このページの内容）</div>
+     <div class="grid4"><div class="cell">概要</div><div class="cell">対象者</div><div class="cell">手続き・申込</div><div class="cell">よくある質問</div></div>
+    </div>
+    <div class="blk"><span class="num">4</span>
+     <div class="lbl">メニューカード（例：資格・講座の場合）</div>
+     <div class="grid2">
+      <div class="cell"><div class="cph" style="height:48px"></div>産業カウンセラー養成講座</div>
+      <div class="cell"><div class="cph" style="height:48px"></div>キャリアコンサルタント<small>→ T-06（貴会ご検討の構成）</small></div>
+      <div class="cell"><div class="cph" style="height:48px"></div>シニア産業カウンセラー</div>
+      <div class="cell"><div class="cph" style="height:48px"></div>こころのアドバイザー</div>
+     </div>
+    </div>
+    <div class="blk"><span class="num">5</span>
+     <div class="lbl">次のアクション（固定CTA）＋ 関連リンク</div>
+     <div class="inline"><span class="btn-wf">日程・申込へ</span><span class="btn-wf o">資料を見る</span><span class="btn-wf o">お問い合わせ</span></div>
+    </div>
+    <div class="blk"><span class="num">6</span>
+     <div class="lbl">よくある質問（アコーディオン）＋ 問い合わせ導線</div>
+     <div class="bar"></div><div class="bar w80"></div><div class="bar w60"></div>
+    </div>
+   </div>
+   <aside class="notes">
+    <h3>設計メモ（T-03）</h3>
+    <div class="note"><b><span class="n">1</span>パンくず＋ページタイトルを下層共通に</b>「今どこにいるか」を常時表示。4〜5階層のどこにいても現在地と戻り道が分かり、タイトル表記も全カテゴリで統一される。</div>
+    <div class="note"><b><span class="n">2</span>3行で自己紹介するページ</b>「誰向け・何ができる・次に何をする」を冒頭で宣言。長文でも迷子にならない。</div>
+    <div class="note"><b><span class="n">3</span>長文対策のアンカー標準化</b>講座・試験・相談系の長いページは、冒頭アンカーを必須部品に。RFPの「情報到達性」要件に対応。</div>
+    <div class="note"><b><span class="n">4</span>メニューカードは写真つきで選ばせる</b>カテゴリ配下の主要ページを写真＋見出しのカードで一覧化。テキストリンクの羅列より誤クリックが減り、下層への回遊が伸びる。</div>
+    <div class="note"><b><span class="n">5</span>CTAをページ中腹にも</b>読み終わる前に行動できるよう、メニュー直下と最下部の2箇所にCTAを配置。</div>
+    <div class="note"><b><span class="n">6</span>FAQで問い合わせを削減</b>各カテゴリ末尾にアコーディオンFAQ＋問い合わせ導線。よくある質問を先回りで解消し、重複問い合わせを減らす。</div>
+   </aside>
+  </div>
+ </div>
+
+ <!-- ===== 04 article ===== -->
+ <div class="tpl">
+  <div class="tpl-head"><span class="no">T-04</span><h2>記事詳細 共通テンプレート</h2><span class="use">適用：ニュース／活動報告／報道発表／コラム／広報誌（投稿詳細・自動生成）</span></div>
+  <div class="cols">
+   <div class="frame">
+    <div class="blk"><span class="num">1</span>
+     <div class="lbl">パンくず＋カテゴリラベル＋日付＋タイトル</div>
+     <div class="inline"><span class="btn-wf o" style="margin:0;padding:4px 12px;font-size:11px">カテゴリ</span><div class="bar w40" style="height:12px;margin:0"></div></div>
+     <div class="bar title" style="margin-top:8px"></div>
+    </div>
+    <div class="blk"><span class="num">2</span>
+     <div class="lbl">本文（見出し階層・画像・表の標準スタイル）</div>
+     <div class="bar"></div><div class="bar"></div><div class="bar w80"></div>
+     <div class="ph" style="height:80px;margin:8px 0">記事内画像</div>
+     <div class="bar"></div><div class="bar w60"></div>
+    </div>
+    <div class="blk"><span class="num">3</span>
+     <div class="lbl">タグ＋主管部署＋掲載期限（管理情報）</div>
+     <div class="inline"><span class="btn-wf o" style="margin:0;padding:3px 12px;font-size:11px"># タグ</span><span class="btn-wf o" style="margin:0;padding:3px 12px;font-size:11px"># 年度</span><div class="bar w40" style="margin:0;height:12px"></div></div>
+    </div>
+    <div class="blk"><span class="num">4</span>
+     <div class="lbl">関連記事・前後記事 ＋ 一覧へ戻る</div>
+     <div class="grid3"><div class="cell">関連記事</div><div class="cell">関連記事</div><div class="cell">一覧へ戻る</div></div>
+    </div>
+   </div>
+   <aside class="notes">
+    <h3>設計メモ（T-04）</h3>
+    <div class="note"><b><span class="n">1</span>冒頭で「何の記事か」を確定</b>パンくず・カテゴリラベル・日付・タイトルを定位置に。検索から直接着地した閲覧者も、どの種類の情報かが一目で分かる。</div>
+    <div class="note"><b><span class="n">2</span>本文スタイルの統一</b>見出し・表・画像・注意書きのスタイルをエディタ部品化。部署が違っても同じ見た目に。</div>
+    <div class="note"><b><span class="n">3</span>公開期限とアーカイブ</b>記事ごとに掲載期限・主管部署・タグを設定→期限後は自動でアーカイブ表示へ。「過去情報の放置」を仕組みで防ぐ。</div>
+    <div class="note"><b><span class="n">4</span>読み終わりを行き止まりにしない</b>関連記事・前後記事・一覧へ戻るを標準装備。1記事で離脱させず、サイト内の回遊につなげる。</div>
+   </aside>
+  </div>
+ </div>
+
+ <!-- ===== 05 archive ===== -->
+ <div class="tpl" style="margin-bottom:20px">
+  <div class="tpl-head"><span class="no">T-05</span><h2>アーカイブ一覧 共通テンプレート</h2><span class="use">適用：ニュース／活動報告／コラム／広報誌／映像／調査研究（投稿一覧）</span></div>
+  <div class="cols">
+   <div class="frame">
+    <div class="blk"><span class="num">1</span>
+     <div class="lbl">絞り込みバー（検索＋カテゴリ＋タグ＋年度＋主管部署）</div>
+     <div class="grid5"><div class="cell">🔍 キーワード</div><div class="cell">カテゴリ ▾</div><div class="cell">タグ ▾</div><div class="cell">年度 ▾</div><div class="cell">部署 ▾</div></div>
+    </div>
+    <div class="blk"><span class="num">2</span>
+     <div class="lbl">記事一覧（日付・カテゴリ・タイトル・[期限間近]表示）</div>
+     <div class="bar"></div><div class="bar"></div><div class="bar w80"></div><div class="bar w80"></div><div class="bar w60"></div>
+    </div>
+    <div class="blk"><span class="num">3</span>
+     <div class="lbl">ページネーション ＋ 年度別アーカイブ（折りたたみ）</div>
+     <div class="inline"><div class="bar w40" style="margin:0"></div><div style="flex:1"></div><div class="bar w40" style="margin:0"></div></div>
+     <div class="grid4" style="margin-top:10px"><div class="cell">2026年度</div><div class="cell">2025年度</div><div class="cell">2024年度</div><div class="cell">それ以前（ARC）</div></div>
+    </div>
+   </div>
+   <aside class="notes">
+    <h3>設計メモ（T-05）</h3>
+    <div class="note"><b><span class="n">1</span>5軸の絞り込み</b>検索・カテゴリ・タグ・年度・主管部署。RFP要件「検索・カテゴリ・タグ・アーカイブの活用」に対応。</div>
+    <div class="note"><b><span class="n">2</span>一覧は「日付＋カテゴリ＋タイトル」で統一</b>約400〜600件の既存記事も同じ形式で自動整列。掲載期限が近い記事には[期限間近]を表示し、更新漏れを担当部署に気づかせる。</div>
+    <div class="note"><b><span class="n">3</span>現在情報と過去情報の分離</b><b>直近2年分を標準表示</b>し（貴会・広報部ご検討）、以前の分は折りたたみのアーカイブへ。閲覧の邪魔をせず、資産は保全。</div>
+   </aside>
+  </div>
+ </div>
+
+ <!-- ===== 06 キャリアコンサルタント トップ ===== -->
+ <div class="tpl">
+  <div class="tpl-head"><span class="no">T-06</span><h2>キャリアコンサルタント トップ</h2><span class="use">適用：/qualification/career/（貴会・養成事業部ご検討の構成を画面化）</span></div>
+  <div class="cols">
+   <div class="frame">
+    <div class="blk"><span class="num">1</span>
+     <div class="lbl">パンくず ＋ ページタイトル（国家資格について）</div>
+     <div class="chips"><span class="chip dept">主管：キャリアコンサルタント養成事業部</span><span class="chip">更新：制度改定時</span></div>
+     <div class="bar w40" style="height:12px"></div>
+     <div class="bar title"></div>
+     <div class="sample">国家資格キャリアコンサルタントの取得・更新・試験対策は、すべてこのページから。</div>
+    </div>
+    <div class="blk"><span class="num">2</span>
+     <div class="lbl">対象者別分岐 —「あなたはどちらですか？」（経路混乱の解消）</div>
+     <div class="chips"><span class="chip dept">共通部品</span><span class="chip">更新：なし（固定）</span></div>
+     <div class="grid3">
+      <div class="cell" style="border:2px solid var(--wdk)"><div class="cph" style="height:40px"></div><b>これから資格を取りたい</b><small>→（1）養成講習へ</small></div>
+      <div class="cell" style="border:2px solid var(--wdk)"><div class="cph" style="height:40px"></div><b>資格を更新したい</b><small>→（2）更新講習へ</small></div>
+      <div class="cell" style="border:2px solid var(--wdk)"><div class="cph" style="height:40px"></div><b>試験に備えたい</b><small>→（3）試験対策・（4）模試へ</small></div>
+     </div>
+    </div>
+    <div class="blk"><span class="num">3</span>
+     <div class="lbl">（1）〜（4）のメニューカード（次回日程バッジつき）</div>
+     <div class="chips"><span class="chip dept">主管：養成事業部</span><span class="chip">更新：開催期ごと</span></div>
+     <div class="grid4">
+      <div class="cell"><div class="cph" style="height:44px"></div>（1）養成講習<small>次回：8/1開講・募集中</small></div>
+      <div class="cell"><div class="cph" style="height:44px"></div>（2）更新講習<small>知識講習・技能講習</small></div>
+      <div class="cell"><div class="cph" style="height:44px"></div>（3）試験対策<small>回別日程を自動表示</small></div>
+      <div class="cell"><div class="cph" style="height:44px"></div>（4）模試<small>全国統一模擬試験</small></div>
+     </div>
+    </div>
+    <div class="blk"><span class="num">4</span>
+     <div class="lbl">国家資格の基礎情報 ＋ FAQ・お問合せ</div>
+     <div class="sample">国家資格について（登録センターへのご案内 ※別タブ）／よくある質問／お問合せ（種別：講座）</div>
+     <div class="inline"><span class="btn-wf o">登録センター（外部）↗</span><span class="btn-wf o">よくある質問</span><span class="btn-wf">お問合せ</span></div>
+    </div>
+   </div>
+   <aside class="notes">
+    <h3>設計メモ（T-06）</h3>
+    <div class="note"><b><span class="n">1</span>貴会ご検討の構成をそのまま画面化</b>「CCトップ →（1）養成講習（2）更新講習（3）試験対策（4）模試」という貴会・養成事業部の検討結果をURL構造とページ構成に反映。</div>
+    <div class="note"><b><span class="n">2</span>入口で分岐し「同一ページ問題」を解消</b>現行の「経路が違うのに飛び先が同一で混乱する」課題を、目的別の3分岐で入口から解決。閲覧者は自分の目的だけを選べばよい。</div>
+    <div class="note"><b><span class="n">3</span>日程は回別に自動生成</b>各講習・模試の開催回は投稿型で自動表示。次回日程バッジで「今申し込めるもの」が一目で分かる。</div>
+    <div class="note"><b><span class="n">4</span>外部（登録センター）は明示</b>国家試験の申込等は外部サイトである旨を明示し、別タブで開く。戻り導線も確保。</div>
+   </aside>
+  </div>
+ </div>
+
+ <!-- ===== 07 試験ページ（2級・1級共通） ===== -->
+ <div class="tpl">
+  <div class="tpl-head"><span class="no">T-07</span><h2>試験ページ 共通テンプレート（2級・1級）</h2><span class="use">適用：/examination/grade2/・grade1/（貴会・試験センターご検討の項目構成）</span></div>
+  <div class="cols">
+   <div class="frame">
+    <div class="blk"><span class="num">1</span>
+     <div class="lbl">パンくず ＋ タイトル ＋ 級切替タブ</div>
+     <div class="chips"><span class="chip dept">主管：試験センター</span><span class="chip">更新：年度・回ごと</span></div>
+     <div class="bar w40" style="height:12px"></div>
+     <div class="inline"><div class="bar title" style="margin:0;width:46%"></div><span class="btn-wf" style="margin:0;padding:6px 16px">2級</span><span class="btn-wf o" style="margin:0;padding:6px 16px">1級</span></div>
+     <div class="sample">産業カウンセラー試験（2級）※級構成は厚生労働省団体検定認定に伴う貴会ご検討に準拠</div>
+    </div>
+    <div class="blk"><span class="num">2</span>
+     <div class="lbl">アンカーナビ（試験センターご検討の8項目・同一様式）</div>
+     <div class="grid4">
+      <div class="cell">実施要領</div><div class="cell">受検申請</div><div class="cell">受検資格</div><div class="cell">受検上の配慮</div>
+      <div class="cell">合否結果</div><div class="cell">合格証の発送・再発行</div><div class="cell">Q&amp;A</div><div class="cell">問合せ</div>
+     </div>
+    </div>
+    <div class="blk"><span class="num">3</span>
+     <div class="lbl">実施要領（最新年度を表示・過年度は年度アーカイブ）</div>
+     <div class="sample"><span class="tag">2026年度</span>試験日・会場・受験料・出題範囲 …（年度別に自動生成）</div>
+     <div class="bar"></div><div class="bar w80"></div><div class="bar w60"></div>
+    </div>
+    <div class="blk"><span class="num">4</span>
+     <div class="lbl">受検申請（フォーム）→ 合否結果（回別）→ 合格証</div>
+     <div class="inline"><span class="btn-wf">受検申請はこちら</span><span class="btn-wf o">合否結果を確認</span><span class="btn-wf o">合格証の再発行</span></div>
+     <div class="sample" style="margin-top:8px"><span class="dt">回別</span>合否発表・合格証の発送状況は試験回ごとに自動生成（例：第◯回 合否発表 2026.10.15）</div>
+    </div>
+   </div>
+   <aside class="notes">
+    <h3>設計メモ（T-07）</h3>
+    <div class="note"><b><span class="n">1</span>2級・1級を同一様式で</b>貴会・試験センターご検討のとおり、両級とも「実施要領〜問合せ」の8項目を同じテンプレートで整備。級はタブで切替。名称・構成は要件定義で確定。</div>
+    <div class="note"><b><span class="n">2</span>8項目アンカーで迷わせない</b>受験者は目的の手続きに1クリックで到達。現行のように別ページを探し回る必要がない。</div>
+    <div class="note"><b><span class="n">3</span>年度・回は自動生成</b>実施要領は年度別、合否・発送は試験回別に投稿型で自動生成。過年度は自動でアーカイブへ（更新漏れを構造で防止）。</div>
+    <div class="note"><b><span class="n">4</span>被リンク上位ページとして最優先移行</b>試験案内は外部流入 第2位（直近6か月 1,477回・1位はTOP）。旧URLからの自動転送と主要リンク元への事前周知をセットで実施。</div>
+   </aside>
+  </div>
+ </div>
+
+ <!-- ===== 08 LPテンプレート ===== -->
+ <div class="tpl">
+  <div class="tpl-head"><span class="no">T-08</span><h2>LP（ランディングページ）テンプレート</h2><span class="use">適用：/lp/（キャンペーン名）/ — 講座募集・イベント集客の着地専用（RFP「LPを含め全て」対応）</span></div>
+  <div class="cols">
+   <div class="frame">
+    <div class="blk"><span class="num">1</span>
+     <div class="lbl">最小ヘッダー（ロゴ＋問い合わせのみ／グローバルナビ非表示）</div>
+     <div class="chips"><span class="chip dept">主管：各部署申請→広報部承認</span><span class="chip">更新：掲載期限つき</span></div>
+     <div class="inline"><div class="ph" style="width:150px;height:36px">JAICOロゴ</div><div style="flex:1"></div><span class="btn-wf o" style="margin:0;padding:6px 16px">お問い合わせ</span></div>
+    </div>
+    <div class="blk"><span class="num">2</span>
+     <div class="lbl">訴求ヒーロー（ベネフィット＋締切＋申込CTA）</div>
+     <div class="ph" style="height:150px;flex-direction:column;gap:8px">
+      <span style="font-size:15px;color:#4A5A4E;font-weight:700;background:rgba(255,255,255,.85);padding:4px 16px">働く人を支える専門家へ。産業カウンセラー養成講座 秋期クラス</span>
+      <span style="font-size:11px;color:#5C6B60;background:rgba(255,255,255,.85);padding:2px 12px">申込締切 8/31（日）｜全国＋オンライン開催</span>
+     </div>
+     <div class="inline"><span class="btn-wf" style="background:#C77E3E">今すぐ申し込む</span><span class="btn-wf o">資料請求（無料）</span></div>
+    </div>
+    <div class="blk"><span class="num">3</span>
+     <div class="lbl">選ばれる理由（3点）→ カリキュラム・料金 → 受講者の声</div>
+     <div class="grid3"><div class="cell"><div class="cph" style="height:36px"></div>60年の養成実績</div><div class="cell"><div class="cph" style="height:36px"></div>教育訓練給付金 対象</div><div class="cell"><div class="cph" style="height:36px"></div>全国＋オンライン</div></div>
+     <div class="sample" style="margin-top:8px">カリキュラム表／受講料・給付金の説明／受講者インタビュー（本体サイトの投稿から自動引用）</div>
+    </div>
+    <div class="blk"><span class="num">4</span>
+     <div class="lbl">FAQ → 申込フォーム（ページ内完結）→ 追従CTA</div>
+     <div class="bar"></div><div class="bar w80"></div>
+     <div class="inline" style="margin-top:6px"><span class="btn-wf full" style="flex:1;background:#C77E3E">申込フォーム（入力 → 確認 → 完了）</span></div>
+     <div class="sample" style="font-size:11px">※ 画面下部に追従CTAバー（スマホ）。フッターは最小（運営者表記・プライバシーポリシーのみ）</div>
+    </div>
+   </div>
+   <aside class="notes">
+    <h3>設計メモ（T-08）</h3>
+    <div class="note"><b><span class="n">1</span>回遊させず申込に集中</b>LPは広告・SNS・ピックアップ枠からの着地専用。グローバルナビを外し、出口を「申込」と「資料請求」に絞ってコンバージョンを最大化。<br>※ RFPの記載は目的(1)「LPを含め全てリニューアル」（現行LPの移行が必須要求）。この<b>発行テンプレートの仕組み自体は当社のご提案</b>（費用は必須費用に内包・追加なし）。</div>
+    <div class="note"><b><span class="n">2</span>部署申請→承認で量産できる</b>このテンプレートに文言・画像・期限を入れるだけで、各部署がキャンペーンごとにLPを発行可能（広報部承認制）。デザイン統一も自動で担保。</div>
+    <div class="note"><b><span class="n">3</span>本体サイトと二重管理しない</b>受講者の声・FAQ等は本体の投稿から自動引用し、二重更新を防止。料金等の重要情報は本体ページを正とする。</div>
+    <div class="note"><b><span class="n">4</span>掲載期限つき・計測つき</b>期限後は自動で非公開→本体該当ページへ自動転送（特設の放置を構造で防止）。GA4で申込コンバージョンを計測し、AI月次診断（追加提案）で改善提案。</div>
+   </aside>
+  </div>
+ </div>
+
+ <div class="meta" style="padding-left:0;margin-top:10px">※ 上記8テンプレート＋フォーム（種別選択型）で全ページを構成します（LPはT-08から掲載期限つきで発行）。テンプレート単位でデザイン・実装するため、ページ追加時も品質が均一に保たれます。</div>
+</div>
+</body>
+</html>

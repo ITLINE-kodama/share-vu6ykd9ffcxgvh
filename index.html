@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ご提案資料</title>
+<style>
+  :root{ --ink:#1f2733; --sub:#6b7686; --line:#e7ebf0; --accent:#2f6df0; --bg:#f5f7fb; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.6}
+  .wrap{max-width:760px;margin:0 auto;padding:64px 20px 80px}
+  .brand{font-size:12px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin:0 0 10px}
+  h1{font-size:30px;letter-spacing:.02em;margin:0 0 6px}
+  .lead{color:var(--sub);font-size:14px;margin:0 0 32px}
+  .cards{display:grid;gap:14px}
+  .card{display:flex;align-items:center;gap:16px;background:#fff;border:1px solid var(--line);
+    border-radius:14px;padding:18px 20px;text-decoration:none;color:inherit;
+    box-shadow:0 1px 2px rgba(20,30,50,.04);transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+  .card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(20,40,90,.10);border-color:#cfd9ea}
+  .ic{font-size:26px;line-height:1;flex:0 0 auto;width:46px;height:46px;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,#eef3ff,#f7f9ff);border-radius:11px}
+  .tx{display:flex;flex-direction:column;min-width:0;flex:1}
+  .kind{font-size:11px;letter-spacing:.08em;color:var(--accent);font-weight:700}
+  .name{font-size:16px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .go{color:var(--sub);font-size:13px;font-weight:600;flex:0 0 auto}
+  .card:hover .go{color:var(--accent)}
+  .card.feature{border-color:var(--accent);border-width:2px;background:linear-gradient(180deg,#ffffff,#f5f9ff);box-shadow:0 8px 24px rgba(31,109,240,.13)}
+  .card.feature .ic{background:linear-gradient(135deg,#e3edff,#f0f6ff)}
+  .tagfeat{display:inline-block;margin-left:8px;font-size:10px;font-weight:700;letter-spacing:.04em;color:#fff;background:var(--accent);padding:2px 9px;border-radius:999px;vertical-align:middle}
+  .acts{display:flex;align-items:center;gap:12px;flex:0 0 auto}
+  .acts .go{text-decoration:none}
+  .dl{font-size:12px;font-weight:700;color:#fff;background:var(--accent);padding:7px 13px;border-radius:8px;text-decoration:none;white-space:nowrap}
+  .dl:hover{opacity:.88}
+  .foot{margin-top:40px;color:#9aa4b2;font-size:12px;text-align:center}
+  .prep{margin-top:38px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px 22px;box-shadow:0 1px 2px rgba(20,30,50,.04)}
+  .prep-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:4px}
+  .prep-head h2{font-size:18px;margin:0}
+  .prep-prog{font-size:12px;font-weight:700;color:var(--accent);background:#eef3ff;padding:5px 12px;border-radius:999px;white-space:nowrap}
+  .prep-lead{color:var(--sub);font-size:13px;margin:0 0 16px}
+  .prep-list{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+  .pi{display:flex;align-items:center;gap:13px;padding:12px 14px;border:1px solid var(--line);border-radius:11px;background:#fcfdff}
+  .pi-dot{flex:0 0 auto;width:10px;height:10px;border-radius:50%;background:#cbd3df}
+  .pi.done .pi-dot{background:#16a34a}
+  .pi.partial .pi-dot{background:#d97706}
+  .pi-tx{display:flex;flex-direction:column;min-width:0;flex:1}
+  .pi-tx b{font-size:14.5px;font-weight:600}
+  .pi-tx small{font-size:12px;color:var(--sub);margin-top:1px}
+  .pi-badge{flex:0 0 auto;font-size:11px;font-weight:700;padding:4px 11px;border-radius:999px;background:#eef1f5;color:#7a8696}
+  .pi.done .pi-badge{background:#e7f6ec;color:#16a34a}
+  .pi.partial .pi-badge{background:#fdf0dd;color:#b97309}
+  .req{display:inline-block;margin-left:8px;font-size:10px;font-weight:700;color:#c0392b;background:#fdeaea;border:1px solid #f3c9c9;padding:1px 7px;border-radius:999px;vertical-align:middle}
+  .pi.is-req{border-color:#f3c9c9;background:#fffafa}
+  .prep-note{color:#9aa4b2;font-size:11.5px;margin:14px 0 0}
+</style></head>
+<body>
+  <main class="wrap">
+    <p class="brand">ITLINE</p>
+    <h1>ご提案資料</h1>
+    <p class="lead">下記より各資料をご覧いただけます。</p>
+    <div class="cards">
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">Codex版_日本産業カウンセラー協会_二次審査御提案書</span></span>
+        <span class="acts"><a class="go" href="./Codex%E7%89%88_%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E4%BA%8C%E6%AC%A1%E5%AF%A9%E6%9F%BB%E5%BE%A1%E6%8F%90%E6%A1%88%E6%9B%B8.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./Codex%E7%89%88_%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E4%BA%8C%E6%AC%A1%E5%AF%A9%E6%9F%BB%E5%BE%A1%E6%8F%90%E6%A1%88%E6%9B%B8.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">Codex版_日本産業カウンセラー協会_二次審査御提案書_v2</span></span>
+        <span class="acts"><a class="go" href="./Codex%E7%89%88_%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E4%BA%8C%E6%AC%A1%E5%AF%A9%E6%9F%BB%E5%BE%A1%E6%8F%90%E6%A1%88%E6%9B%B8_v2.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./Codex%E7%89%88_%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E4%BA%8C%E6%AC%A1%E5%AF%A9%E6%9F%BB%E5%BE%A1%E6%8F%90%E6%A1%88%E6%9B%B8_v2.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">Codex版_日本産業カウンセラー協会_二次審査御提案書_v3_LP・AI追記</span></span>
+        <span class="acts"><a class="go" href="./Codex%E7%89%88_%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E4%BA%8C%E6%AC%A1%E5%AF%A9%E6%9F%BB%E5%BE%A1%E6%8F%90%E6%A1%88%E6%9B%B8_v3_LP%E3%83%BBAI%E8%BF%BD%E8%A8%98.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./Codex%E7%89%88_%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E4%BA%8C%E6%AC%A1%E5%AF%A9%E6%9F%BB%E5%BE%A1%E6%8F%90%E6%A1%88%E6%9B%B8_v3_LP%E3%83%BBAI%E8%BF%BD%E8%A8%98.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">日本産業カウンセラー協会_お見積り</span></span>
+        <span class="acts"><a class="go" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E3%81%8A%E8%A6%8B%E7%A9%8D%E3%82%8A.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E3%81%8A%E8%A6%8B%E7%A9%8D%E3%82%8A.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">日本産業カウンセラー協会_サイトマップ</span></span>
+        <span class="acts"><a class="go" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">日本産業カウンセラー協会_サブ資料_運用サポート詳細</span></span>
+        <span class="acts"><a class="go" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E3%82%B5%E3%83%96%E8%B3%87%E6%96%99_%E9%81%8B%E7%94%A8%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E8%A9%B3%E7%B4%B0.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E3%82%B5%E3%83%96%E8%B3%87%E6%96%99_%E9%81%8B%E7%94%A8%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E8%A9%B3%E7%B4%B0.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">日本産業カウンセラー協会_二次プレゼン資料_要件対応明確化版</span></span>
+        <span class="acts"><a class="go" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E4%BA%8C%E6%AC%A1%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E8%B3%87%E6%96%99_%E8%A6%81%E4%BB%B6%E5%AF%BE%E5%BF%9C%E6%98%8E%E7%A2%BA%E5%8C%96%E7%89%88.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E4%BA%8C%E6%AC%A1%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E8%B3%87%E6%96%99_%E8%A6%81%E4%BB%B6%E5%AF%BE%E5%BF%9C%E6%98%8E%E7%A2%BA%E5%8C%96%E7%89%88.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">日本産業カウンセラー協会_別紙会社概要</span></span>
+        <span class="acts"><a class="go" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E5%88%A5%E7%B4%99%E4%BC%9A%E7%A4%BE%E6%A6%82%E8%A6%81.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E5%88%A5%E7%B4%99%E4%BC%9A%E7%A4%BE%E6%A6%82%E8%A6%81.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">日本産業カウンセラー協会_御提案書</span></span>
+        <span class="acts"><a class="go" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E5%BE%A1%E6%8F%90%E6%A1%88%E6%9B%B8.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E5%BE%A1%E6%8F%90%E6%A1%88%E6%9B%B8.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <span class="tx"><span class="kind">ご提案書</span><span class="name">日本産業カウンセラー協会_提案書10P</span></span>
+        <span class="acts"><a class="go" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E6%8F%90%E6%A1%88%E6%9B%B810P.pdf" target="_blank" rel="noopener">開く →</a><a class="dl" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E6%8F%90%E6%A1%88%E6%9B%B810P.pdf" download>⬇ ダウンロード</a></span>
+      </div>
+      <a class="card feature" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E6%A7%8B%E6%88%90%E3%83%87%E3%83%A2_top.html" target="_blank" rel="noopener">
+        <span class="ic">🎨</span>
+        <span class="tx"><span class="kind">リニューアル構成デモ<span class="tagfeat">完成イメージ</span></span><span class="name">日本産業カウンセラー協会_リニューアル構成デモ_top</span></span>
+        <span class="go">開く →</span>
+      </a>
+      <a class="card" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97.html" target="_blank" rel="noopener">
+        <span class="ic">🗺️</span>
+        <span class="tx"><span class="kind">サイトマップ</span><span class="name">日本産業カウンセラー協会_サイトマップ</span></span>
+        <span class="go">開く →</span>
+      </a>
+      <a class="card" href="./%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%A9%E3%83%BC%E5%8D%94%E4%BC%9A_%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0.html" target="_blank" rel="noopener">
+        <span class="ic">📐</span>
+        <span class="tx"><span class="kind">ワイヤーフレーム</span><span class="name">日本産業カウンセラー協会_ワイヤーフレーム</span></span>
+        <span class="go">開く →</span>
+      </a>
+    </div>
+
+    <p class="foot">Presented by ITLINE — このページはURLをご存知の方のみ閲覧できます。</p>
+  </main>
+</body></html>

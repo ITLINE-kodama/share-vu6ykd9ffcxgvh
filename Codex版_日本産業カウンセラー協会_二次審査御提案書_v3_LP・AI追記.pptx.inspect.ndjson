@@ -1,0 +1,792 @@
+{"kind":"deck","id":"pr/c6mjxv","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"body","type":"body","textPreview":"マスタ テキストの書式設定 | 第 2 レベル | 第 3 レベル | 第 4 レベル | 第 5 レベル"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"表紙","placeholders":[{"name":"title","type":"title","textPreview":"タイトルマスタの書式設定"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"はじめに","placeholders":[{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"2","textPreview":"マスタ テキストの書式設定"},{"name":"title","type":"title","textPreview":"はじめに"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"目次　","placeholders":[{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"目次"},{"name":"2","textPreview":"マスタ テキストの書式設定"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"大見出し","placeholders":[{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"タイトルマスタの書式設定"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"中見出し","placeholders":[{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"タイトルマスタの書式設定"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"本文_01","placeholders":[{"name":"title","type":"title","textPreview":"1-1.ページタイトル"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"本文_00","placeholders":[{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"1-1.ページタイトル"}]}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"本部HP基盤ライフサイクル更新 御提案書","textShapes":3}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"タイトル 4","text":"本部HP基盤ライフサイクル更新 御提案書","textPreview":"本部HP基盤ライフサイクル更新 御提案書","textChars":20,"textLines":1,"bbox":[66.46,284.41,770.98,49.76]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"name":"Rectangle 28","text":"一般社団法人 日本産業カウンセラー協会 御中","textPreview":"一般社団法人 日本産業カウンセラー協会 御中","textChars":22,"textLines":1,"bbox":[66.46,116.32,496.63,46.6]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"name":"テキスト プレースホルダー 2","text":"株式会社インフォネット\n本社：〒105-0004 東京都港区新橋4丁目21番3号 新橋東急ビル7階\n共同提案・開発パートナー：株式会社ITLINE\n2026年7月","textPreview":"株式会社インフォネット | 本社：〒105-0004 東京都港区新橋4丁目21番3号 新橋東急ビル7階 | 共同提案・開発パートナー：株式会社ITLINE | 2026年7月","textChars":81,"textLines":4,"bbox":[66.46,437.56,551.19,134.1]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":""}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"本日の結論：公開後まで回る仕組みをつくります","textShapes":10}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"name":"タイトル 1","placeholder":"title","text":"本日の結論：公開後まで回る仕組みをつくります","textPreview":"本日の結論：公開後まで回る仕組みをつくります","textChars":22,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"takeaway","text":"必要な情報が見つかる。職員が直せる。移行と費用が見える。","textPreview":"必要な情報が見つかる。職員が直せる。移行と費用が見える。","textChars":28,"textLines":1,"bbox":[48,106,944,58]}
+{"kind":"shape","id":"sh/a10jqpsj","slide":2,"name":"ux-bg","bbox":[48,190,292,286]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"name":"ux-title","text":"利用者に迷わせない","textPreview":"利用者に迷わせない","textChars":9,"textLines":1,"bbox":[66,206,256,38]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"name":"ux-body","text":"資格取得希望者を主役に、会員・相談希望者・企業を明確に分離。\n\n4～5階層、常設約100ページへ再編し、講座・日程はデータ化します。","textPreview":"資格取得希望者を主役に、会員・相談希望者・企業を明確に分離。 |  | 4～5階層、常設約100ページへ再編し、講座・日程はデータ化します。","textChars":66,"textLines":3,"bbox":[66,254,256,206]}
+{"kind":"shape","id":"sh/r65knqtk","slide":2,"name":"operation-bg","bbox":[374,190,292,286]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"name":"operation-title","text":"職員で日々更新できる","textPreview":"職員で日々更新できる","textChars":10,"textLines":1,"bbox":[392,206,256,38]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"name":"operation-body","text":"講座・LP・申込状態を一つのマスターから更新。\n\n下書き、プレビュー、承認、期限終了までWordPressで完結します。","textPreview":"講座・LP・申込状態を一つのマスターから更新。 |  | 下書き、プレビュー、承認、期限終了までWordPressで完結します。","textChars":60,"textLines":3,"bbox":[392,254,256,206]}
+{"kind":"shape","id":"sh/9wnqhczy","slide":2,"name":"delivery-bg","bbox":[700,190,292,286]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"name":"delivery-title","text":"責任と費用を曖昧にしない","textPreview":"責任と費用を曖昧にしない","textChars":12,"textLines":1,"bbox":[718,206,256,38]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"name":"delivery-body","text":"移行台帳、検収チェック、SLA、単価×数量を事前に明示。\n\nインフォネットが元請として一貫して責任を持ちます。","textPreview":"移行台帳、検収チェック、SLA、単価×数量を事前に明示。 |  | インフォネットが元請として一貫して責任を持ちます。","textChars":55,"textLines":3,"bbox":[718,254,256,206]}
+{"kind":"shape","id":"sh/wjy9sry9","slide":2,"name":"opening-date","bbox":[48,510,944,88]}
+{"kind":"textbox","id":"sh/xk7qlczu","slide":2,"name":"opening-date-text","text":"2027年5月6日を、公開日ではなく“新しい運用の開始日”にします","textPreview":"2027年5月6日を、公開日ではなく“新しい運用の開始日”にします","textChars":33,"textLines":1,"bbox":[70,527,900,54]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":""}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"協会の4つの懸念に、具体的な答えを用意しました","textShapes":16}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"name":"タイトル 1","placeholder":"title","text":"協会の4つの懸念に、具体的な答えを用意しました","textPreview":"協会の4つの懸念に、具体的な答えを用意しました","textChars":23,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"concern-lead","text":"現場の不安","textPreview":"現場の不安","textChars":5,"textLines":1,"bbox":[48,112,260,36]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"name":"answer-lead","text":"本提案の回答","textPreview":"本提案の回答","textChars":6,"textLines":1,"bbox":[382,112,610,36]}
+{"kind":"shape","id":"sh/obq90bml","slide":3,"name":"concern-0","bbox":[48,158,286,88]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"concern-text-0","text":"移行漏れはないか","textPreview":"移行漏れはないか","textChars":8,"textLines":1,"bbox":[66,172,250,60]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"name":"concern-arrow-0","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[338,178,42,46]}
+{"kind":"shape","id":"sh/n6ls3alk","slide":3,"name":"answer-0","bbox":[386,158,606,88]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"answer-text-0","text":"911ページをURL単位で台帳化し、5分類・主管部門・新URL・301まで追跡","textPreview":"911ページをURL単位で台帳化し、5分類・主管部門・新URL・301まで追跡","textChars":39,"textLines":1,"bbox":[406,169,566,66]}
+{"kind":"shape","id":"sh/m1c3mlsn","slide":3,"name":"concern-1","bbox":[48,270,286,88]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"name":"concern-text-1","text":"日程変更や満席対応は難しくないか","textPreview":"日程変更や満席対応は難しくないか","textChars":16,"textLines":1,"bbox":[66,284,250,60]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"concern-arrow-1","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[338,290,42,46]}
+{"kind":"shape","id":"sh/v6l4jq94","slide":3,"name":"answer-1","bbox":[386,270,606,88]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"name":"answer-text-1","text":"マスター1か所の変更でLP・講座一覧・申込ボタンへ反映","textPreview":"マスター1か所の変更でLP・講座一覧・申込ボタンへ反映","textChars":27,"textLines":1,"bbox":[406,281,566,66]}
+{"kind":"shape","id":"sh/x8nml0ra","slide":3,"name":"concern-2","bbox":[48,382,286,88]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"name":"concern-text-2","text":"公開後、誰がどこまで直すのか","textPreview":"公開後、誰がどこまで直すのか","textChars":14,"textLines":1,"bbox":[66,396,250,60]}
+{"kind":"textbox","id":"sh/ja54na9g","slide":3,"name":"concern-arrow-2","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[338,402,42,46]}
+{"kind":"shape","id":"sh/i9w3u58v","slide":3,"name":"answer-2","bbox":[386,382,606,88]}
+{"kind":"textbox","id":"sh/e10f2twf","slide":3,"name":"answer-text-2","text":"職員更新／月額保守／都度見積を作業例と参考単価で区分","textPreview":"職員更新／月額保守／都度見積を作業例と参考単価で区分","textChars":26,"textLines":1,"bbox":[406,393,566,66]}
+{"kind":"shape","id":"sh/f29gbyx0","slide":3,"name":"concern-3","bbox":[48,494,286,88]}
+{"kind":"textbox","id":"sh/03ix43e5","slide":3,"name":"concern-text-3","text":"契約後に費用が増えないか","textPreview":"契約後に費用が増えないか","textChars":12,"textLines":1,"bbox":[66,508,250,60]}
+{"kind":"textbox","id":"sh/14ryd8fq","slide":3,"name":"concern-arrow-3","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[338,514,42,46]}
+{"kind":"shape","id":"sh/6d0fytg3","slide":3,"name":"answer-3","bbox":[386,494,606,88]}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"name":"answer-text-3","text":"含む／含まない、単価×数量、数量確定・変更合意の手順を明示","textPreview":"含む／含まない、単価×数量、数量確定・変更合意の手順を明示","textChars":29,"textLines":1,"bbox":[406,505,566,66]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":""}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"インフォネットが元請責任を持ち、専門チームが実行します","textShapes":11}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"name":"タイトル 1","placeholder":"title","text":"インフォネットが元請責任を持ち、専門チームが実行します","textPreview":"インフォネットが元請責任を持ち、専門チームが実行します","textChars":27,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/rm1k7yt4","slide":4,"name":"prime-bg","bbox":[48,122,290,330]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"name":"prime-title","text":"株式会社インフォネット","textPreview":"株式会社インフォネット","textChars":11,"textLines":1,"bbox":[66,138,254,38]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"name":"prime-body","text":"元請・単一窓口\n\n・契約／予算／変更管理\n・プロジェクト管理／PMO連携\n・品質／納期／再委託管理\n・稼働後の支援窓口","textPreview":"元請・単一窓口 |  | ・契約／予算／変更管理 | ・プロジェクト管理／PMO連携 | ・品質／納期／再委託管理 | ・稼働後の支援窓口","textChars":59,"textLines":6,"bbox":[66,186,254,250]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"name":"team-arrow-1","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[340,260,42,46]}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"name":"specialists-bg","bbox":[386,122,340,330]}
+{"kind":"textbox","id":"sh/ih8ju9sn","slide":4,"name":"specialists-title","text":"株式会社ITLINE 専門チーム","textPreview":"株式会社ITLINE 専門チーム","textChars":16,"textLines":1,"bbox":[404,138,304,38]}
+{"kind":"textbox","id":"sh/kbm987y5","slide":4,"name":"specialists-body","text":"共同提案・開発パートナー\n\n・UX／情報設計／デザイン\n・WordPress／データ設計\n・移行／リダイレクト／検証\n・編集／AI支援／運用設計","textPreview":"共同提案・開発パートナー |  | ・UX／情報設計／デザイン | ・WordPress／データ設計 | ・移行／リダイレクト／検証 | ・編集／AI支援／運用設計","textChars":72,"textLines":6,"bbox":[404,186,304,250]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"name":"team-arrow-2","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[730,260,42,46]}
+{"kind":"shape","id":"sh/jadsz2xk","slide":4,"name":"association-bg","bbox":[776,122,216,330]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"name":"association-title","text":"協会プロジェクト","textPreview":"協会プロジェクト","textChars":8,"textLines":1,"bbox":[794,138,180,38]}
+{"kind":"textbox","id":"sh/x8vaxsfe","slide":4,"name":"association-body","text":"意思決定・確認\n\n・主管部門の指定\n・事実／制度の確認\n・デザイン／移行承認\n・受入試験／検収","textPreview":"意思決定・確認 |  | ・主管部門の指定 | ・事実／制度の確認 | ・デザイン／移行承認 | ・受入試験／検収","textChars":47,"textLines":6,"bbox":[794,186,180,250]}
+{"kind":"shape","id":"sh/a5kr2xg3","slide":4,"name":"team-bottom","bbox":[48,488,944,100]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"name":"team-bottom-text","text":"再委託範囲を開示し、品質・納期・障害対応の最終責任はインフォネットが負います。","textPreview":"再委託範囲を開示し、品質・納期・障害対応の最終責任はインフォネットが負います。","textChars":39,"textLines":1,"bbox":[74,512,892,52]}
+{"kind":"image","id":"im/b6xofahg","slide":4,"name":"","bbox":[474,386,164,46]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":""}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"会社概要と公共・団体サイト実績","textShapes":19}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"タイトル 1","placeholder":"title","text":"会社概要と公共・団体サイト実績","textPreview":"会社概要と公共・団体サイト実績","textChars":15,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"name":"listed-value","text":"4444","textPreview":"4444","textChars":4,"textLines":1,"bbox":[48,118,210,62]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"name":"listed-label","text":"東証グロース上場\n2019年6月","textPreview":"東証グロース上場 | 2019年6月","textChars":16,"textLines":2,"bbox":[48,184,210,48]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"name":"founded-value","text":"2002","textPreview":"2002","textChars":4,"textLines":1,"bbox":[270,118,210,62]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"name":"founded-label","text":"設立年","textPreview":"設立年","textChars":3,"textLines":1,"bbox":[270,184,210,48]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"name":"people-value","text":"141名","textPreview":"141名","textChars":4,"textLines":1,"bbox":[492,118,210,62]}
+{"kind":"textbox","id":"sh/m5kbi1oj","slide":5,"name":"people-label","text":"連結従業員数\n2026年3月","textPreview":"連結従業員数 | 2026年3月","textChars":14,"textLines":2,"bbox":[492,184,210,48]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"name":"iso-value","text":"ISO 27001 / 27017","textPreview":"ISO 27001 / 27017","textChars":17,"textLines":1,"bbox":[714,118,278,62]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"name":"iso-label","text":"情報・クラウドセキュリティ","textPreview":"情報・クラウドセキュリティ","textChars":13,"textLines":1,"bbox":[714,184,278,48]}
+{"kind":"shape","id":"sh/ahkvi1cb","slide":5,"name":"rule-270","bbox":[48,270,944,2]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"name":"records-title","text":"主な公共・団体サイト実績","textPreview":"主な公共・団体サイト実績","textChars":12,"textLines":1,"bbox":[48,296,944,40]}
+{"kind":"shape","id":"sh/k7mxovud","slide":5,"name":"records-a-bg","bbox":[48,350,290,182]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"name":"records-a-title","text":"資格・専門団体","textPreview":"資格・専門団体","textChars":7,"textLines":1,"bbox":[66,366,254,38]}
+{"kind":"textbox","id":"sh/i54fmlc7","slide":5,"name":"records-a-body","text":"日本公認会計士協会\n全国社会保険労務士会連合会\n高圧ガス保安協会","textPreview":"日本公認会計士協会 | 全国社会保険労務士会連合会 | 高圧ガス保安協会","textChars":32,"textLines":3,"bbox":[66,414,254,102]}
+{"kind":"shape","id":"sh/j6dwfqds","slide":5,"name":"records-b-bg","bbox":[374,350,290,182]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"name":"records-b-title","text":"公共・教育","textPreview":"公共・教育","textChars":5,"textLines":1,"bbox":[392,366,254,38]}
+{"kind":"textbox","id":"sh/tcfel0vu","slide":5,"name":"records-b-body","text":"日本スポーツ振興センター\n国立女性教育会館\n埼玉県立大学","textPreview":"日本スポーツ振興センター | 国立女性教育会館 | 埼玉県立大学","textChars":28,"textLines":3,"bbox":[392,414,254,102]}
+{"kind":"shape","id":"sh/hgrmpwj2","slide":5,"name":"records-c-bg","bbox":[700,350,292,182]}
+{"kind":"textbox","id":"sh/gfi5grih","slide":5,"name":"records-c-title","text":"医療・安全","textPreview":"医療・安全","textChars":5,"textLines":1,"bbox":[718,366,256,38]}
+{"kind":"textbox","id":"sh/fe94nm1w","slide":5,"name":"records-c-body","text":"労働者健康安全機構\n日本赤十字社医療センター\n自動車安全運転センター","textPreview":"労働者健康安全機構 | 日本赤十字社医療センター | 自動車安全運転センター","textChars":34,"textLines":3,"bbox":[718,414,256,102]}
+{"kind":"textbox","id":"sh/ud0ne10b","slide":5,"name":"records-source","text":"出典：株式会社インフォネット「20260715会社概要」（2026年3月時点）","textPreview":"出典：株式会社インフォネット「20260715会社概要」（2026年3月時点）","textChars":39,"textLines":1,"bbox":[48,566,944,26]}
+{"kind":"textbox","id":"sh/pkr6tgjy","slide":5,"name":"TextBox 23","text":"代表取締役社長 東間 大｜資本金 29,340万円｜本社：東京都港区新橋｜大阪支社・福井支社","textPreview":"代表取締役社長 東間 大｜資本金 29,340万円｜本社：東京都港区新橋｜大阪支社・福井支社","textChars":46,"textLines":1,"bbox":[48,232.32,940.8,33.6]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":""}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"常設約100Pを基本に、最大200Pまで柔軟に対応します","textShapes":15}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"タイトル 1","placeholder":"title","text":"常設約100Pを基本に、最大200Pまで柔軟に対応します","textPreview":"常設約100Pを基本に、最大200Pまで柔軟に対応します","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"takeaway","text":"RFPの「200ページ以下」の範囲内で、常設ページは約100ページを設計目標とします。\n最終的なページ数は、要件定義の移行台帳で確定します。","textPreview":"RFPの「200ページ以下」の範囲内で、常設ページは約100ページを設計目標とします。 | 最終的なページ数は、要件定義の移行台帳で確定します。","textChars":70,"textLines":2,"bbox":[48,104,944,58]}
+{"kind":"shape","id":"sh/98rqt4r6","slide":6,"name":"funnel-bg-0","bbox":[54,232,190,160]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"name":"funnel-value-0","text":"911P","textPreview":"911P","textChars":4,"textLines":1,"bbox":[64,250,170,72]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"name":"funnel-label-0","text":"現行サイト\n最大9階層","textPreview":"現行サイト | 最大9階層","textChars":11,"textLines":2,"bbox":[66,326,166,54]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"name":"funnel-arrow-0","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[244,286,42,46]}
+{"kind":"shape","id":"sh/pc76hkr2","slide":6,"name":"funnel-bg-1","bbox":[286,232,190,160]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"name":"funnel-value-1","text":"384P\n現時点 約350P","textPreview":"384P | 現時点 約350P","textChars":14,"textLines":2,"bbox":[296,250,170,72]}
+{"kind":"textbox","id":"sh/w32twb6l","slide":6,"name":"funnel-label-1","text":"必要候補\n選別を継続","textPreview":"必要候補 | 選別を継続","textChars":10,"textLines":2,"bbox":[298,326,166,54]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"name":"funnel-arrow-1","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[476,286,42,46]}
+{"kind":"shape","id":"sh/u1kbu1ov","slide":6,"name":"funnel-bg-2","bbox":[518,232,190,160]}
+{"kind":"textbox","id":"sh/5svutgni","slide":6,"name":"funnel-value-2","text":"常設 約100P","textPreview":"常設 約100P","textChars":8,"textLines":1,"bbox":[528,250,170,72]}
+{"kind":"textbox","id":"sh/47mt0b6x","slide":6,"name":"funnel-label-2","text":"4～5階層へ再編\n重複・長文を統合","textPreview":"4～5階層へ再編 | 重複・長文を統合","textChars":17,"textLines":2,"bbox":[530,326,166,54]}
+{"kind":"textbox","id":"sh/j6dcr65c","slide":6,"name":"funnel-arrow-2","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[708,286,42,46]}
+{"kind":"shape","id":"sh/i54bylor","slide":6,"name":"funnel-bg-3","bbox":[750,232,190,160]}
+{"kind":"textbox","id":"sh/twfux0ne","slide":6,"name":"funnel-value-3","text":"最大200P","textPreview":"最大200P","textChars":6,"textLines":1,"bbox":[760,250,170,72]}
+{"kind":"textbox","id":"sh/svmt4v6t","slide":6,"name":"funnel-label-3","text":"まで柔軟に対応\n移行・再構成・既存テンプレ利用の範囲","textPreview":"まで柔軟に対応 | 移行・再構成・既存テンプレ利用の範囲","textChars":26,"textLines":2,"bbox":[762,326,166,54]}
+{"kind":"shape","id":"sh/cbe5g3ih","slide":6,"name":"funnel-note","bbox":[48,438,944,122]}
+{"kind":"textbox","id":"sh/dcnm98zm","slide":6,"name":"funnel-note-text","text":"最大200Pまで初期範囲に含む条件：既存コンテンツの移行・再構成／既存共通テンプレートの利用／大規模な新規制作を伴わないこと。\n200P超・新規テンプレート・独自デザイン・新機能・大規模な新規原稿制作は、着手前に単価×数量の事前見積で合意します。","textPreview":"最大200Pまで初期範囲に含む条件：既存コンテンツの移行・再構成／既存共通テンプレートの利用／大規模な新規制作を伴わないこと。 | 200P超・新規テンプレート・独自デザイン・新機能・大規模な新規原稿制作は、着手前に単価×数量の事前見積で合意します。","textChars":123,"textLines":2,"bbox":[78,460,884,78]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":""}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"4つの実行計画で、2027年5月6日の公開へつなげます","textShapes":12}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"name":"タイトル 1","placeholder":"title","text":"4つの実行計画で、2027年5月6日の公開へつなげます","textPreview":"4つの実行計画で、2027年5月6日の公開へつなげます","textChars":27,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/ydkbm5sv","slide":7,"name":"pillar1-bg","bbox":[48,132,220,272]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"name":"pillar1-title","text":"1 迷わせない","textPreview":"1 迷わせない","textChars":7,"textLines":1,"bbox":[66,148,184,38]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"name":"pillar1-body","text":"ターゲット別入口\n講座検索・比較\n4～5階層","textPreview":"ターゲット別入口 | 講座検索・比較 | 4～5階層","textChars":22,"textLines":3,"bbox":[66,196,184,192]}
+{"kind":"shape","id":"sh/l0vuh0rm","slide":7,"name":"pillar2-bg","bbox":[288,132,220,272]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"name":"pillar2-title","text":"2 職員で回す","textPreview":"2 職員で回す","textChars":7,"textLines":1,"bbox":[306,148,184,38]}
+{"kind":"textbox","id":"sh/fi9c369c","slide":7,"name":"pillar2-body","text":"共通テンプレート\n講座・LPマスター\n承認・予約公開","textPreview":"共通テンプレート | 講座・LPマスター | 承認・予約公開","textChars":26,"textLines":3,"bbox":[306,196,184,192]}
+{"kind":"shape","id":"sh/baxkjqlk","slide":7,"name":"pillar3-bg","bbox":[528,132,220,272]}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"name":"pillar3-title","text":"3 漏れなく移す","textPreview":"3 漏れなく移す","textChars":8,"textLines":1,"bbox":[546,148,184,38]}
+{"kind":"textbox","id":"sh/xcz2l03q","slide":7,"name":"pillar3-body","text":"移行台帳\n主管部門・期限\n301・検収","textPreview":"移行台帳 | 主管部門・期限 | 301・検収","textChars":19,"textLines":3,"bbox":[546,196,184,192]}
+{"kind":"shape","id":"sh/cbq1sv25","slide":7,"name":"pillar4-bg","bbox":[768,132,224,272]}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"name":"pillar4-title","text":"4 責任を明確に","textPreview":"4 責任を明確に","textChars":8,"textLines":1,"bbox":[786,148,188,38]}
+{"kind":"textbox","id":"sh/25ojml43","slide":7,"name":"pillar4-body","text":"SLA・再委託\n含有範囲\n単価×数量","textPreview":"SLA・再委託 | 含有範囲 | 単価×数量","textChars":18,"textLines":3,"bbox":[786,196,188,192]}
+{"kind":"shape","id":"sh/p8fih03e","slide":7,"name":"release-date-bg","bbox":[180,446,680,112]}
+{"kind":"textbox","id":"sh/o761ov2t","slide":7,"name":"release-date-label","text":"本番公開","textPreview":"本番公開","textChars":4,"textLines":1,"bbox":[218,466,150,50]}
+{"kind":"textbox","id":"sh/f2d0b6lc","slide":7,"name":"release-date","text":"2027.05.06","textPreview":"2027.05.06","textChars":10,"textLines":1,"bbox":[380,456,430,70]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":""}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"8","textShapes":2}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"name":"スライド番号プレースホルダー 1","placeholder":"slideNumber","text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/g72x4zyd","slide":8,"name":"タイトル 2","placeholder":"title","text":"1. 利用者に迷わせない","textPreview":"1. 利用者に迷わせない","textChars":12,"textLines":1,"bbox":[62.68,269.29,914.65,90]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":""}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"組織の分類より先に、利用者の目的を聞きます","textShapes":18}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"name":"タイトル 1","placeholder":"title","text":"組織の分類より先に、利用者の目的を聞きます","textPreview":"組織の分類より先に、利用者の目的を聞きます","textChars":21,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/0b65obm9","slide":9,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"name":"audience-a","text":"対象","textPreview":"対象","textChars":2,"textLines":1,"bbox":[48,112,200,38]}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"name":"audience-b","text":"最初の問い","textPreview":"最初の問い","textChars":5,"textLines":1,"bbox":[268,112,350,38]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"name":"audience-c","text":"最短の導線","textPreview":"最短の導線","textChars":5,"textLines":1,"bbox":[650,112,342,38]}
+{"kind":"shape","id":"sh/ofq5svm5","slide":9,"name":"aud-row-0","bbox":[48,158,944,78]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"name":"aud-name-0","text":"資格取得希望者","textPreview":"資格取得希望者","textChars":7,"textLines":1,"bbox":[66,170,180,54]}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"name":"aud-q-0","text":"自分に合う資格・講座を知りたい","textPreview":"自分に合う資格・講座を知りたい","textChars":15,"textLines":1,"bbox":[268,170,350,54]}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"name":"aud-path-0","text":"比較 → 日程 → 申込","textPreview":"比較 → 日程 → 申込","textChars":12,"textLines":1,"bbox":[650,170,320,54]}
+{"kind":"shape","id":"sh/p0ji9kf2","slide":9,"name":"aud-row-1","bbox":[48,260,944,78]}
+{"kind":"textbox","id":"sh/2xsjepgb","slide":9,"name":"aud-name-1","text":"会員","textPreview":"会員","textChars":2,"textLines":1,"bbox":[66,272,180,54]}
+{"kind":"textbox","id":"sh/3y107axw","slide":9,"name":"aud-q-1","text":"研修・更新・手続きを確認したい","textPreview":"研修・更新・手続きを確認したい","textChars":15,"textLines":1,"bbox":[268,272,350,54]}
+{"kind":"textbox","id":"sh/cnu1kzyd","slide":9,"name":"aud-path-1","text":"会員サービスへ集約","textPreview":"会員サービスへ集約","textChars":9,"textLines":1,"bbox":[650,272,320,54]}
+{"kind":"shape","id":"sh/do3id4fy","slide":9,"name":"aud-row-2","bbox":[48,362,944,78]}
+{"kind":"textbox","id":"sh/qlcjipgn","slide":9,"name":"aud-name-2","text":"相談希望者","textPreview":"相談希望者","textChars":5,"textLines":1,"bbox":[66,374,180,54]}
+{"kind":"textbox","id":"sh/bml0buxs","slide":9,"name":"aud-q-2","text":"相談先・方法・料金を知りたい","textPreview":"相談先・方法・料金を知りたい","textChars":14,"textLines":1,"bbox":[268,374,350,54]}
+{"kind":"textbox","id":"sh/0ru1ozyp","slide":9,"name":"aud-path-2","text":"相談方法から案内","textPreview":"相談方法から案内","textChars":8,"textLines":1,"bbox":[650,374,320,54]}
+{"kind":"shape","id":"sh/lsn2h4fa","slide":9,"name":"aud-row-3","bbox":[48,464,944,78]}
+{"kind":"textbox","id":"sh/98ji147e","slide":9,"name":"aud-name-3","text":"企業・団体","textPreview":"企業・団体","textChars":5,"textLines":1,"bbox":[66,476,180,54]}
+{"kind":"textbox","id":"sh/87a18zqt","slide":9,"name":"aud-q-3","text":"研修・相談窓口を導入したい","textPreview":"研修・相談窓口を導入したい","textChars":13,"textLines":1,"bbox":[268,476,350,54]}
+{"kind":"textbox","id":"sh/76h0zup8","slide":9,"name":"aud-path-3","text":"サービス → 事例 → 問合せ","textPreview":"サービス → 事例 → 問合せ","textChars":15,"textLines":1,"bbox":[650,476,320,54]}
+{"kind":"textbox","id":"sh/ml8j6p8n","slide":9,"name":"aud-bottom","text":"メインターゲットの資格取得希望者は、トップから3ステップ程度で申込口まで到達させます。","textPreview":"メインターゲットの資格取得希望者は、トップから3ステップ程度で申込口まで到達させます。","textChars":43,"textLines":1,"bbox":[48,584,944,42]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":""}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"デモ：資格取得希望者が申込まで迷わない導線","textShapes":11}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"name":"タイトル 1","placeholder":"title","text":"デモ：資格取得希望者が申込まで迷わない導線","textPreview":"デモ：資格取得希望者が申込まで迷わない導線","textChars":21,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/cbu58j2h","slide":10,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/zelojyl8","slide":10,"name":"demo-flag-bg","bbox":[48,102,112,32]}
+{"kind":"textbox","id":"sh/ydcnatkn","slide":10,"name":"demo-flag-text","text":"LIVE DEMO","textPreview":"LIVE DEMO","textChars":9,"textLines":1,"bbox":[56,106,96,24]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"name":"demo1-lead","text":"トップ → 講座を探す → 条件で絞る → 日程確認 → 申込","textPreview":"トップ → 講座を探す → 条件で絞る → 日程確認 → 申込","textChars":31,"textLines":1,"bbox":[180,100,812,38]}
+{"kind":"shape","id":"sh/kzu5c32t","slide":10,"name":"demo-main-frame","bbox":[386,150,610,404]}
+{"kind":"shape","id":"sh/m1cnetkj","slide":10,"name":"demo-step1-bg","bbox":[48,164,300,108]}
+{"kind":"textbox","id":"sh/s7yt4b21","slide":10,"name":"demo-step1-title","text":"1 目的から入る","textPreview":"1 目的から入る","textChars":8,"textLines":1,"bbox":[66,180,264,38]}
+{"kind":"textbox","id":"sh/d87uxg3m","slide":10,"name":"demo-step1-body","text":"資格・会員・相談・企業を混在させません。","textPreview":"資格・会員・相談・企業を混在させません。","textChars":20,"textLines":1,"bbox":[66,228,264,28]}
+{"kind":"shape","id":"sh/q5gb21kb","slide":10,"name":"demo-step2-bg","bbox":[48,288,300,108]}
+{"kind":"textbox","id":"sh/r6pcv6lw","slide":10,"name":"demo-step2-title","text":"2 条件で探す","textPreview":"2 条件で探す","textChars":7,"textLines":1,"bbox":[66,304,264,38]}
+{"kind":"textbox","id":"sh/0bit8b2d","slide":10,"name":"demo-step2-body","text":"地域・形式・日程で講座を絞り込みます。","textPreview":"地域・形式・日程で講座を絞り込みます。","textChars":19,"textLines":1,"bbox":[66,352,264,28]}
+{"kind":"shape","id":"sh/1cru1g3y","slide":10,"name":"demo-step3-bg","bbox":[48,412,300,108]}
+{"kind":"textbox","id":"sh/e9gb61k7","slide":10,"name":"demo-step3-title","text":"3 迷わず申込へ","textPreview":"3 迷わず申込へ","textChars":8,"textLines":1,"bbox":[66,428,264,38]}
+{"kind":"textbox","id":"sh/fapcz6ls","slide":10,"name":"demo-step3-body","text":"重要情報を共通順序で示し、申込口を固定します。","textPreview":"重要情報を共通順序で示し、申込口を固定します。","textChars":23,"textLines":1,"bbox":[66,476,264,28]}
+{"kind":"textbox","id":"sh/ozitcv29","slide":10,"name":"demo1-fallback","text":"※ライブデモに接続できない場合も、この提出画面を使って同じ順序でご説明します。","textPreview":"※ライブデモに接続できない場合も、この提出画面を使って同じ順序でご説明します。","textChars":39,"textLines":1,"bbox":[390,568,602,34]}
+{"kind":"image","id":"im/q90jedkz","slide":10,"name":"","bbox":[390,166.24,602,371.52]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":""}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"常設約100ページを基本に、最大200ページまで収めます","textShapes":14}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"name":"タイトル 1","placeholder":"title","text":"常設約100ページを基本に、最大200ページまで収めます","textPreview":"常設約100ページを基本に、最大200ページまで収めます","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/wbih4b6d","slide":11,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"name":"ia-entrance","text":"利用者別入口","textPreview":"利用者別入口","textChars":6,"textLines":1,"bbox":[48,120,180,36]}
+{"kind":"shape","id":"sh/250zy18b","slide":11,"name":"ia-entry-0","bbox":[240,112,164,54]}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"name":"ia-entry-t-0","text":"資格取得","textPreview":"資格取得","textChars":4,"textLines":1,"bbox":[250,122,144,34]}
+{"kind":"shape","id":"sh/o7ih0r6h","slide":11,"name":"ia-entry-1","bbox":[424,112,164,54]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"name":"ia-entry-t-1","text":"会員","textPreview":"会員","textChars":2,"textLines":1,"bbox":[434,122,144,34]}
+{"kind":"shape","id":"sh/61kzalof","slide":11,"name":"ia-entry-2","bbox":[608,112,164,54]}
+{"kind":"textbox","id":"sh/ofqtgnyt","slide":11,"name":"ia-entry-t-2","text":"相談","textPreview":"相談","textChars":2,"textLines":1,"bbox":[618,122,144,34]}
+{"kind":"shape","id":"sh/9gza9sze","slide":11,"name":"ia-entry-3","bbox":[792,112,164,54]}
+{"kind":"textbox","id":"sh/mdobedg3","slide":11,"name":"ia-entry-t-3","text":"企業・団体","textPreview":"企業・団体","textChars":5,"textLines":1,"bbox":[802,122,144,34]}
+{"kind":"textbox","id":"sh/nehs7iho","slide":11,"name":"ia-level1","text":"カテゴリ","textPreview":"カテゴリ","textChars":4,"textLines":1,"bbox":[48,220,180,36]}
+{"kind":"shape","id":"sh/0b6tc3yx","slide":11,"name":"ia-cat","bbox":[240,204,736,84]}
+{"kind":"textbox","id":"sh/1cfa58zi","slide":11,"name":"ia-cat-text","text":"協会について｜資格・講座｜相談｜企業支援｜会員サービス｜研究・啓発｜ニュース 等","textPreview":"協会について｜資格・講座｜相談｜企業支援｜会員サービス｜研究・啓発｜ニュース 等","textChars":40,"textLines":1,"bbox":[264,226,688,42]}
+{"kind":"textbox","id":"sh/epobatgr","slide":11,"name":"ia-detail","text":"詳細","textPreview":"詳細","textChars":2,"textLines":1,"bbox":[48,340,180,36]}
+{"kind":"shape","id":"sh/zaxs3yhc","slide":11,"name":"ia-detail-box","bbox":[240,320,736,92]}
+{"kind":"textbox","id":"sh/cn6t83y1","slide":11,"name":"ia-detail-text","text":"共通テンプレートで『概要 → 対象 → 日程 → 費用 → 申込 → 問合せ』を統一","textPreview":"共通テンプレートで『概要 → 対象 → 日程 → 費用 → 申込 → 問合せ』を統一","textChars":42,"textLines":1,"bbox":[264,344,688,44]}
+{"kind":"textbox","id":"sh/dofa18z6","slide":11,"name":"ia-data","text":"データ","textPreview":"データ","textChars":3,"textLines":1,"bbox":[48,466,180,36]}
+{"kind":"shape","id":"sh/tsnip0ny","slide":11,"name":"ia-data-box","bbox":[240,444,736,100]}
+{"kind":"textbox","id":"sh/87ehgv6d","slide":11,"name":"ia-data-text","text":"講座・教室・日程・ニュース・アーカイブはページを増やさず、データとして蓄積・検索","textPreview":"講座・教室・日程・ニュース・アーカイブはページを増やさず、データとして蓄積・検索","textChars":40,"textLines":1,"bbox":[264,472,688,46]}
+{"kind":"textbox","id":"sh/7650nq5s","slide":11,"name":"ia-note","text":"ページ主管、公開期限、アーカイブ日、削除日もデータ項目として管理します。","textPreview":"ページ主管、公開期限、アーカイブ日、削除日もデータ項目として管理します。","textChars":36,"textLines":1,"bbox":[240,570,736,34]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":""}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"革新性は、奇抜さではなく“前向きに進める体験”で表現します","textShapes":5}
+{"kind":"textbox","id":"sh/1gbm9s3a","slide":12,"name":"タイトル 1","placeholder":"title","text":"革新性は、奇抜さではなく“前向きに進める体験”で表現します","textPreview":"革新性は、奇抜さではなく“前向きに進める体験”で表現します","textChars":29,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/0f2lgnmp","slide":12,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/ra943il8","slide":12,"name":"design-a-frame","bbox":[44,120,464,358]}
+{"kind":"shape","id":"sh/dcbm583y","slide":12,"name":"design-b-frame","bbox":[526,120,246,358]}
+{"kind":"shape","id":"sh/b6d4f2lc","slide":12,"name":"design-principles-bg","bbox":[792,124,200,350]}
+{"kind":"textbox","id":"sh/a543mx4r","slide":12,"name":"design-principles-title","text":"デザイン原則","textPreview":"デザイン原則","textChars":6,"textLines":1,"bbox":[810,140,164,38]}
+{"kind":"textbox","id":"sh/wvupgz6t","slide":12,"name":"design-principles-body","text":"信頼できる\n\n働く人を主役にする\n\n大きく読みやすい\n\n次の行動が分かる\n\n色だけに頼らない","textPreview":"信頼できる |  | 働く人を主役にする |  | 大きく読みやすい |  | 次の行動が分かる |  | 色だけに頼らない","textChars":46,"textLines":9,"bbox":[810,188,164,270]}
+{"kind":"shape","id":"sh/xw3q94ne","slide":12,"name":"design-bottom","bbox":[48,510,944,80]}
+{"kind":"textbox","id":"sh/atc7epon","slide":12,"name":"design-bottom-text","text":"協会の方向性とビジョンを示しながら、情報を探す機能を損なわないデザインにします。","textPreview":"協会の方向性とビジョンを示しながら、情報を探す機能を損なわないデザインにします。","textChars":40,"textLines":1,"bbox":[72,528,896,44]}
+{"kind":"image","id":"im/srmp0vmd","slide":12,"name":"","bbox":[48,156.01,456,285.98]}
+{"kind":"image","id":"im/fudovqlo","slide":12,"name":"","bbox":[555.52,124,186.95,350]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":""}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"アクセシビリティ・SEO・既存評価を同時に守ります","textShapes":9}
+{"kind":"textbox","id":"sh/q50nydsj","slide":13,"name":"タイトル 1","placeholder":"title","text":"アクセシビリティ・SEO・既存評価を同時に守ります","textPreview":"アクセシビリティ・SEO・既存評価を同時に守ります","textChars":25,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/bq9orito","slide":13,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/o3i5w3ad","slide":13,"name":"a11y-bg","bbox":[48,126,292,344]}
+{"kind":"textbox","id":"sh/p4r6p8by","slide":13,"name":"a11y-title","text":"アクセシビリティ","textPreview":"アクセシビリティ","textChars":8,"textLines":1,"bbox":[66,142,256,38]}
+{"kind":"textbox","id":"sh/21gnuts7","slide":13,"name":"a11y-body","text":"JIS X 8341-3を参考に、対象範囲と試験方法を要件定義で合意。\n\nキーボード操作、見出し構造、代替テキスト、コントラスト、フォームエラーを検証します。","textPreview":"JIS X 8341-3を参考に、対象範囲と試験方法を要件定義で合意。 |  | キーボード操作、見出し構造、代替テキスト、コントラスト、フォームエラーを検証します。","textChars":79,"textLines":3,"bbox":[66,190,256,264]}
+{"kind":"shape","id":"sh/32ponyts","slide":13,"name":"seo-bg","bbox":[374,126,292,344]}
+{"kind":"textbox","id":"sh/gzy5s3a1","slide":13,"name":"seo-title","text":"検索・被リンク","textPreview":"検索・被リンク","textChars":7,"textLines":1,"bbox":[392,142,256,38]}
+{"kind":"textbox","id":"sh/1076lobm","slide":13,"name":"seo-body","text":"旧URLから新URLへ301リダイレクト。\n\n約25,700件／6か月の外部参照を保全し、XMLサイトマップ、構造化、GA4を整備します。","textPreview":"旧URLから新URLへ301リダイレクト。 |  | 約25,700件／6か月の外部参照を保全し、XMLサイトマップ、構造化、GA4を整備します。","textChars":69,"textLines":3,"bbox":[392,190,256,264]}
+{"kind":"shape","id":"sh/hcfy9k3u","slide":13,"name":"continuity-bg","bbox":[700,126,292,344]}
+{"kind":"textbox","id":"sh/gb6x0zm9","slide":13,"name":"continuity-title","text":"運用の継続性","textPreview":"運用の継続性","textChars":6,"textLines":1,"bbox":[718,142,256,38]}
+{"kind":"textbox","id":"sh/vaxg7ulo","slide":13,"name":"continuity-body","text":"デザイン仕様、テンプレート一覧、機能一覧、移行台帳、リダイレクト表、操作手順を納品。\n\n担当者が変わっても判断根拠を残します。","textPreview":"デザイン仕様、テンプレート一覧、機能一覧、移行台帳、リダイレクト表、操作手順を納品。 |  | 担当者が変わっても判断根拠を残します。","textChars":63,"textLines":3,"bbox":[718,190,256,264]}
+{"kind":"textbox","id":"sh/u9ofyp43","slide":13,"name":"a11y-note","text":"「準拠」の範囲を曖昧にせず、対象ページ・試験項目・結果を検収資料に残します。","textPreview":"「準拠」の範囲を曖昧にせず、対象ページ・試験項目・結果を検収資料に残します。","textChars":38,"textLines":1,"bbox":[48,516,944,54]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":""}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"14","textShapes":2}
+{"kind":"textbox","id":"sh/xc7eds76","slide":14,"name":"スライド番号プレースホルダー 1","placeholder":"slideNumber","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/wbydknq1","slide":14,"name":"タイトル 2","placeholder":"title","text":"2. 職員が運用できる","textPreview":"2. 職員が運用できる","textChars":11,"textLines":1,"bbox":[62.68,269.29,914.65,90]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":""}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"デモ：LPの年間更新を一つのマスターに集約します","textShapes":10}
+{"kind":"textbox","id":"sh/547mhg3m","slide":15,"name":"タイトル 1","placeholder":"title","text":"デモ：LPの年間更新を一つのマスターに集約します","textPreview":"デモ：LPの年間更新を一つのマスターに集約します","textChars":24,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/k3y5ov21","slide":15,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/76p4jqls","slide":15,"name":"demo-flag-bg","bbox":[48,102,112,32]}
+{"kind":"textbox","id":"sh/65gnqlk7","slide":15,"name":"demo-flag-text","text":"LIVE DEMO","textPreview":"LIVE DEMO","textChars":9,"textLines":1,"bbox":[56,106,96,24]}
+{"kind":"shape","id":"sh/t87ml0ji","slide":15,"name":"lp-long-frame","bbox":[44,146,234,438]}
+{"kind":"textbox","id":"sh/na5476l8","slide":15,"name":"lp-edit-title","text":"職員が更新する項目","textPreview":"職員が更新する項目","textChars":9,"textLines":1,"bbox":[310,144,316,38]}
+{"kind":"shape","id":"sh/m9c3e1kn","slide":15,"name":"lp-data-bg","bbox":[310,190,316,276]}
+{"kind":"textbox","id":"sh/wrm9kvep","slide":15,"name":"lp-data-title","text":"LPマスター","textPreview":"LPマスター","textChars":6,"textLines":1,"bbox":[328,206,280,38]}
+{"kind":"textbox","id":"sh/hsvat0fa","slide":15,"name":"lp-data-body","text":"・申込開始／終了日\n・講座日程・次回開催月\n・3つの講座URL\n・4区分のPeatixリンク\n・満席／受付終了\n・ニュース、体験談、問合せ","textPreview":"・申込開始／終了日 | ・講座日程・次回開催月 | ・3つの講座URL | ・4区分のPeatixリンク | ・満席／受付終了 | ・ニュース、体験談、問合せ","textChars":69,"textLines":6,"bbox":[328,254,280,196]}
+{"kind":"textbox","id":"sh/upkrilwj","slide":15,"name":"lp-arrow","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[640,296,42,46]}
+{"kind":"shape","id":"sh/vqdsrqx4","slide":15,"name":"lp-output-bg","bbox":[688,190,304,276]}
+{"kind":"textbox","id":"sh/4vm9ovel","slide":15,"name":"lp-output-title","text":"自動反映","textPreview":"自動反映","textChars":4,"textLines":1,"bbox":[706,206,268,38]}
+{"kind":"textbox","id":"sh/5wvax0f6","slide":15,"name":"lp-output-body","text":"LP本文\n講座一覧\n申込ボタン\nニュース\n公開終了・アーカイブ\n\n変更は一度だけ。表示の不整合を防ぎます。","textPreview":"LP本文 | 講座一覧 | 申込ボタン | ニュース | 公開終了・アーカイブ |  | 変更は一度だけ。表示の不整合を防ぎます。","textChars":53,"textLines":7,"bbox":[706,254,268,196]}
+{"kind":"shape","id":"sh/it4rm5wv","slide":15,"name":"lp-demo-bottom","bbox":[310,500,682,80]}
+{"kind":"textbox","id":"sh/judsvqxg","slide":15,"name":"lp-demo-bottom-text","text":"操作：日程変更 → プレビュー → 承認 → 公開 → 満席で申込停止","textPreview":"操作：日程変更 → プレビュー → 承認 → 公開 → 満席で申込停止","textChars":35,"textLines":1,"bbox":[332,518,638,44]}
+{"kind":"image","id":"im/zihkze9o","slide":15,"name":"Picture 17","bbox":[48.8,173.85,224.4,382.29]}
+{"kind":"notes","id":"nt/vaxsvy10","slide":15,"text":""}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"既存Excelは“そのまま”ではなく、整形・検証して安全に取り込みます","textShapes":26}
+{"kind":"textbox","id":"sh/8z2h8bq1","slide":16,"name":"タイトル 1","placeholder":"title","text":"既存Excelは“そのまま”ではなく、整形・検証して安全に取り込みます","textPreview":"既存Excelは“そのまま”ではなく、整形・検証して安全に取り込みます","textChars":35,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/9kby1g7m","slide":16,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/ytkf2h8j","slide":16,"name":"courses-value","text":"63コース","textPreview":"63コース","textChars":5,"textLines":1,"bbox":[48,118,250,62]}
+{"kind":"textbox","id":"sh/zutgvm94","slide":16,"name":"courses-label","text":"提供Excelの講座行","textPreview":"提供Excelの講座行","textChars":11,"textLines":1,"bbox":[48,184,250,48]}
+{"kind":"textbox","id":"sh/kv2h4rqp","slide":16,"name":"branches-value","text":"13支部＋本部","textPreview":"13支部＋本部","textChars":7,"textLines":1,"bbox":[318,118,250,62]}
+{"kind":"textbox","id":"sh/lwbyxwra","slide":16,"name":"branches-label","text":"受付単位","textPreview":"受付単位","textChars":4,"textLines":1,"bbox":[318,184,250,48]}
+{"kind":"textbox","id":"sh/ip4zel83","slide":16,"name":"sessions-value","text":"基本15回","textPreview":"基本15回","textChars":5,"textLines":1,"bbox":[588,118,250,62]}
+{"kind":"textbox","id":"sh/3qdg7qpo","slide":16,"name":"sessions-label","text":"短期・例外日程あり","textPreview":"短期・例外日程あり","textChars":9,"textLines":1,"bbox":[588,184,250,48]}
+{"kind":"textbox","id":"sh/fm1gzq5o","slide":16,"name":"capacity-value","text":"969","textPreview":"969","textChars":3,"textLines":1,"bbox":[858,118,134,62]}
+{"kind":"textbox","id":"sh/e1sf65o3","slide":16,"name":"capacity-label","text":"定員合計","textPreview":"定員合計","textChars":4,"textLines":1,"bbox":[858,184,134,48]}
+{"kind":"shape","id":"sh/1ojy10ne","slide":16,"name":"rule-276","bbox":[48,276,944,2]}
+{"kind":"shape","id":"sh/gnax8v6t","slide":16,"name":"course-step-0","bbox":[48,318,208,176]}
+{"kind":"textbox","id":"sh/nqlg3a5k","slide":16,"name":"course-num-0","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[60,332,42,42]}
+{"kind":"textbox","id":"sh/2pcfa5oz","slide":16,"name":"course-title-0","text":"既存Excel","textPreview":"既存Excel","textChars":7,"textLines":1,"bbox":[66,382,172,44]}
+{"kind":"textbox","id":"sh/ps3y5knq","slide":16,"name":"course-body-0","text":"結合セル・画像・年度混在","textPreview":"結合セル・画像・年度混在","textChars":12,"textLines":1,"bbox":[66,436,172,44]}
+{"kind":"textbox","id":"sh/oruhcf65","slide":16,"name":"course-arrow-0","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[256,382,42,46]}
+{"kind":"shape","id":"sh/bulg7u5g","slide":16,"name":"course-step-1","bbox":[286,318,208,176]}
+{"kind":"textbox","id":"sh/atczepob","slide":16,"name":"course-num-1","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,332,42,42]}
+{"kind":"textbox","id":"sh/mpgj6t8j","slide":16,"name":"course-title-1","text":"取込テンプレートへ整形","textPreview":"取込テンプレートへ整形","textChars":11,"textLines":1,"bbox":[304,382,172,44]}
+{"kind":"textbox","id":"sh/7qp0zepo","slide":16,"name":"course-body-1","text":"年度／支部／形式／日程／定員","textPreview":"年度／支部／形式／日程／定員","textChars":14,"textLines":1,"bbox":[304,436,172,44]}
+{"kind":"textbox","id":"sh/8by18jq9","slide":16,"name":"course-arrow-1","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[494,382,42,46]}
+{"kind":"shape","id":"sh/9c7i1o7u","slide":16,"name":"course-step-2","bbox":[524,318,208,176]}
+{"kind":"textbox","id":"sh/ylwj2987","slide":16,"name":"course-num-2","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[536,332,42,42]}
+{"kind":"textbox","id":"sh/zm50veps","slide":16,"name":"course-title-2","text":"自動検証","textPreview":"自動検証","textChars":4,"textLines":1,"bbox":[542,382,172,44]}
+{"kind":"textbox","id":"sh/kne14jqd","slide":16,"name":"course-body-2","text":"必須漏れ・重複・日付・URL","textPreview":"必須漏れ・重複・日付・URL","textChars":14,"textLines":1,"bbox":[542,436,172,44]}
+{"kind":"textbox","id":"sh/lo7ixo7y","slide":16,"name":"course-arrow-2","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[732,382,42,46]}
+{"kind":"shape","id":"sh/ih0jedob","slide":16,"name":"course-step-3","bbox":[762,318,208,176]}
+{"kind":"textbox","id":"sh/ji9k7ypw","slide":16,"name":"course-num-3","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[774,332,42,42]}
+{"kind":"textbox","id":"sh/tcbmdcre","slide":16,"name":"course-title-3","text":"一括登録","textPreview":"一括登録","textChars":4,"textLines":1,"bbox":[780,382,172,44]}
+{"kind":"textbox","id":"sh/sb2l47at","slide":16,"name":"course-body-3","text":"講座検索・詳細・申込へ反映","textPreview":"講座検索・詳細・申込へ反映","textChars":13,"textLines":1,"bbox":[780,436,172,44]}
+{"kind":"textbox","id":"sh/rat4b298","slide":16,"name":"course-note","text":"初回だけ整形ルールを決め、以後は同じテンプレートで職員が更新できます。","textPreview":"初回だけ整形ルールを決め、以後は同じテンプレートで職員が更新できます。","textChars":35,"textLines":1,"bbox":[48,536,944,46]}
+{"kind":"notes","id":"nt/gny5sjyp","slide":16,"text":""}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"下書きから期限終了まで、公開責任を画面上で追跡します","textShapes":22}
+{"kind":"textbox","id":"sh/1c7e50ni","slide":17,"name":"タイトル 1","placeholder":"title","text":"下書きから期限終了まで、公開責任を画面上で追跡します","textPreview":"下書きから期限終了まで、公開責任を画面上で追跡します","textChars":26,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/gbedwfmx","slide":17,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/rm5czq50","slide":17,"name":"workflow-arrow-0","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[214,262,24,46]}
+{"kind":"textbox","id":"sh/6lwvql4v","slide":17,"name":"workflow-arrow-1","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[404,262,24,46]}
+{"kind":"textbox","id":"sh/t8ne10n6","slide":17,"name":"workflow-arrow-2","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[594,262,24,46]}
+{"kind":"textbox","id":"sh/snedsvml","slide":17,"name":"workflow-arrow-3","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[784,262,24,46]}
+{"kind":"shape","id":"sh/jilcvq54","slide":17,"name":"workflow-0","bbox":[48,180,166,210]}
+{"kind":"textbox","id":"sh/ihcvml4j","slide":17,"name":"workflow-title-0","text":"下書き","textPreview":"下書き","textChars":3,"textLines":1,"bbox":[60,200,142,42]}
+{"kind":"textbox","id":"sh/4by9or6l","slide":17,"name":"workflow-owner-0","text":"担当職員","textPreview":"担当職員","textChars":4,"textLines":1,"bbox":[60,264,142,34]}
+{"kind":"textbox","id":"sh/pc7qhwn6","slide":17,"name":"workflow-body-0","text":"本文・日程を入力","textPreview":"本文・日程を入力","textChars":8,"textLines":1,"bbox":[64,316,134,48]}
+{"kind":"shape","id":"sh/29grm1of","slide":17,"name":"workflow-1","bbox":[238,180,166,210]}
+{"kind":"textbox","id":"sh/3ap8fm50","slide":17,"name":"workflow-title-1","text":"プレビュー","textPreview":"プレビュー","textChars":5,"textLines":1,"bbox":[250,200,142,42]}
+{"kind":"textbox","id":"sh/gnepkr69","slide":17,"name":"workflow-owner-1","text":"担当部門","textPreview":"担当部門","textChars":4,"textLines":1,"bbox":[250,264,142,34]}
+{"kind":"textbox","id":"sh/honqdwnu","slide":17,"name":"workflow-body-1","text":"PC/SPを確認","textPreview":"PC/SPを確認","textChars":8,"textLines":1,"bbox":[254,316,134,48]}
+{"kind":"shape","id":"sh/ulw7ihoj","slide":17,"name":"workflow-2","bbox":[428,180,166,210]}
+{"kind":"textbox","id":"sh/fm58bm54","slide":17,"name":"workflow-title-2","text":"承認","textPreview":"承認","textChars":2,"textLines":1,"bbox":[440,200,142,42]}
+{"kind":"textbox","id":"sh/0ji9wb6t","slide":17,"name":"workflow-owner-2","text":"情報システム部","textPreview":"情報システム部","textChars":7,"textLines":1,"bbox":[440,264,142,34]}
+{"kind":"textbox","id":"sh/14rqpgne","slide":17,"name":"workflow-body-2","text":"公開可否を判断","textPreview":"公開可否を判断","textChars":7,"textLines":1,"bbox":[444,316,134,48]}
+{"kind":"shape","id":"sh/90nq9gfi","slide":17,"name":"workflow-3","bbox":[618,180,166,210]}
+{"kind":"textbox","id":"sh/8ze9gbyx","slide":17,"name":"workflow-title-3","text":"予約公開","textPreview":"予約公開","textChars":4,"textLines":1,"bbox":[630,200,142,42]}
+{"kind":"textbox","id":"sh/ny5876xc","slide":17,"name":"workflow-owner-3","text":"WordPress","textPreview":"WordPress","textChars":9,"textLines":1,"bbox":[630,264,142,34]}
+{"kind":"textbox","id":"sh/mxw7e1gr","slide":17,"name":"workflow-body-3","text":"指定日時に反映","textPreview":"指定日時に反映","textChars":7,"textLines":1,"bbox":[634,316,134,48]}
+{"kind":"shape","id":"sh/lwnq5gf6","slide":17,"name":"workflow-4","bbox":[808,180,166,210]}
+{"kind":"textbox","id":"sh/0vepcbyl","slide":17,"name":"workflow-title-4","text":"期限終了","textPreview":"期限終了","textChars":4,"textLines":1,"bbox":[820,200,142,42]}
+{"kind":"textbox","id":"sh/zul836xg","slide":17,"name":"workflow-owner-4","text":"WordPress","textPreview":"WordPress","textChars":9,"textLines":1,"bbox":[820,264,142,34]}
+{"kind":"textbox","id":"sh/ytc7a1gv","slide":17,"name":"workflow-body-4","text":"申込停止・アーカイブ","textPreview":"申込停止・アーカイブ","textChars":10,"textLines":1,"bbox":[824,316,134,48]}
+{"kind":"shape","id":"sh/d83q1wfa","slide":17,"name":"workflow-data","bbox":[48,438,944,106]}
+{"kind":"textbox","id":"sh/c7up8ryp","slide":17,"name":"workflow-data-text","text":"各ページに 主管部門｜承認者｜公開日｜公開期限｜アーカイブ日｜削除日 を保持。\nトップページの時期別訴求・バナー・重要告知も、予約公開・期限終了の対象です。\n期限前通知と状態一覧で、放置ページの再発を防ぎます。","textPreview":"各ページに 主管部門｜承認者｜公開日｜公開期限｜アーカイブ日｜削除日 を保持。 | トップページの時期別訴求・バナー・重要告知も、予約公開・期限終了の対象です。 | 期限前通知と状態一覧で、放置ページの再発を防ぎます。","textChars":105,"textLines":3,"bbox":[74,458,892,66]}
+{"kind":"notes","id":"nt/14bup87q","slide":17,"text":""}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"AIは草案を速め、人が品質と責任を担います","textShapes":7}
+{"kind":"textbox","id":"sh/wrelszu9","slide":18,"name":"タイトル 1","placeholder":"title","text":"AIは草案を速め、人が品質と責任を担います","textPreview":"AIは草案を速め、人が品質と責任を担います","textChars":21,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/hsn2l4bu","slide":18,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/itw3upcf","slide":18,"name":"ai-build-bg","bbox":[48,126,438,318]}
+{"kind":"textbox","id":"sh/je5knut0","slide":18,"name":"ai-build-title","text":"構築時：制作工程に含む","textPreview":"構築時：制作工程に含む","textChars":11,"textLines":1,"bbox":[66,142,402,38]}
+{"kind":"textbox","id":"sh/4felwzu5","slide":18,"name":"ai-build-body","text":"制作会社内のAI支援\n\n・現行ページの要約・整理\n・新構成に合わせた草案\n・用語・表記の統一\n・校正候補の抽出\n\n追加のAI利用料は発生しません。","textPreview":"制作会社内のAI支援 |  | ・現行ページの要約・整理 | ・新構成に合わせた草案 | ・用語・表記の統一 | ・校正候補の抽出 |  | 追加のAI利用料は発生しません。","textChars":73,"textLines":8,"bbox":[66,190,402,238]}
+{"kind":"shape","id":"sh/5gnmp4bq","slide":18,"name":"ai-operate-bg","bbox":[554,126,438,318]}
+{"kind":"textbox","id":"sh/6hw3y9sb","slide":18,"name":"ai-operate-title","text":"稼働後：別オプション","textPreview":"稼働後：別オプション","textChars":10,"textLines":1,"bbox":[572,142,402,38]}
+{"kind":"textbox","id":"sh/rip4retw","slide":18,"name":"ai-operate-body","text":"協会職員がCMSから利用\n\n・下書き生成\n・公開前チェック\n・部署別ユースケース\n・出力品質チューニング\n\n初期360万円＋月額6万円（税抜）。","textPreview":"協会職員がCMSから利用 |  | ・下書き生成 | ・公開前チェック | ・部署別ユースケース | ・出力品質チューニング |  | 初期360万円＋月額6万円（税抜）。","textChars":72,"textLines":8,"bbox":[572,190,402,238]}
+{"kind":"shape","id":"sh/fapkr6pw","slide":18,"name":"ai-governance","bbox":[48,465.6,944,168]}
+{"kind":"textbox","id":"sh/upg3i18r","slide":18,"name":"ai-governance-text","text":"ディレクター（構成・編集方針）→ AI（要約・草案・表記統一・校正候補）→ 編集責任者（事実・制度・著作権）→ 協会（最終公開承認）\nインフォネットグループはAIライティング等のサービス提供知見を有します（出典：20260715会社概要）。\n機密情報、学習利用、ログ保持、個人情報の扱いは要件定義で合意します。","textPreview":"ディレクター（構成・編集方針）→ AI（要約・草案・表記統一・校正候補）→ 編集責任者（事実・制度・著作権）→ 協会（最終公開承認） | インフォネットグループはAIライティング等のサービス提供知見を有します（出典：20260715会社概要）。 | 機密情報、学習利用、ログ...","textChars":155,"textLines":3,"bbox":[72,480,896,144]}
+{"kind":"notes","id":"nt/y5wne50z","slide":18,"text":""}
+{"kind":"slide","id":"sl/nid43ytk","slide":19,"title":"専任ライターを増やさず、AI×品質管理で、速さと一貫性を両立","textShapes":13}
+{"kind":"textbox","id":"sh/9gb6xgbi","slide":19,"name":"Title 1","placeholder":"title","text":"専任ライターを増やさず、AI×品質管理で、速さと一貫性を両立","textPreview":"専任ライターを増やさず、AI×品質管理で、速さと一貫性を両立","textChars":30,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/8v2pobax","slide":19,"name":"TextBox 2","text":"専任ライターは別途アサインしません。制作時のリライト・新規原稿は、AIを制作ツールとして使い、次の3者で品質を担保します。","textPreview":"専任ライターは別途アサインしません。制作時のリライト・新規原稿は、AIを制作ツールとして使い、次の3者で品質を担保します。","textChars":61,"textLines":1,"bbox":[33.6,91.2,969.6,38.4]}
+{"kind":"textbox","id":"sh/vitozqt8","slide":19,"name":"Rounded Rectangle 3","text":"AI（制作ツール）\n案をつくる","textPreview":"AI（制作ツール） | 案をつくる","textChars":15,"textLines":2,"bbox":[43.2,148.8,288,59.52]}
+{"kind":"textbox","id":"sh/ahk7qls3","slide":19,"name":"Rectangle 4","text":"・既存ページ・協会用語・表記ルールを参照\n・リライト案・新規原稿案を作成\n・用語・表記の統一、ページ間の整合確認","textPreview":"・既存ページ・協会用語・表記ルールを参照 | ・リライト案・新規原稿案を作成 | ・用語・表記の統一、ページ間の整合確認","textChars":56,"textLines":3,"bbox":[43.2,208.32,288,185.28]}
+{"kind":"textbox","id":"sh/xkbq10be","slide":19,"name":"Rounded Rectangle 5","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[338.88,244.8,38.4,43.2]}
+{"kind":"textbox","id":"sh/wj2psvat","slide":19,"name":"Rounded Rectangle 6","text":"ITLINE ディレクター\n品質を管理する","textPreview":"ITLINE ディレクター | 品質を管理する","textChars":21,"textLines":2,"bbox":[384,148.8,288,59.52]}
+{"kind":"textbox","id":"sh/jmd83atk","slide":19,"name":"Rectangle 7","text":"・構成・読みやすさを編集\n・SEO・アクセシビリティを確認\n・表記統一・整合の最終チェック","textPreview":"・構成・読みやすさを編集 | ・SEO・アクセシビリティを確認 | ・表記統一・整合の最終チェック","textChars":45,"textLines":3,"bbox":[384,208.32,288,185.28]}
+{"kind":"textbox","id":"sh/il47u5sz","slide":19,"name":"Rounded Rectangle 8","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[679.68,244.8,38.4,43.2]}
+{"kind":"textbox","id":"sh/cri1gnql","slide":19,"name":"Rounded Rectangle 9","text":"協会ご担当者\n事実を確認する","textPreview":"協会ご担当者 | 事実を確認する","textChars":14,"textLines":2,"bbox":[724.8,148.8,288,59.52]}
+{"kind":"textbox","id":"sh/dsri9sr6","slide":19,"name":"Rectangle 10","text":"・制度・資格・日程・金額の事実確認\n・公開前の最終承認\n・（修正指示は当社が反映）","textPreview":"・制度・資格・日程・金額の事実確認 | ・公開前の最終承認 | ・（修正指示は当社が反映）","textChars":41,"textLines":3,"bbox":[724.8,208.32,288,185.28]}
+{"kind":"textbox","id":"sh/qpgjex8f","slide":19,"name":"Rounded Rectangle 11","text":"専任ライター追加費用 0円","textPreview":"専任ライター追加費用 0円","textChars":13,"textLines":1,"bbox":[43.2,427.2,475.2,59.52]}
+{"kind":"textbox","id":"sh/rqp07290","slide":19,"name":"Rounded Rectangle 12","text":"制作時のAI利用は基本提案費用に含む","textPreview":"制作時のAI利用は基本提案費用に含む","textChars":18,"textLines":1,"bbox":[537.6,427.2,475.2,59.52]}
+{"kind":"textbox","id":"sh/0vi1k7qx","slide":19,"name":"Rectangle 13","text":"なぜAIか\n900ページ超の現行資産の整理・リライトは「大量・反復・横断整合」の作業です。決めた用語・構成・表記ルールを全ページへ一貫して適用できることがAIの強みであり、判断と最終責任は人（ディレクター・協会ご担当者）が持ちます。","textPreview":"なぜAIか | 900ページ超の現行資産の整理・リライトは「大量・反復・横断整合」の作業です。決めた用語・構成・表記ルールを全ページへ一貫して適用できることがAIの強みであり、判断と最終責任は人（ディレクター・協会ご担当者）が持ちます。","textChars":116,"textLines":2,"bbox":[43.2,513.6,969.6,110.4]}
+{"kind":"notes","id":"nt/nid43ytk","slide":19,"text":""}
+{"kind":"slide","id":"sl/zyxsni5k","slide":20,"title":"有償AIで、LPのデザイン選択から下層配置まで支援します","textShapes":21}
+{"kind":"textbox","id":"sh/qpwjmh8n","slide":20,"name":"タイトル 1","placeholder":"title","text":"有償AIで、LPのデザイン選択から下層配置まで支援します","textPreview":"有償AIで、LPのデザイン選択から下層配置まで支援します","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/4nu1krqh","slide":20,"name":"workflow-arrow-0","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[214,262,24,46]}
+{"kind":"textbox","id":"sh/po3itc72","slide":20,"name":"workflow-arrow-1","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[404,262,24,46]}
+{"kind":"textbox","id":"sh/2lczih8r","slide":20,"name":"workflow-arrow-2","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[594,262,24,46]}
+{"kind":"textbox","id":"sh/3ml0rmpw","slide":20,"name":"workflow-arrow-3","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[784,262,24,46]}
+{"kind":"shape","id":"sh/gjuhg7ql","slide":20,"name":"workflow-0","bbox":[48,180,166,210]}
+{"kind":"textbox","id":"sh/hk3ipcr6","slide":20,"name":"workflow-title-0","text":"要件入力","textPreview":"要件入力","textChars":4,"textLines":1,"bbox":[60,200,142,42]}
+{"kind":"textbox","id":"sh/dkfmp4zy","slide":20,"name":"workflow-owner-0","text":"対象LP・目的","textPreview":"対象LP・目的","textChars":7,"textLines":1,"bbox":[60,264,142,34]}
+{"kind":"textbox","id":"sh/cj65wzyd","slide":20,"name":"workflow-body-0","text":"現行URL・要望を指定","textPreview":"現行URL・要望を指定","textChars":11,"textLines":1,"bbox":[64,316,134,48]}
+{"kind":"shape","id":"sh/rid4nuhs","slide":20,"name":"workflow-1","bbox":[238,180,166,210]}
+{"kind":"textbox","id":"sh/qh4nupg7","slide":20,"name":"workflow-title-1","text":"デザイン選択","textPreview":"デザイン選択","textChars":6,"textLines":1,"bbox":[250,200,142,42]}
+{"kind":"textbox","id":"sh/pwvmlkzm","slide":20,"name":"workflow-owner-1","text":"テンプレ／独自案","textPreview":"テンプレ／独自案","textChars":8,"textLines":1,"bbox":[250,264,142,34]}
+{"kind":"textbox","id":"sh/4vm5sfy1","slide":20,"name":"workflow-body-1","text":"複数候補から選択","textPreview":"複数候補から選択","textChars":8,"textLines":1,"bbox":[254,316,134,48]}
+{"kind":"shape","id":"sh/3ud4juhg","slide":20,"name":"workflow-2","bbox":[428,180,166,210]}
+{"kind":"textbox","id":"sh/2t4nqpgb","slide":20,"name":"workflow-title-2","text":"AI生成","textPreview":"AI生成","textChars":4,"textLines":1,"bbox":[440,200,142,42]}
+{"kind":"textbox","id":"sh/hsvmhkzq","slide":20,"name":"workflow-owner-2","text":"構成・コード","textPreview":"構成・コード","textChars":6,"textLines":1,"bbox":[440,264,142,34]}
+{"kind":"textbox","id":"sh/grm5ofy5","slide":20,"name":"workflow-body-2","text":"文章・画像・UIを生成","textPreview":"文章・画像・UIを生成","textChars":11,"textLines":1,"bbox":[444,316,134,48]}
+{"kind":"shape","id":"sh/8b654f61","slide":20,"name":"workflow-3","bbox":[618,180,166,210]}
+{"kind":"textbox","id":"sh/tcz6dk7m","slide":20,"name":"workflow-title-3","text":"検証・承認","textPreview":"検証・承認","textChars":5,"textLines":1,"bbox":[630,200,142,42]}
+{"kind":"textbox","id":"sh/69on25ov","slide":20,"name":"workflow-owner-3","text":"表示・リンク・事実","textPreview":"表示・リンク・事実","textChars":9,"textLines":1,"bbox":[630,264,142,34]}
+{"kind":"textbox","id":"sh/7ax4bapg","slide":20,"name":"workflow-body-3","text":"差分を一覧で確認","textPreview":"差分を一覧で確認","textChars":8,"textLines":1,"bbox":[634,316,134,48]}
+{"kind":"shape","id":"sh/k7650f6p","slide":20,"name":"workflow-4","bbox":[808,180,166,210]}
+{"kind":"textbox","id":"sh/l8fm907a","slide":20,"name":"workflow-title-4","text":"下層へ配置","textPreview":"下層へ配置","textChars":5,"textLines":1,"bbox":[820,200,142,42]}
+{"kind":"textbox","id":"sh/y5ony58z","slide":20,"name":"workflow-owner-4","text":"ステージング","textPreview":"ステージング","textChars":6,"textLines":1,"bbox":[820,264,142,34]}
+{"kind":"textbox","id":"sh/j6x47ap4","slide":20,"name":"workflow-body-4","text":"指定ディレクトリへ反映","textPreview":"指定ディレクトリへ反映","textChars":11,"textLines":1,"bbox":[824,316,134,48]}
+{"kind":"shape","id":"sh/43q5cz69","slide":20,"name":"workflow-data","bbox":[48,438,944,106]}
+{"kind":"textbox","id":"sh/54j6l47e","slide":20,"name":"workflow-data-text","text":"既存5LPの移行・再構成は基本提案に含みます。稼働後に職員が使う本機能は、有償AIオプションの拡張デモです。\nAIが公開候補まで生成・配置し、最終公開は担当者が承認します。差分・履歴・ロールバックを保持します。","textPreview":"既存5LPの移行・再構成は基本提案に含みます。稼働後に職員が使う本機能は、有償AIオプションの拡張デモです。 | AIが公開候補まで生成・配置し、最終公開は担当者が承認します。差分・履歴・ロールバックを保持します。","textChars":105,"textLines":2,"bbox":[74,458,892,66]}
+{"kind":"notes","id":"nt/zyxsni5k","slide":20,"text":""}
+{"kind":"slide","id":"sl/m1wvqtk3","slide":21,"title":"19","textShapes":2}
+{"kind":"textbox","id":"sh/1gbmxs7a","slide":21,"name":"スライド番号プレースホルダー 1","placeholder":"slideNumber","text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/0f2lon6p","slide":21,"name":"タイトル 2","placeholder":"title","text":"3. 移行を確実にする","textPreview":"3. 移行を確実にする","textChars":11,"textLines":1,"bbox":[62.68,269.29,914.65,90]}
+{"kind":"notes","id":"nt/m1wvqtk3","slide":21,"text":""}
+{"kind":"slide","id":"sl/5onypobq","slide":22,"title":"移行台帳で、911ページを一件ずつ追跡します","textShapes":40}
+{"kind":"textbox","id":"sh/6987itcr","slide":22,"name":"タイトル 1","placeholder":"title","text":"移行台帳で、911ページを一件ずつ追跡します","textPreview":"移行台帳で、911ページを一件ずつ追跡します","textChars":22,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/7a18rydc","slide":22,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/k7qpgjul","slide":22,"name":"takeaway","text":"URL・主管部門・処理・新URL・301・承認を、一つの台帳で管理します。","textPreview":"URL・主管部門・処理・新URL・301・承認を、一つの台帳で管理します。","textChars":37,"textLines":1,"bbox":[48,104,944,58]}
+{"kind":"shape","id":"sh/58zqpov6","slide":22,"name":"ledger-head-cell-0","bbox":[48,178,240,48]}
+{"kind":"textbox","id":"sh/il87etcv","slide":22,"name":"ledger-head-text-0","text":"現行ページ（例）","textPreview":"現行ページ（例）","textChars":8,"textLines":1,"bbox":[57,184,222,36]}
+{"kind":"shape","id":"sh/jmh8nyd0","slide":22,"name":"ledger-head-cell-1","bbox":[288,178,110,48]}
+{"kind":"textbox","id":"sh/43u9snu5","slide":22,"name":"ledger-head-text-1","text":"主管","textPreview":"主管","textChars":2,"textLines":1,"bbox":[297,184,92,36]}
+{"kind":"shape","id":"sh/p43q1sva","slide":22,"name":"ledger-head-cell-2","bbox":[398,178,118,48]}
+{"kind":"textbox","id":"sh/p4z6tcri","slide":22,"name":"ledger-head-text-2","text":"処理","textPreview":"処理","textChars":2,"textLines":1,"bbox":[407,184,100,36]}
+{"kind":"shape","id":"sh/436507qx","slide":22,"name":"ledger-head-cell-3","bbox":[516,178,260,48]}
+{"kind":"textbox","id":"sh/3ixor29c","slide":22,"name":"ledger-head-text-3","text":"新URL／行先","textPreview":"新URL／行先","textChars":7,"textLines":1,"bbox":[525,184,242,36]}
+{"kind":"shape","id":"sh/2honyx8r","slide":22,"name":"ledger-head-cell-4","bbox":[776,178,86,48]}
+{"kind":"textbox","id":"sh/hgf6pcr6","slide":22,"name":"ledger-head-text-4","text":"301","textPreview":"301","textChars":3,"textLines":1,"bbox":[785,184,68,36]}
+{"kind":"shape","id":"sh/gf65w7ql","slide":22,"name":"ledger-head-cell-5","bbox":[862,178,130,48]}
+{"kind":"textbox","id":"sh/fexon290","slide":22,"name":"ledger-head-text-5","text":"承認","textPreview":"承認","textChars":2,"textLines":1,"bbox":[871,184,112,36]}
+{"kind":"shape","id":"sh/udonux8v","slide":22,"name":"ledger-0-cell-0","bbox":[48,226,240,56]}
+{"kind":"textbox","id":"sh/1cj61w7q","slide":22,"name":"ledger-0-text-0","text":"協会について／沿革","textPreview":"協会について／沿革","textChars":9,"textLines":1,"bbox":[57,232,222,44]}
+{"kind":"shape","id":"sh/0bap8rq5","slide":22,"name":"ledger-0-cell-1","bbox":[288,226,110,56]}
+{"kind":"textbox","id":"sh/krihkz2d","slide":22,"name":"ledger-0-text-1","text":"総務","textPreview":"総務","textChars":2,"textLines":1,"bbox":[297,232,92,44]}
+{"kind":"shape","id":"sh/lsrit4jy","slide":22,"name":"ledger-0-cell-2","bbox":[398,226,118,56]}
+{"kind":"textbox","id":"sh/yp0zipk7","slide":22,"name":"ledger-0-text-2","text":"移行","textPreview":"移行","textChars":2,"textLines":1,"bbox":[407,232,100,44]}
+{"kind":"shape","id":"sh/jq90ru1s","slide":22,"name":"ledger-0-cell-3","bbox":[516,226,260,56]}
+{"kind":"textbox","id":"sh/wnihgf2h","slide":22,"name":"ledger-0-text-3","text":"/association/history","textPreview":"/association/history","textChars":20,"textLines":1,"bbox":[525,232,242,44]}
+{"kind":"shape","id":"sh/xoripkj2","slide":22,"name":"ledger-0-cell-4","bbox":[776,226,86,56]}
+{"kind":"textbox","id":"sh/al0zepkb","slide":22,"name":"ledger-0-text-4","text":"有","textPreview":"有","textChars":1,"textLines":1,"bbox":[785,232,68,44]}
+{"kind":"shape","id":"sh/bm9gnu1w","slide":22,"name":"ledger-0-cell-5","bbox":[862,226,130,56]}
+{"kind":"textbox","id":"sh/ozyhcf25","slide":22,"name":"ledger-0-text-5","text":"確認待","textPreview":"確認待","textChars":3,"textLines":1,"bbox":[871,232,112,44]}
+{"kind":"shape","id":"sh/907ylkjq","slide":22,"name":"ledger-1-cell-0","bbox":[48,282,240,56]}
+{"kind":"textbox","id":"sh/rup0va5s","slide":22,"name":"ledger-1-text-0","text":"2025年度 講座日程","textPreview":"2025年度 講座日程","textChars":11,"textLines":1,"bbox":[57,288,222,44]}
+{"kind":"shape","id":"sh/qtwz2547","slide":22,"name":"ledger-1-cell-1","bbox":[288,282,110,56]}
+{"kind":"textbox","id":"sh/dw7ixkni","slide":22,"name":"ledger-1-text-1","text":"養成","textPreview":"養成","textChars":2,"textLines":1,"bbox":[297,288,92,44]}
+{"kind":"shape","id":"sh/cvy14fmx","slide":22,"name":"ledger-1-cell-2","bbox":[398,282,118,56]}
+{"kind":"textbox","id":"sh/zyp0za5o","slide":22,"name":"ledger-1-text-2","text":"DB統合","textPreview":"DB統合","textChars":4,"textLines":1,"bbox":[407,288,100,44]}
+{"kind":"shape","id":"sh/exgj6p43","slide":22,"name":"ledger-1-cell-3","bbox":[516,282,260,56]}
+{"kind":"textbox","id":"sh/1k7i1knu","slide":22,"name":"ledger-1-text-3","text":"講座マスター","textPreview":"講座マスター","textChars":6,"textLines":1,"bbox":[525,288,242,44]}
+{"kind":"shape","id":"sh/0jy18fm9","slide":22,"name":"ledger-1-cell-4","bbox":[776,282,86,56]}
+{"kind":"textbox","id":"sh/nm903u5k","slide":22,"name":"ledger-1-text-4","text":"有","textPreview":"有","textChars":1,"textLines":1,"bbox":[785,288,68,44]}
+{"kind":"shape","id":"sh/ml0jap4f","slide":22,"name":"ledger-1-cell-5","bbox":[862,282,130,56]}
+{"kind":"textbox","id":"sh/65836tcb","slide":22,"name":"ledger-1-text-5","text":"承認済","textPreview":"承認済","textChars":3,"textLines":1,"bbox":[871,288,112,44]}
+{"kind":"shape","id":"sh/7qhkzytw","slide":22,"name":"ledger-2-cell-0","bbox":[48,338,240,56]}
+{"kind":"textbox","id":"sh/8rql83uh","slide":22,"name":"ledger-2-text-0","text":"終了済みのお知らせ","textPreview":"終了済みのお知らせ","textChars":9,"textLines":1,"bbox":[57,344,222,44]}
+{"kind":"shape","id":"sh/tsz218b2","slide":22,"name":"ledger-2-cell-1","bbox":[288,338,110,56]}
+{"kind":"textbox","id":"sh/ut83adcn","slide":22,"name":"ledger-2-text-1","text":"広報","textPreview":"広報","textChars":2,"textLines":1,"bbox":[297,344,92,44]}
+{"kind":"shape","id":"sh/vuhk3it8","slide":22,"name":"ledger-2-cell-2","bbox":[398,338,118,56]}
+{"kind":"textbox","id":"sh/gvqlcnud","slide":22,"name":"ledger-2-text-2","text":"保管","textPreview":"保管","textChars":2,"textLines":1,"bbox":[407,344,100,44]}
+{"kind":"shape","id":"sh/hwz258by","slide":22,"name":"ledger-2-cell-3","bbox":[516,338,260,56]}
+{"kind":"textbox","id":"sh/ax4jy9c3","slide":22,"name":"ledger-2-text-3","text":"アーカイブ","textPreview":"アーカイブ","textChars":5,"textLines":1,"bbox":[525,344,242,44]}
+{"kind":"shape","id":"sh/byxkreto","slide":22,"name":"ledger-2-cell-4","bbox":[776,338,86,56]}
+{"kind":"textbox","id":"sh/ds36xcv6","slide":22,"name":"ledger-2-text-4","text":"有","textPreview":"有","textChars":1,"textLines":1,"bbox":[785,344,68,44]}
+{"kind":"shape","id":"sh/sru54rel","slide":22,"name":"ledger-2-cell-5","bbox":[862,338,130,56]}
+{"kind":"textbox","id":"sh/rqlovmdg","slide":22,"name":"ledger-2-text-5","text":"承認済","textPreview":"承認済","textChars":3,"textLines":1,"bbox":[871,344,112,44]}
+{"kind":"shape","id":"sh/qpcn2hwv","slide":22,"name":"ledger-3-cell-0","bbox":[48,394,240,56]}
+{"kind":"textbox","id":"sh/1gn61wvi","slide":22,"name":"ledger-3-text-0","text":"J-Lab","textPreview":"J-Lab","textChars":5,"textLines":1,"bbox":[57,400,222,44]}
+{"kind":"shape","id":"sh/0vu58rex","slide":22,"name":"ledger-3-cell-1","bbox":[288,394,110,56]}
+{"kind":"textbox","id":"sh/fulozmdc","slide":22,"name":"ledger-3-text-1","text":"担当部","textPreview":"担当部","textChars":3,"textLines":1,"bbox":[297,400,92,44]}
+{"kind":"shape","id":"sh/etcn6hwr","slide":22,"name":"ledger-3-cell-2","bbox":[398,394,118,56]}
+{"kind":"textbox","id":"sh/hkjmpsvy","slide":22,"name":"ledger-3-text-2","text":"外部リンク","textPreview":"外部リンク","textChars":5,"textLines":1,"bbox":[407,400,100,44]}
+{"kind":"shape","id":"sh/gza5wnet","slide":22,"name":"ledger-3-cell-3","bbox":[516,394,260,56]}
+{"kind":"textbox","id":"sh/8fyxsrql","slide":22,"name":"ledger-3-text-3","text":"j-lab…","textPreview":"j-lab…","textChars":6,"textLines":1,"bbox":[525,400,242,44]}
+{"kind":"shape","id":"sh/tg7e1w76","slide":22,"name":"ledger-3-cell-4","bbox":[776,394,86,56]}
+{"kind":"textbox","id":"sh/6dwfqh8v","slide":22,"name":"ledger-3-text-4","text":"不要","textPreview":"不要","textChars":2,"textLines":1,"bbox":[785,400,68,44]}
+{"kind":"shape","id":"sh/7e5wzm90","slide":22,"name":"ledger-3-cell-5","bbox":[862,394,130,56]}
+{"kind":"textbox","id":"sh/gjyxwbqx","slide":22,"name":"ledger-3-text-5","text":"確認待","textPreview":"確認待","textChars":3,"textLines":1,"bbox":[871,400,112,44]}
+{"kind":"shape","id":"sh/hk7e5g7i","slide":22,"name":"ledger-4-cell-0","bbox":[48,450,240,56]}
+{"kind":"textbox","id":"sh/uhgfu18r","slide":22,"name":"ledger-4-text-0","text":"重複した旧ページ","textPreview":"重複した旧ページ","textChars":8,"textLines":1,"bbox":[57,456,222,44]}
+{"kind":"shape","id":"sh/vipw36pc","slide":22,"name":"ledger-4-cell-1","bbox":[288,450,110,56]}
+{"kind":"textbox","id":"sh/47ix0bqt","slide":22,"name":"ledger-4-text-1","text":"各部","textPreview":"各部","textChars":2,"textLines":1,"bbox":[297,456,92,44]}
+{"kind":"shape","id":"sh/58re9g7e","slide":22,"name":"ledger-4-cell-2","bbox":[398,450,118,56]}
+{"kind":"textbox","id":"sh/f2t0za9g","slide":22,"name":"ledger-4-text-2","text":"削除","textPreview":"削除","textChars":2,"textLines":1,"bbox":[407,456,100,44]}
+{"kind":"shape","id":"sh/e1kz65sv","slide":22,"name":"ledger-4-cell-3","bbox":[516,450,260,56]}
+{"kind":"textbox","id":"sh/14bi1krm","slide":22,"name":"ledger-4-text-3","text":"統合先へ","textPreview":"統合先へ","textChars":4,"textLines":1,"bbox":[525,456,242,44]}
+{"kind":"shape","id":"sh/032h8fa1","slide":22,"name":"ledger-4-cell-4","bbox":[776,450,86,56]}
+{"kind":"textbox","id":"sh/re90va9k","slide":22,"name":"ledger-4-text-4","text":"有","textPreview":"有","textChars":1,"textLines":1,"bbox":[785,456,68,44]}
+{"kind":"shape","id":"sh/qd0z25sz","slide":22,"name":"ledger-4-cell-5","bbox":[862,450,130,56]}
+{"kind":"textbox","id":"sh/d0bixkrq","slide":22,"name":"ledger-4-text-5","text":"未確認","textPreview":"未確認","textChars":3,"textLines":1,"bbox":[871,456,112,44]}
+{"kind":"textbox","id":"sh/sf2h4fa5","slide":22,"name":"ledger-note","text":"※記載例。台帳は要件定義で協会と共同確定し、承認済みの行だけを制作・移行します。","textPreview":"※記載例。台帳は要件定義で協会と共同確定し、承認済みの行だけを制作・移行します。","textChars":40,"textLines":1,"bbox":[48,532,944,38]}
+{"kind":"notes","id":"nt/5onypobq","slide":22,"text":""}
+{"kind":"slide","id":"sl/c7uhcr6t","slide":23,"title":"移行方法ごとに、協会とベンダーの作業を分けます","textShapes":27}
+{"kind":"textbox","id":"sh/90vqdczq","slide":23,"name":"タイトル 1","placeholder":"title","text":"移行方法ごとに、協会とベンダーの作業を分けます","textPreview":"移行方法ごとに、協会とベンダーの作業を分けます","textChars":23,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/8zm9k7y5","slide":23,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/v2d8fmhw","slide":23,"name":"mig-head-cell-0","bbox":[48,118,180,48]}
+{"kind":"textbox","id":"sh/a14rmhgb","slide":23,"name":"mig-head-text-0","text":"判定","textPreview":"判定","textChars":2,"textLines":1,"bbox":[57,124,162,36]}
+{"kind":"shape","id":"sh/xovqhcz2","slide":23,"name":"mig-head-cell-1","bbox":[228,118,330,48]}
+{"kind":"textbox","id":"sh/w3m9o7yh","slide":23,"name":"mig-head-text-1","text":"ベンダー作業","textPreview":"ベンダー作業","textChars":6,"textLines":1,"bbox":[237,124,312,36]}
+{"kind":"shape","id":"sh/jqd8jmhs","slide":23,"name":"mig-head-cell-2","bbox":[558,118,260,48]}
+{"kind":"textbox","id":"sh/ip4rqhgn","slide":23,"name":"mig-head-text-2","text":"協会作業","textPreview":"協会作業","textChars":4,"textLines":1,"bbox":[567,124,242,36]}
+{"kind":"shape","id":"sh/sby90zm1","slide":23,"name":"mig-head-cell-3","bbox":[818,118,174,48]}
+{"kind":"textbox","id":"sh/tc7at436","slide":23,"name":"mig-head-text-3","text":"例","textPreview":"例","textChars":1,"textLines":1,"bbox":[827,124,156,36]}
+{"kind":"shape","id":"sh/69gry94v","slide":23,"name":"mig-0-cell-0","bbox":[48,166,180,72]}
+{"kind":"textbox","id":"sh/rapsrelg","slide":23,"name":"mig-0-text-0","text":"そのまま移行","textPreview":"そのまま移行","textChars":6,"textLines":1,"bbox":[57,172,162,60]}
+{"kind":"shape","id":"sh/0fi94jmx","slide":23,"name":"mig-0-cell-1","bbox":[228,166,330,72]}
+{"kind":"textbox","id":"sh/1graxo3i","slide":23,"name":"mig-0-text-1","text":"抽出・新テンプレートへ転記・画像整理","textPreview":"抽出・新テンプレートへ転記・画像整理","textChars":18,"textLines":1,"bbox":[237,172,312,60]}
+{"kind":"shape","id":"sh/edgr294r","slide":23,"name":"mig-0-cell-2","bbox":[558,166,260,72]}
+{"kind":"textbox","id":"sh/fepsvelc","slide":23,"name":"mig-0-text-2","text":"内容確認・承認","textPreview":"内容確認・承認","textChars":7,"textLines":1,"bbox":[567,172,242,60]}
+{"kind":"shape","id":"sh/oji9832t","slide":23,"name":"mig-0-cell-3","bbox":[818,166,174,72]}
+{"kind":"textbox","id":"sh/p4ra1o3e","slide":23,"name":"mig-0-text-3","text":"沿革・方針","textPreview":"沿革・方針","textChars":5,"textLines":1,"bbox":[827,172,156,60]}
+{"kind":"shape","id":"sh/x0nalovi","slide":23,"name":"mig-1-cell-0","bbox":[48,238,180,72]}
+{"kind":"textbox","id":"sh/wze9cjud","slide":23,"name":"mig-1-text-0","text":"更新して移行","textPreview":"更新して移行","textChars":6,"textLines":1,"bbox":[57,244,162,60]}
+{"kind":"shape","id":"sh/by58jeds","slide":23,"name":"mig-1-cell-1","bbox":[228,238,330,72]}
+{"kind":"textbox","id":"sh/axwratc7","slide":23,"name":"mig-1-text-1","text":"AI支援草案・編集・校正・転記","textPreview":"AI支援草案・編集・校正・転記","textChars":15,"textLines":1,"bbox":[237,244,312,60]}
+{"kind":"shape","id":"sh/l47ap8vu","slide":23,"name":"mig-1-cell-2","bbox":[558,238,260,72]}
+{"kind":"textbox","id":"sh/k3y9g3u9","slide":23,"name":"mig-1-text-2","text":"制度・事実確認・承認","textPreview":"制度・事実確認・承認","textChars":10,"textLines":1,"bbox":[567,244,242,60]}
+{"kind":"shape","id":"sh/j2psnydo","slide":23,"name":"mig-1-cell-3","bbox":[818,238,174,72]}
+{"kind":"textbox","id":"sh/y1gretc3","slide":23,"name":"mig-1-text-3","text":"講座案内","textPreview":"講座案内","textChars":4,"textLines":1,"bbox":[827,244,156,60]}
+{"kind":"shape","id":"sh/183qd4vq","slide":23,"name":"mig-2-cell-0","bbox":[48,310,180,72]}
+{"kind":"textbox","id":"sh/07u94ze5","slide":23,"name":"mig-2-text-0","text":"統合・DB化","textPreview":"統合・DB化","textChars":6,"textLines":1,"bbox":[57,316,162,60]}
+{"kind":"shape","id":"sh/qds7e5sn","slide":23,"name":"mig-2-cell-1","bbox":[228,310,330,72]}
+{"kind":"textbox","id":"sh/re1onat8","slide":23,"name":"mig-2-text-1","text":"共通化・データ整形・一括登録","textPreview":"共通化・データ整形・一括登録","textChars":14,"textLines":1,"bbox":[237,316,312,60]}
+{"kind":"shape","id":"sh/szapgfat","slide":23,"name":"mig-2-cell-2","bbox":[558,310,260,72]}
+{"kind":"textbox","id":"sh/d0j6pkbe","slide":23,"name":"mig-2-text-2","text":"統合ルール・データ確認","textPreview":"統合ルール・データ確認","textChars":11,"textLines":1,"bbox":[567,316,242,60]}
+{"kind":"shape","id":"sh/e1s7ipsz","slide":23,"name":"mig-2-cell-3","bbox":[818,310,174,72]}
+{"kind":"textbox","id":"sh/f2lorutk","slide":23,"name":"mig-2-text-3","text":"日程・教室","textPreview":"日程・教室","textChars":5,"textLines":1,"bbox":[827,316,156,60]}
+{"kind":"shape","id":"sh/03upkfa5","slide":23,"name":"mig-3-cell-0","bbox":[48,382,180,72]}
+{"kind":"textbox","id":"sh/1436tkba","slide":23,"name":"mig-3-text-0","text":"アーカイブ／削除","textPreview":"アーカイブ／削除","textChars":8,"textLines":1,"bbox":[57,388,162,60]}
+{"kind":"shape","id":"sh/u58n6lcv","slide":23,"name":"mig-3-cell-1","bbox":[228,382,330,72]}
+{"kind":"textbox","id":"sh/v6hofqt0","slide":23,"name":"mig-3-text-1","text":"保管・削除・301設定・検証","textPreview":"保管・削除・301設定・検証","textChars":14,"textLines":1,"bbox":[237,388,312,60]}
+{"kind":"shape","id":"sh/bqpcnihs","slide":23,"name":"mig-3-cell-2","bbox":[558,382,260,72]}
+{"kind":"textbox","id":"sh/apgvud07","slide":23,"name":"mig-3-text-2","text":"保存年限・削除承認","textPreview":"保存年限・削除承認","textChars":9,"textLines":1,"bbox":[567,388,242,60]}
+{"kind":"shape","id":"sh/xs7upszy","slide":23,"name":"mig-3-cell-3","bbox":[818,382,174,72]}
+{"kind":"textbox","id":"sh/wrydwnid","slide":23,"name":"mig-3-text-3","text":"終了告知","textPreview":"終了告知","textChars":4,"textLines":1,"bbox":[827,388,156,60]}
+{"kind":"shape","id":"sh/ju9wr2ho","slide":23,"name":"mig-4-cell-0","bbox":[48,454,180,72]}
+{"kind":"textbox","id":"sh/yt0vyx0j","slide":23,"name":"mig-4-text-0","text":"外部リンク","textPreview":"外部リンク","textChars":5,"textLines":1,"bbox":[57,460,162,60]}
+{"kind":"shape","id":"sh/lwretszu","slide":23,"name":"mig-4-cell-1","bbox":[228,454,330,72]}
+{"kind":"textbox","id":"sh/kvid07i9","slide":23,"name":"mig-4-text-1","text":"リンク設定・疎通確認","textPreview":"リンク設定・疎通確認","textChars":10,"textLines":1,"bbox":[237,460,312,60]}
+{"kind":"shape","id":"sh/7i9wv2h0","slide":23,"name":"mig-4-cell-2","bbox":[558,454,260,72]}
+{"kind":"textbox","id":"sh/6h0v2x0f","slide":23,"name":"mig-4-text-2","text":"移行先・主管確認","textPreview":"移行先・主管確認","textChars":8,"textLines":1,"bbox":[567,460,242,60]}
+{"kind":"shape","id":"sh/4n2ds7et","slide":23,"name":"mig-4-cell-3","bbox":[818,454,174,72]}
+{"kind":"textbox","id":"sh/5obulcfy","slide":23,"name":"mig-4-text-3","text":"J-Lab","textPreview":"J-Lab","textChars":5,"textLines":1,"bbox":[827,460,156,60]}
+{"kind":"shape","id":"sh/ilkbqxwn","slide":23,"name":"mig-bottom","bbox":[48,548,944,81.6]}
+{"kind":"textbox","id":"sh/3mtcj2x8","slide":23,"name":"mig-bottom-text","text":"『新規原稿作成は不要』でも、内容確認と承認は必要です。ここを作業計画に織り込みます。\n既存画像は抽出・整理・権利確認のうえ移行します。新規撮影・有料素材・イラスト制作は、事前に範囲と費用を合意します。","textPreview":"『新規原稿作成は不要』でも、内容確認と承認は必要です。ここを作業計画に織り込みます。 | 既存画像は抽出・整理・権利確認のうえ移行します。新規撮影・有料素材・イラスト制作は、事前に範囲と費用を合意します。","textChars":100,"textLines":2,"bbox":[68,558,904,62.4]}
+{"kind":"notes","id":"nt/c7uhcr6t","slide":23,"text":""}
+{"kind":"slide","id":"sl/7qto7e10","slide":24,"title":"協会側の作業量を、現時点の算定式で見える化します","textShapes":12}
+{"kind":"textbox","id":"sh/1sfqxsv6","slide":24,"name":"タイトル 1","placeholder":"title","text":"協会側の作業量を、現時点の算定式で見える化します","textPreview":"協会側の作業量を、現時点の算定式で見える化します","textChars":24,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/0r6p4nul","slide":24,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/nux8zidc","slide":24,"name":"workload-note","text":"現時点の試算（協会全体・プロジェクト期間）。移行台帳確定時に件数と担当を更新します。","textPreview":"現時点の試算（協会全体・プロジェクト期間）。移行台帳確定時に件数と担当を更新します。","textChars":42,"textLines":1,"bbox":[48,104,944,36]}
+{"kind":"shape","id":"sh/2to76dcr","slide":24,"name":"wl-pages-bg","bbox":[48,158,450,164]}
+{"kind":"textbox","id":"sh/9wzq1svi","slide":24,"name":"wl-pages-title","text":"常設ページ確認：約33〜67時間","textPreview":"常設ページ確認：約33〜67時間","textChars":16,"textLines":1,"bbox":[66,174,414,38]}
+{"kind":"textbox","id":"sh/ov6p8nux","slide":24,"name":"wl-pages-body","text":"100Pの場合 約33時間／200Pの場合 約67時間\n（1Pあたり 初回15分＋最終5分 で試算）","textPreview":"100Pの場合 約33時間／200Pの場合 約67時間 | （1Pあたり 初回15分＋最終5分 で試算）","textChars":50,"textLines":2,"bbox":[66,222,414,84]}
+{"kind":"shape","id":"sh/3ydonyd8","slide":24,"name":"wl-lp-bg","bbox":[542,158,450,164]}
+{"kind":"textbox","id":"sh/ix47utcn","slide":24,"name":"wl-lp-title","text":"LP確認：約7.5時間","textPreview":"LP確認：約7.5時間","textChars":11,"textLines":1,"bbox":[560,174,414,38]}
+{"kind":"textbox","id":"sh/8veh8ril","slide":24,"name":"wl-lp-body","text":"5LP × 2回 × 45分\n＝ 450分／協会全体","textPreview":"5LP × 2回 × 45分 | ＝ 450分／協会全体","textChars":26,"textLines":2,"bbox":[560,222,414,84]}
+{"kind":"shape","id":"sh/9wni1wjq","slide":24,"name":"wl-course-bg","bbox":[48,348,450,164]}
+{"kind":"textbox","id":"sh/mtwz6h0f","slide":24,"name":"wl-course-title","text":"講座データ確認：約4.2時間","textPreview":"講座データ確認：約4.2時間","textChars":14,"textLines":1,"bbox":[66,364,414,38]}
+{"kind":"textbox","id":"sh/nu50zm10","slide":24,"name":"wl-course-body","text":"63件 × 3分 ＋ 最終確認60分\n＝ 249分／協会全体","textPreview":"63件 × 3分 ＋ 最終確認60分 | ＝ 249分／協会全体","textChars":30,"textLines":2,"bbox":[66,412,414,84]}
+{"kind":"shape","id":"sh/wzyhcrih","slide":24,"name":"wl-decisions-bg","bbox":[542,348,450,164]}
+{"kind":"textbox","id":"sh/x07i5wj2","slide":24,"name":"wl-decisions-title","text":"主要判断：約9時間","textPreview":"主要判断：約9時間","textChars":9,"textLines":1,"bbox":[560,364,414,38]}
+{"kind":"textbox","id":"sh/axgza10b","slide":24,"name":"wl-decisions-body","text":"移行・設計・デザイン・受入の会議\n6回 × 90分","textPreview":"移行・設計・デザイン・受入の会議 | 6回 × 90分","textChars":25,"textLines":2,"bbox":[560,412,414,84]}
+{"kind":"textbox","id":"sh/vyp03m1w","slide":24,"name":"wl-total","text":"合計目安：基本 約54時間・最大 約87時間（協会全体・プロジェクト期間通算、約9か月に分散）。\n抽出・転記・画像整理・実装・テストはベンダーが担当します。","textPreview":"合計目安：基本 約54時間・最大 約87時間（協会全体・プロジェクト期間通算、約9か月に分散）。 | 抽出・転記・画像整理・実装・テストはベンダーが担当します。","textChars":78,"textLines":2,"bbox":[48,548,944,72]}
+{"kind":"notes","id":"nt/7qto7e10","slide":24,"text":""}
+{"kind":"slide","id":"sl/69wfm9o7","slide":25,"title":"2027年5月6日から逆算し、設計・構築・移行を並行します","textShapes":19}
+{"kind":"textbox","id":"sh/xg7axgf2","slide":25,"name":"タイトル 1","placeholder":"title","text":"2027年5月6日から逆算し、設計・構築・移行を並行します","textPreview":"2027年5月6日から逆算し、設計・構築・移行を並行します","textChars":29,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/cfyt4beh","slide":25,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/napsr6x0","slide":25,"name":"month-0","text":"8月","textPreview":"8月","textChars":2,"textLines":1,"bbox":[220,112,76,32]}
+{"kind":"textbox","id":"sh/29wby1wf","slide":25,"name":"month-1","text":"9月","textPreview":"9月","textChars":2,"textLines":1,"bbox":[296,112,76,32]}
+{"kind":"textbox","id":"sh/pc7atgf6","slide":25,"name":"month-2","text":"10月","textPreview":"10月","textChars":3,"textLines":1,"bbox":[372,112,76,32]}
+{"kind":"textbox","id":"sh/obyt0bel","slide":25,"name":"month-3","text":"11月","textPreview":"11月","textChars":3,"textLines":1,"bbox":[448,112,76,32]}
+{"kind":"textbox","id":"sh/fm5snmx4","slide":25,"name":"month-4","text":"12月","textPreview":"12月","textChars":3,"textLines":1,"bbox":[524,112,76,32]}
+{"kind":"textbox","id":"sh/elwbu1wj","slide":25,"name":"month-5","text":"1月","textPreview":"1月","textChars":2,"textLines":1,"bbox":[600,112,76,32]}
+{"kind":"textbox","id":"sh/wza9cbqp","slide":25,"name":"month-6","text":"2月","textPreview":"2月","textChars":2,"textLines":1,"bbox":[676,112,76,32]}
+{"kind":"textbox","id":"sh/h0jalgra","slide":25,"name":"month-7","text":"3月","textPreview":"3月","textChars":2,"textLines":1,"bbox":[752,112,76,32]}
+{"kind":"textbox","id":"sh/uxsra18j","slide":25,"name":"month-8","text":"4月","textPreview":"4月","textChars":2,"textLines":1,"bbox":[828,112,76,32]}
+{"kind":"textbox","id":"sh/vy1sj694","slide":25,"name":"month-9","text":"5月","textPreview":"5月","textChars":2,"textLines":1,"bbox":[904,112,76,32]}
+{"kind":"textbox","id":"sh/8ba98bqt","slide":25,"name":"track-label-0","text":"要件定義・移行台帳","textPreview":"要件定義・移行台帳","textChars":9,"textLines":1,"bbox":[48,173,160,38]}
+{"kind":"shape","id":"sh/9cjahgry","slide":25,"name":"grid-0-0","bbox":[220,166,76,52]}
+{"kind":"shape","id":"sh/m98r618n","slide":25,"name":"grid-0-1","bbox":[296,166,76,52]}
+{"kind":"shape","id":"sh/7a1sf698","slide":25,"name":"grid-0-2","bbox":[372,166,76,52]}
+{"kind":"shape","id":"sh/s7utkvqx","slide":25,"name":"grid-0-3","bbox":[448,166,76,52]}
+{"kind":"shape","id":"sh/t83at0ri","slide":25,"name":"grid-0-4","bbox":[524,166,76,52]}
+{"kind":"shape","id":"sh/1czihwva","slide":25,"name":"grid-0-5","bbox":[600,166,76,52]}
+{"kind":"shape","id":"sh/gbq1obep","slide":25,"name":"grid-0-6","bbox":[676,166,76,52]}
+{"kind":"shape","id":"sh/fax0f6d4","slide":25,"name":"grid-0-7","bbox":[752,166,76,52]}
+{"kind":"shape","id":"sh/e9ojm1wj","slide":25,"name":"grid-0-8","bbox":[828,166,76,52]}
+{"kind":"shape","id":"sh/t8fidwfe","slide":25,"name":"grid-0-9","bbox":[904,166,76,52]}
+{"kind":"shape","id":"sh/s761kret","slide":25,"name":"bar-0","bbox":[224,175,220,34]}
+{"kind":"textbox","id":"sh/r6x0bmx8","slide":25,"name":"track-label-1","text":"情報設計・デザイン","textPreview":"情報設計・デザイン","textChars":9,"textLines":1,"bbox":[48,245,160,38]}
+{"kind":"shape","id":"sh/6lojihwn","slide":25,"name":"grid-1-0","bbox":[220,238,76,52]}
+{"kind":"shape","id":"sh/5kfi9cf2","slide":25,"name":"grid-1-1","bbox":[296,238,76,52]}
+{"kind":"shape","id":"sh/4j61g7eh","slide":25,"name":"grid-1-2","bbox":[372,238,76,52]}
+{"kind":"shape","id":"sh/upkfqdcf","slide":25,"name":"grid-1-3","bbox":[448,238,76,52]}
+{"kind":"shape","id":"sh/vqtgjid0","slide":25,"name":"grid-1-4","bbox":[524,238,76,52]}
+{"kind":"shape","id":"sh/wr2xsnul","slide":25,"name":"grid-1-5","bbox":[600,238,76,52]}
+{"kind":"shape","id":"sh/hcvylsb6","slide":25,"name":"grid-1-6","bbox":[676,238,76,52]}
+{"kind":"shape","id":"sh/mlkfmdcj","slide":25,"name":"grid-1-7","bbox":[752,238,76,52]}
+{"kind":"shape","id":"sh/7mtgfido","slide":25,"name":"grid-1-8","bbox":[828,238,76,52]}
+{"kind":"shape","id":"sh/8n2xonu9","slide":25,"name":"grid-1-9","bbox":[904,238,76,52]}
+{"kind":"shape","id":"sh/9obyh8vu","slide":25,"name":"bar-1","bbox":[300,247,220,34]}
+{"kind":"textbox","id":"sh/yh0fitc7","slide":25,"name":"track-label-2","text":"WordPress・データ構築","textPreview":"WordPress・データ構築","textChars":15,"textLines":1,"bbox":[48,317,160,38]}
+{"kind":"shape","id":"sh/zi9gbyds","slide":25,"name":"grid-2-0","bbox":[220,310,76,52]}
+{"kind":"shape","id":"sh/batcnexo","slide":25,"name":"grid-2-1","bbox":[296,310,76,52]}
+{"kind":"shape","id":"sh/q9kve9g3","slide":25,"name":"grid-2-2","bbox":[372,310,76,52]}
+{"kind":"shape","id":"sh/dcbup4fe","slide":25,"name":"grid-2-3","bbox":[448,310,76,52]}
+{"kind":"shape","id":"sh/cb2dgjy9","slide":25,"name":"grid-2-4","bbox":[524,310,76,52]}
+{"kind":"shape","id":"sh/36tcjuxc","slide":25,"name":"grid-2-5","bbox":[600,310,76,52]}
+{"kind":"shape","id":"sh/250bapgr","slide":25,"name":"grid-2-6","bbox":[676,310,76,52]}
+{"kind":"shape","id":"sh/p8bul4fi","slide":25,"name":"grid-2-7","bbox":[752,310,76,52]}
+{"kind":"shape","id":"sh/o72tczyx","slide":25,"name":"grid-2-8","bbox":[828,310,76,52]}
+{"kind":"shape","id":"sh/fi9cfuxg","slide":25,"name":"grid-2-9","bbox":[904,310,76,52]}
+{"kind":"shape","id":"sh/uh0b6pgv","slide":25,"name":"bar-2","bbox":[376,319,372,34]}
+{"kind":"textbox","id":"sh/kny9gvet","slide":25,"name":"track-label-3","text":"コンテンツ移行","textPreview":"コンテンツ移行","textChars":7,"textLines":1,"bbox":[48,389,160,38]}
+{"kind":"shape","id":"sh/5o7apgve","slide":25,"name":"grid-3-0","bbox":[220,382,76,52]}
+{"kind":"shape","id":"sh/ilwrelwn","slide":25,"name":"grid-3-1","bbox":[296,382,76,52]}
+{"kind":"shape","id":"sh/jmpsnqd8","slide":25,"name":"grid-3-2","bbox":[372,382,76,52]}
+{"kind":"shape","id":"sh/sby9kvep","slide":25,"name":"grid-3-3","bbox":[448,382,76,52]}
+{"kind":"shape","id":"sh/tc7at0va","slide":25,"name":"grid-3-4","bbox":[524,382,76,52]}
+{"kind":"shape","id":"sh/6pgrilwj","slide":25,"name":"grid-3-5","bbox":[600,382,76,52]}
+{"kind":"shape","id":"sh/7apsrqd4","slide":25,"name":"grid-3-6","bbox":[676,382,76,52]}
+{"kind":"shape","id":"sh/8fe98bel","slide":25,"name":"grid-3-7","bbox":[752,382,76,52]}
+{"kind":"shape","id":"sh/9gnqhwf6","slide":25,"name":"grid-3-8","bbox":[828,382,76,52]}
+{"kind":"shape","id":"sh/p0vyp83i","slide":25,"name":"grid-3-9","bbox":[904,382,76,52]}
+{"kind":"shape","id":"sh/ozmxw32x","slide":25,"name":"bar-3","bbox":[452,391,372,34]}
+{"kind":"textbox","id":"sh/3ydgnylc","slide":25,"name":"track-label-4","text":"総合検証・受入・研修","textPreview":"総合検証・受入・研修","textChars":10,"textLines":1,"bbox":[48,461,160,38]}
+{"kind":"shape","id":"sh/2xkfutk7","slide":25,"name":"grid-4-0","bbox":[220,454,76,52]}
+{"kind":"shape","id":"sh/d4vyt83u","slide":25,"name":"grid-4-1","bbox":[296,454,76,52]}
+{"kind":"shape","id":"sh/c3mh0329","slide":25,"name":"grid-4-2","bbox":[372,454,76,52]}
+{"kind":"shape","id":"sh/b2dgrylo","slide":25,"name":"grid-4-3","bbox":[448,454,76,52]}
+{"kind":"shape","id":"sh/q14fydk3","slide":25,"name":"grid-4-4","bbox":[524,454,76,52]}
+{"kind":"shape","id":"sh/lsfyxs3q","slide":25,"name":"grid-4-5","bbox":[600,454,76,52]}
+{"kind":"shape","id":"sh/076h4n25","slide":25,"name":"grid-4-6","bbox":[676,454,76,52]}
+{"kind":"shape","id":"sh/idgvyp0n","slide":25,"name":"grid-4-7","bbox":[752,454,76,52]}
+{"kind":"shape","id":"sh/jepcra18","slide":25,"name":"grid-4-8","bbox":[828,454,76,52]}
+{"kind":"shape","id":"sh/kfid0fit","slide":25,"name":"grid-4-9","bbox":[904,454,76,52]}
+{"kind":"shape","id":"sh/5gretkje","slide":25,"name":"bar-4","bbox":[680,463,296,34]}
+{"kind":"shape","id":"sh/6h0v2p0z","slide":25,"name":"release-marker","bbox":[908,152,68,390]}
+{"kind":"textbox","id":"sh/729wvu14","slide":25,"name":"release-label","text":"5/6 公開","textPreview":"5/6 公開","textChars":6,"textLines":1,"bbox":[894,552,96,34]}
+{"kind":"textbox","id":"sh/s3id4zip","slide":25,"name":"schedule-assoc","text":"協会の主な確認：10月 情報設計｜11月 デザイン｜1～3月 移行内容｜4月 受入試験・公開承認","textPreview":"協会の主な確認：10月 情報設計｜11月 デザイン｜1～3月 移行内容｜4月 受入試験・公開承認","textChars":48,"textLines":1,"bbox":[48,602,944,28]}
+{"kind":"notes","id":"nt/69wfm9o7","slide":25,"text":""}
+{"kind":"slide","id":"sl/l0bepsfm","slide":26,"title":"Xserverは要件で判定し、品質チェックを検収までつなげます","textShapes":9}
+{"kind":"textbox","id":"sh/uhk36lk7","slide":26,"name":"タイトル 1","placeholder":"title","text":"Xserverは要件で判定し、品質チェックを検収までつなげます","textPreview":"Xserverは要件で判定し、品質チェックを検収までつなげます","textChars":31,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/vitkzqlc","slide":26,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/8fil4b21","slide":26,"name":"platform-bg","bbox":[48,126,292,372]}
+{"kind":"textbox","id":"sh/tgr2xg3m","slide":26,"name":"platform-title","text":"基盤判定","textPreview":"基盤判定","textChars":4,"textLines":1,"bbox":[66,142,256,38]}
+{"kind":"textbox","id":"sh/md0321kv","slide":26,"name":"platform-body","text":"第一候補\nXserver＋WordPress\n\n要件定義で検証\n・EC／外部決済\n・会員限定範囲\n・性能／容量\n・バックアップ／復旧\n\n不足時は代替クラウド構成と費用差を提示。","textPreview":"第一候補 | Xserver＋WordPress |  | 要件定義で検証 | ・EC／外部決済 | ・会員限定範囲 | ・性能／容量 | ・バックアップ／復旧 |  | 不足時は代替クラウド構成と費用差を提示。","textChars":88,"textLines":10,"bbox":[66,190,256,292]}
+{"kind":"shape","id":"sh/7e9kv6lg","slide":26,"name":"security-bg","bbox":[374,126,292,372]}
+{"kind":"textbox","id":"sh/kbil0r2p","slide":26,"name":"security-title","text":"安全な運用","textPreview":"安全な運用","textChars":5,"textLines":1,"bbox":[392,142,256,38]}
+{"kind":"textbox","id":"sh/lcr2tw3a","slide":26,"name":"security-body","text":"・二要素認証\n・最小権限／操作ログ\n・WAF／SSL\n・プラグイン採用基準\n・更新前ステージング\n・脆弱性確認\n・RPO／RTOを合意\n\n診断手段・頻度・報告を明確化。","textPreview":"・二要素認証 | ・最小権限／操作ログ | ・WAF／SSL | ・プラグイン採用基準 | ・更新前ステージング | ・脆弱性確認 | ・RPO／RTOを合意 |  | 診断手段・頻度・報告を明確化。","textChars":84,"textLines":9,"bbox":[392,190,256,292]}
+{"kind":"shape","id":"sh/lsja143i","slide":26,"name":"acceptance-bg","bbox":[700,126,292,372]}
+{"kind":"textbox","id":"sh/krat8z2x","slide":26,"name":"acceptance-title","text":"検収チェック","textPreview":"検収チェック","textChars":6,"textLines":1,"bbox":[718,142,256,38]}
+{"kind":"textbox","id":"sh/z61szulc","slide":26,"name":"acceptance-body","text":"RFP要件を試験項目へ変換\n\n・機能要求\n・権限／承認\n・フォーム／検索\n・アクセシビリティ\n・301リダイレクト\n・表示／負荷\n・バックアップ復元\n・協会受入試験","textPreview":"RFP要件を試験項目へ変換 |  | ・機能要求 | ・権限／承認 | ・フォーム／検索 | ・アクセシビリティ | ・301リダイレクト | ・表示／負荷 | ・バックアップ復元 | ・協会受入試験","textChars":82,"textLines":10,"bbox":[718,190,256,292]}
+{"kind":"textbox","id":"sh/y5sr69kr","slide":26,"name":"quality-bottom","text":"要件 → 設計 → 試験 → 検収を同じ番号で追跡し、未確認のまま公開しません。\n会員限定ページはWordPressの権限管理で初期対応し、外部会員システム連携・SSOは要件定義で別途判定します。","textPreview":"要件 → 設計 → 試験 → 検収を同じ番号で追跡し、未確認のまま公開しません。 | 会員限定ページはWordPressの権限管理で初期対応し、外部会員システム連携・SSOは要件定義で別途判定します。","textChars":98,"textLines":2,"bbox":[48,538,944,67.2]}
+{"kind":"notes","id":"nt/l0bepsfm","slide":26,"text":""}
+{"kind":"slide","id":"sl/4vyxknqp","slide":27,"title":"25","textShapes":2}
+{"kind":"textbox","id":"sh/kn694nmx","slide":27,"name":"スライド番号プレースホルダー 1","placeholder":"slideNumber","text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/lofadsni","slide":27,"name":"タイトル 2","placeholder":"title","text":"4. 運用と責任・費用を明確にする","textPreview":"4. 運用と責任・費用を明確にする","textChars":17,"textLines":1,"bbox":[62.68,269.29,914.65,90]}
+{"kind":"notes","id":"nt/4vyxknqp","slide":27,"text":""}
+{"kind":"slide","id":"sl/3mdove10","slide":28,"title":"更新依頼を3区分に分け、追加費用の境界を明確にします","textShapes":9}
+{"kind":"textbox","id":"sh/q9cz6xkv","slide":28,"name":"タイトル 1","placeholder":"title","text":"更新依頼を3区分に分け、追加費用の境界を明確にします","textPreview":"更新依頼を3区分に分け、追加費用の境界を明確にします","textChars":26,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/ralgf21g","slide":28,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/0zehcr2x","slide":28,"name":"self-bg","bbox":[48,126,292,350]}
+{"kind":"textbox","id":"sh/10nylwji","slide":28,"name":"self-title","text":"職員が更新：追加費用なし","textPreview":"職員が更新：追加費用なし","textChars":12,"textLines":1,"bbox":[66,142,256,38]}
+{"kind":"textbox","id":"sh/exwzahkr","slide":28,"name":"self-body","text":"・お知らせ／コラム\n・講座日程／申込状態\n・満席・受付終了\n・画像・PDF差替\n・既存テンプレート複製\n\n管理画面から職員が実施。操作支援はマニュアル・研修で提供。","textPreview":"・お知らせ／コラム | ・講座日程／申込状態 | ・満席・受付終了 | ・画像・PDF差替 | ・既存テンプレート複製 |  | 管理画面から職員が実施。操作支援はマニュアル・研修で提供。","textChars":82,"textLines":7,"bbox":[66,190,256,270]}
+{"kind":"shape","id":"sh/zy5gjm1c","slide":28,"name":"monthly-bg","bbox":[374,126,292,350]}
+{"kind":"textbox","id":"sh/o3ehgr29","slide":28,"name":"monthly-title","text":"月額保守：36,000円／月","textPreview":"月額保守：36,000円／月","textChars":14,"textLines":1,"bbox":[392,142,256,38]}
+{"kind":"textbox","id":"sh/947ipwje","slide":28,"name":"monthly-body","text":"月5時間目安\n\n・軽微な文言／日付／リンク\n・画像差替\n・操作問合せ\n・CMS／サーバー保守\n\n範囲内は都度費用なし。超過前に残時間と選択肢を共有。","textPreview":"月5時間目安 |  | ・軽微な文言／日付／リンク | ・画像差替 | ・操作問合せ | ・CMS／サーバー保守 |  | 範囲内は都度費用なし。超過前に残時間と選択肢を共有。","textChars":74,"textLines":8,"bbox":[392,190,256,270]}
+{"kind":"shape","id":"sh/lg3690fq","slide":28,"name":"extra-bg","bbox":[700,126,292,350]}
+{"kind":"textbox","id":"sh/kfu5gfe5","slide":28,"name":"extra-title","text":"刷新・追加：事前見積","textPreview":"刷新・追加：事前見積","textChars":10,"textLines":1,"bbox":[718,142,256,38]}
+{"kind":"textbox","id":"sh/je1o7ax0","slide":28,"name":"extra-body","text":"・レイアウト変更\n・独自デザインページ\n・機能追加\n・新規LP\n\n参考単価（税抜）\n文言／画像 6,000円～\n記事 18,000円～\nテンプレページ 36,000円～\nLP 300,000円～","textPreview":"・レイアウト変更 | ・独自デザインページ | ・機能追加 | ・新規LP |  | 参考単価（税抜） | 文言／画像 6,000円～ | 記事 18,000円～ | テンプレページ 36,000円～ | LP 300,000円～","textChars":97,"textLines":10,"bbox":[718,190,256,270]}
+{"kind":"textbox","id":"sh/ytsne5wf","slide":28,"name":"maintenance-note","text":"公開前の追加ページは移行台帳内・最大200Pまで初期移行範囲に含みます（システム利用量による従量課金はありません）。\n稼働後は、職員による既存テンプレート複製は追加費用なし。新規制作・独自デザイン・機能追加は着手前の事前見積です。","textPreview":"公開前の追加ページは移行台帳内・最大200Pまで初期移行範囲に含みます（システム利用量による従量課金はありません）。 | 稼働後は、職員による既存テンプレート複製は追加費用なし。新規制作・独自デザイン・機能追加は着手前の事前見積です。","textChars":115,"textLines":2,"bbox":[48,524,944,72]}
+{"kind":"notes","id":"nt/3mdove10","slide":28,"text":""}
+{"kind":"slide","id":"sl/i5o3q10v","slide":29,"title":"標準WordPressでも更新可能。自由度と効率を求めるならAIが圧倒的","textShapes":2}
+{"kind":"textbox","id":"sh/tk36hwby","slide":29,"name":"Title 1","placeholder":"title","text":"標準WordPressでも更新可能。自由度と効率を求めるならAIが圧倒的","textPreview":"標準WordPressでも更新可能。自由度と効率を求めるならAIが圧倒的","textChars":36,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/vmlojmto","slide":29,"name":"Rectangle 3","text":"AIがなくても標準WordPressで更新できます（必須要件はAIに依存しません）。同じ情報がLP内の複数箇所にある更新ほど、有償AIは一度の指示でまとめて更新候補にでき、確認も一括化できます。最終公開は必ずご担当者が承認します。","textPreview":"AIがなくても標準WordPressで更新できます（必須要件はAIに依存しません）。同じ情報がLP内の複数箇所にある更新ほど、有償AIは一度の指示でまとめて更新候補にでき、確認も一括化できます。最終公開は必ずご担当者が承認します。","textChars":115,"textLines":1,"bbox":[43.2,552,960,91.2]}
+{"kind":"table","id":"tb/b6xk3ytk","slide":29,"name":"Table 2","rows":6,"cols":3,"preview":"WordPress標準更新（基本提案に含む） | 有償AI更新（別途有償オプション）","bbox":[43.2,110.4,960,422.4]}
+{"kind":"notes","id":"nt/i5o3q10v","slide":29,"text":""}
+{"kind":"slide","id":"sl/wnqh07ex","slide":30,"title":"SLA・契約・再委託・引渡しを一枚で明確にします","textShapes":9}
+{"kind":"textbox","id":"sh/po72d8nm","slide":30,"name":"タイトル 1","placeholder":"title","text":"SLA・契約・再委託・引渡しを一枚で明確にします","textPreview":"SLA・契約・再委託・引渡しを一枚で明確にします","textChars":24,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/o3yl4361","slide":30,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/bqpkfy5s","slide":30,"name":"sla-bg","bbox":[48,122,292,354]}
+{"kind":"textbox","id":"sh/apg36do7","slide":30,"name":"sla-title","text":"支援・SLAの提案値","textPreview":"支援・SLAの提案値","textChars":10,"textLines":1,"bbox":[66,138,256,38]}
+{"kind":"textbox","id":"sh/xsr2h8ni","slide":30,"name":"sla-body","text":"窓口：インフォネットに一本化\n\n重大障害：1時間以内に一次応答\n影響大：4時間以内\n一般問合せ：1営業日以内\n\n障害優先度、受付時間、連絡・復旧報告を契約で確定します。","textPreview":"窓口：インフォネットに一本化 |  | 重大障害：1時間以内に一次応答 | 影響大：4時間以内 | 一般問合せ：1営業日以内 |  | 障害優先度、受付時間、連絡・復旧報告を契約で確定します。","textChars":84,"textLines":7,"bbox":[66,186,256,274]}
+{"kind":"shape","id":"sh/cril836d","slide":30,"name":"contract-bg","bbox":[374,122,292,354]}
+{"kind":"textbox","id":"sh/ru5k3ep8","slide":30,"name":"contract-title","text":"契約・責任","textPreview":"契約・責任","textChars":5,"textLines":1,"bbox":[392,138,256,38]}
+{"kind":"textbox","id":"sh/6twju9o3","slide":30,"name":"contract-body","text":"フェーズごとに成果物と検収点を設定。\n\nインフォネット：元請・契約・品質・窓口\nITLINE：共同提案・設計・開発・移行\n協会：意思決定・内容確認・受入\n\n変更は影響・費用・納期を合意してから着手。","textPreview":"フェーズごとに成果物と検収点を設定。 |  | インフォネット：元請・契約・品質・窓口 | ITLINE：共同提案・設計・開発・移行 | 協会：意思決定・内容確認・受入 |  | 変更は影響・費用・納期を合意してから着手。","textChars":99,"textLines":7,"bbox":[392,186,256,274]}
+{"kind":"shape","id":"sh/onqx8zix","slide":30,"name":"handoff-bg","bbox":[700,122,292,354]}
+{"kind":"textbox","id":"sh/p8ze14zi","slide":30,"name":"handoff-title","text":"終了時の引渡し","textPreview":"終了時の引渡し","textChars":7,"textLines":1,"bbox":[718,138,256,38]}
+{"kind":"textbox","id":"sh/2l8f6p0r","slide":30,"name":"handoff-body","text":"・ソースコード／DB\n・画像／文書／CSV\n・移行台帳／301一覧\n・デザイン／テンプレ仕様\n・アカウント／権限一覧\n・テスト結果／操作手順\n\n協会が次の運用先へ引き継げる状態で納品。","textPreview":"・ソースコード／DB | ・画像／文書／CSV | ・移行台帳／301一覧 | ・デザイン／テンプレ仕様 | ・アカウント／権限一覧 | ・テスト結果／操作手順 |  | 協会が次の運用先へ引き継げる状態で納品。","textChars":92,"textLines":8,"bbox":[718,186,256,274]}
+{"kind":"textbox","id":"sh/3mhwzu1c","slide":30,"name":"sla-foot","text":"※一次応答時間は提案値。正式な受付時間・対象・除外・復旧目標は保守契約時に双方合意します。","textPreview":"※一次応答時間は提案値。正式な受付時間・対象・除外・復旧目標は保守契約時に双方合意します。","textChars":45,"textLines":1,"bbox":[48,522,944,44]}
+{"kind":"notes","id":"nt/wnqh07ex","slide":30,"text":""}
+{"kind":"slide","id":"sl/lcn6tkb6","slide":31,"title":"LP6本とECの“含む・含まない”を先に決めます","textShapes":22}
+{"kind":"textbox","id":"sh/dgja98fe","slide":31,"name":"タイトル 1","placeholder":"title","text":"LP6本とECの“含む・含まない”を先に決めます","textPreview":"LP6本とECの“含む・含まない”を先に決めます","textChars":24,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/cfa903yt","slide":31,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/zilsbyx4","slide":31,"name":"lp-scope-title","text":"LPの対応","textPreview":"LPの対応","textChars":5,"textLines":1,"bbox":[48,108,480,34]}
+{"kind":"shape","id":"sh/ehsr2dgz","slide":31,"name":"lp-head-cell-0","bbox":[48,150,360,42]}
+{"kind":"textbox","id":"sh/1k3ad8fa","slide":31,"name":"lp-head-text-0","text":"対象","textPreview":"対象","textChars":2,"textLines":1,"bbox":[57,156,342,30]}
+{"kind":"shape","id":"sh/0jut43yp","slide":31,"name":"lp-head-cell-1","bbox":[408,150,176,42]}
+{"kind":"textbox","id":"sh/fmhszex0","slide":31,"name":"lp-head-text-1","text":"対応","textPreview":"対応","textChars":2,"textLines":1,"bbox":[417,156,158,30]}
+{"kind":"shape","id":"sh/ul8rq9gf","slide":31,"name":"lp-scope-0-cell-0","bbox":[48,192,360,48]}
+{"kind":"textbox","id":"sh/4vm5g7al","slide":31,"name":"lp-scope-0-text-0","text":"産業カウンセラー養成講座","textPreview":"産業カウンセラー養成講座","textChars":12,"textLines":1,"bbox":[57,198,342,36]}
+{"kind":"shape","id":"sh/5wvmpcr6","slide":31,"name":"lp-scope-0-cell-1","bbox":[408,192,176,48]}
+{"kind":"textbox","id":"sh/it4nexsf","slide":31,"name":"lp-scope-0-text-1","text":"含む","textPreview":"含む","textChars":2,"textLines":1,"bbox":[417,198,158,36]}
+{"kind":"shape","id":"sh/3ud4n290","slide":31,"name":"lp-scope-1-cell-0","bbox":[48,240,360,48]}
+{"kind":"textbox","id":"sh/sz65k7ah","slide":31,"name":"lp-scope-1-text-0","text":"シニア産業カウンセラー育成講座","textPreview":"シニア産業カウンセラー育成講座","textChars":15,"textLines":1,"bbox":[57,246,342,36]}
+{"kind":"shape","id":"sh/d0fmtcr2","slide":31,"name":"lp-scope-1-cell-1","bbox":[408,240,176,48]}
+{"kind":"textbox","id":"sh/qx4nihsb","slide":31,"name":"lp-scope-1-text-1","text":"含む","textPreview":"含む","textChars":2,"textLines":1,"bbox":[417,246,158,36]}
+{"kind":"shape","id":"sh/ryd4rm9w","slide":31,"name":"lp-scope-2-cell-0","bbox":[48,288,360,48]}
+{"kind":"textbox","id":"sh/832l8nad","slide":31,"name":"lp-scope-2-text-0","text":"キャリアコンサルタント養成講習","textPreview":"キャリアコンサルタント養成講習","textChars":15,"textLines":1,"bbox":[57,294,342,36]}
+{"kind":"shape","id":"sh/t4bmhsry","slide":31,"name":"lp-scope-2-cell-1","bbox":[408,288,176,48]}
+{"kind":"textbox","id":"sh/9032l43m","slide":31,"name":"lp-scope-2-text-1","text":"含む","textPreview":"含む","textChars":2,"textLines":1,"bbox":[417,294,158,36]}
+{"kind":"shape","id":"sh/8zu1cj21","slide":31,"name":"lp-scope-3-cell-0","bbox":[48,336,360,48]}
+{"kind":"textbox","id":"sh/nylkjelg","slide":31,"name":"lp-scope-3-text-0","text":"キャリアコンサルタント更新講習","textPreview":"キャリアコンサルタント更新講習","textChars":15,"textLines":1,"bbox":[57,342,342,36]}
+{"kind":"shape","id":"sh/mxcja9kv","slide":31,"name":"lp-scope-3-cell-1","bbox":[408,336,176,48]}
+{"kind":"textbox","id":"sh/xon2po3i","slide":31,"name":"lp-scope-3-text-1","text":"含む","textPreview":"含む","textChars":2,"textLines":1,"bbox":[417,342,158,36]}
+{"kind":"shape","id":"sh/wnulgj2d","slide":31,"name":"lp-scope-4-cell-0","bbox":[48,384,360,48]}
+{"kind":"textbox","id":"sh/vmlknels","slide":31,"name":"lp-scope-4-text-0","text":"心の健康アドバイザー認定講座","textPreview":"心の健康アドバイザー認定講座","textChars":14,"textLines":1,"bbox":[57,390,342,36]}
+{"kind":"shape","id":"sh/a1c3e9k7","slide":31,"name":"lp-scope-4-cell-1","bbox":[408,384,176,48]}
+{"kind":"textbox","id":"sh/5sn2to3u","slide":31,"name":"lp-scope-4-text-1","text":"含む","textPreview":"含む","textChars":2,"textLines":1,"bbox":[417,390,158,36]}
+{"kind":"shape","id":"sh/krelk329","slide":31,"name":"lp-scope-5-cell-0","bbox":[48,432,360,48]}
+{"kind":"textbox","id":"sh/ilory1wf","slide":31,"name":"lp-scope-5-text-0","text":"J-Lab（別ドメイン）","textPreview":"J-Lab（別ドメイン）","textChars":12,"textLines":1,"bbox":[57,438,342,36]}
+{"kind":"shape","id":"sh/3mx8r6x0","slide":31,"name":"lp-scope-5-cell-1","bbox":[408,432,176,48]}
+{"kind":"textbox","id":"sh/4n690bel","slide":31,"name":"lp-scope-5-text-1","text":"別サイト継続","textPreview":"別サイト継続","textChars":6,"textLines":1,"bbox":[417,438,158,36]}
+{"kind":"shape","id":"sh/5ofqtgf6","slide":31,"name":"ec-scope-bg","bbox":[618,108,374,328]}
+{"kind":"textbox","id":"sh/qpor21wr","slide":31,"name":"ec-scope-title","text":"EC追加概算：180万円（税抜）","textPreview":"EC追加概算：180万円（税抜）","textChars":16,"textLines":1,"bbox":[636,124,338,38]}
+{"kind":"textbox","id":"sh/rqx8v6xc","slide":31,"name":"ec-scope-body","text":"含む\nWordPress＋WooCommerce／クレジット決済／一般・会員価格の初期クーポン／注文CSV／FAX・口座振込併用\n\n要件定義で確定\n商品点数、送料・税、決済事業者、CSV項目、出荷テスト","textPreview":"含む | WordPress＋WooCommerce／クレジット決済／一般・会員価格の初期クーポン／注文CSV／FAX・口座振込併用 |  | 要件定義で確定 | 商品点数、送料・税、決済事業者、CSV項目、出荷テスト","textChars":101,"textLines":5,"bbox":[636,172,338,248]}
+{"kind":"shape","id":"sh/sr694beh","slide":31,"name":"ec-exclude","bbox":[618,458,374,116]}
+{"kind":"textbox","id":"sh/dszqxgf2","slide":31,"name":"ec-exclude-title","text":"別途・将来対応","textPreview":"別途・将来対応","textChars":7,"textLines":1,"bbox":[636,470,338,30]}
+{"kind":"textbox","id":"sh/et8r6lwn","slide":31,"name":"ec-exclude-body","text":"決済手数料／リアルタイム在庫・物流API／会員管理システム連携／新規撮影・大量の商品原稿","textPreview":"決済手数料／リアルタイム在庫・物流API／会員管理システム連携／新規撮影・大量の商品原稿","textChars":44,"textLines":1,"bbox":[636,506,338,54]}
+{"kind":"textbox","id":"sh/fuh8zqx8","slide":31,"name":"lp-price-note","text":"5LPの移行・再構成は必須見積に含みます。Jラボは別サイト継続を基本とし、再構築時は別途概算をご提示します。","textPreview":"5LPの移行・再構成は必須見積に含みます。Jラボは別サイト継続を基本とし、再構築時は別途概算をご提示します。","textChars":54,"textLines":1,"bbox":[48,538,536,42]}
+{"kind":"notes","id":"nt/lcn6tkb6","slide":31,"text":""}
+{"kind":"slide","id":"sl/6l0j294r","slide":32,"title":"Jラボは独立サイトとして継続し、再構築は選択可能にします","textShapes":8}
+{"kind":"textbox","id":"sh/kr61sfy1","slide":32,"name":"タイトル 1","placeholder":"title","text":"Jラボは独立サイトとして継続し、再構築は選択可能にします","textPreview":"Jラボは独立サイトとして継続し、再構築は選択可能にします","textChars":28,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/6t8jupg7","slide":32,"name":"sla-bg","bbox":[48,122,292,354]}
+{"kind":"textbox","id":"sh/7uh0nuxs","slide":32,"name":"sla-title","text":"RFP上の整理","textPreview":"RFP上の整理","textChars":7,"textLines":1,"bbox":[66,138,256,38]}
+{"kind":"textbox","id":"sh/8vq1wzyd","slide":32,"name":"sla-body","text":"現状分析では\n29P／必要0／不要29\n\n新本体約100ページの移行対象から除外されていました。","textPreview":"現状分析では | 29P／必要0／不要29 |  | 新本体約100ページの移行対象から除外されていました。","textChars":48,"textLines":4,"bbox":[66,186,256,274]}
+{"kind":"shape","id":"sh/twzipkfy","slide":32,"name":"contract-bg","bbox":[374,122,292,354]}
+{"kind":"textbox","id":"sh/mx4zilg3","slide":32,"name":"contract-title","text":"独立した仕組み","textPreview":"独立した仕組み","textChars":7,"textLines":1,"bbox":[392,138,256,38]}
+{"kind":"textbox","id":"sh/nyd0bqxo","slide":32,"name":"contract-body","text":"別サブドメインで運用。\n\n検索・カテゴリ・タグ・講座情報・申込フォームを持つため、単純なLP移行ではありません。","textPreview":"別サブドメインで運用。 |  | 検索・カテゴリ・タグ・講座情報・申込フォームを持つため、単純なLP移行ではありません。","textChars":56,"textLines":3,"bbox":[392,186,256,274]}
+{"kind":"shape","id":"sh/ry94z29w","slide":32,"name":"handoff-bg","bbox":[700,122,292,354]}
+{"kind":"textbox","id":"sh/qx0nqx8b","slide":32,"name":"handoff-title","text":"基本提案の扱い","textPreview":"基本提案の扱い","textChars":7,"textLines":1,"bbox":[718,138,256,38]}
+{"kind":"textbox","id":"sh/d0bm1c7m","slide":32,"name":"handoff-body","text":"現行サイトの運用を継続。\n\n本体サイトから導線を再設計し、本体CMSへは統合しません。","textPreview":"現行サイトの運用を継続。 |  | 本体サイトから導線を再設計し、本体CMSへは統合しません。","textChars":43,"textLines":3,"bbox":[718,186,256,274]}
+{"kind":"textbox","id":"sh/szi5s7qh","slide":32,"name":"sla-foot","text":"全面リニューアルをご希望の場合は、29ページと検索・講座掲載機能を個別要件定義し、別途概算をご提示します。","textPreview":"全面リニューアルをご希望の場合は、29ページと検索・講座掲載機能を個別要件定義し、別途概算をご提示します。","textChars":53,"textLines":1,"bbox":[48,522,944,44]}
+{"kind":"notes","id":"nt/6l0j294r","slide":32,"text":""}
+{"kind":"slide","id":"sl/nax4b2dk","slide":33,"title":"工程別内訳と主要単価を説明します","textShapes":28}
+{"kind":"textbox","id":"sh/lk3m50nq","slide":33,"name":"タイトル 1","placeholder":"title","text":"工程別内訳と主要単価を説明します","textPreview":"工程別内訳と主要単価を説明します","textChars":16,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/0jalwfm5","slide":33,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/nml47a5w","slide":33,"name":"estimate-total-bg","bbox":[48,112,390,150]}
+{"kind":"textbox","id":"sh/mlc3y54b","slide":33,"name":"estimate-label","text":"提案必須 初期費用（税抜）","textPreview":"提案必須 初期費用（税抜）","textChars":13,"textLines":1,"bbox":[70,132,346,36]}
+{"kind":"textbox","id":"sh/9o3m9knm","slide":33,"name":"estimate-total","text":"13,200,000円","textPreview":"13,200,000円","textChars":11,"textLines":1,"bbox":[70,170,346,64]}
+{"kind":"shape","id":"sh/8nul0fmh","slide":33,"name":"estimate-month-bg","bbox":[462,112,254,150]}
+{"kind":"textbox","id":"sh/vql4bu5s","slide":33,"name":"estimate-month-label","text":"月額運用保守（税抜）","textPreview":"月額運用保守（税抜）","textChars":10,"textLines":1,"bbox":[480,132,218,36]}
+{"kind":"textbox","id":"sh/apc32p47","slide":33,"name":"estimate-month","text":"36,000円／月","textPreview":"36,000円／月","textChars":9,"textLines":1,"bbox":[480,176,218,52]}
+{"kind":"shape","id":"sh/grad8zah","slide":33,"name":"estimate-limit-bg","bbox":[740,112,252,150]}
+{"kind":"textbox","id":"sh/hsjuhkb2","slide":33,"name":"estimate-limit-label","text":"RFP上限（税抜）","textPreview":"RFP上限（税抜）","textChars":9,"textLines":1,"bbox":[758,132,216,36]}
+{"kind":"textbox","id":"sh/upsv6psb","slide":33,"name":"estimate-limit","text":"15,000,000円以内","textPreview":"15,000,000円以内","textChars":13,"textLines":1,"bbox":[754,176,224,52]}
+{"kind":"shape","id":"sh/vq1cfutw","slide":33,"name":"estimate-head-cell-0","bbox":[48,300,250,42]}
+{"kind":"textbox","id":"sh/4vadczad","slide":33,"name":"estimate-head-text-0","text":"工程","textPreview":"工程","textChars":2,"textLines":1,"bbox":[57,306,232,30]}
+{"kind":"shape","id":"sh/5w3ul4by","slide":33,"name":"estimate-head-cell-1","bbox":[298,300,468,42]}
+{"kind":"textbox","id":"sh/itsvapsn","slide":33,"name":"estimate-head-text-1","text":"主な内容","textPreview":"主な内容","textChars":4,"textLines":1,"bbox":[307,306,450,30]}
+{"kind":"shape","id":"sh/3u1cjut8","slide":33,"name":"estimate-head-cell-2","bbox":[766,300,226,42]}
+{"kind":"textbox","id":"sh/czudgjap","slide":33,"name":"estimate-head-text-2","text":"金額（税抜）","textPreview":"金額（税抜）","textChars":6,"textLines":1,"bbox":[775,306,208,30]}
+{"kind":"shape","id":"sh/dk3ep4ba","slide":33,"name":"estimate-0-cell-0","bbox":[48,342,250,43]}
+{"kind":"textbox","id":"sh/lgzu94je","slide":33,"name":"estimate-0-text-0","text":"企画・調査","textPreview":"企画・調査","textChars":5,"textLines":1,"bbox":[57,348,232,31]}
+{"kind":"shape","id":"sh/0fqd0z2t","slide":33,"name":"estimate-0-cell-1","bbox":[298,342,468,43]}
+{"kind":"textbox","id":"sh/zehc7u18","slide":33,"name":"estimate-0-text-1","text":"要件定義／棚卸し／移行台帳","textPreview":"要件定義／棚卸し／移行台帳","textChars":13,"textLines":1,"bbox":[307,348,450,31]}
+{"kind":"shape","id":"sh/yd8vy9kn","slide":33,"name":"estimate-0-cell-2","bbox":[766,342,226,43]}
+{"kind":"textbox","id":"sh/9kjudoja","slide":33,"name":"estimate-0-text-2","text":"2,880,000円","textPreview":"2,880,000円","textChars":10,"textLines":1,"bbox":[775,348,208,31]}
+{"kind":"shape","id":"sh/8jad4j2p","slide":33,"name":"estimate-1-cell-0","bbox":[48,385,250,43]}
+{"kind":"textbox","id":"sh/nihcbe1k","slide":33,"name":"estimate-1-text-0","text":"サイト設計・デザイン","textPreview":"サイト設計・デザイン","textChars":10,"textLines":1,"bbox":[57,391,232,31]}
+{"kind":"shape","id":"sh/mh8v29kz","slide":33,"name":"estimate-1-cell-1","bbox":[298,385,468,43]}
+{"kind":"textbox","id":"sh/pofu1k36","slide":33,"name":"estimate-1-text-1","text":"情報設計／画面設計／テンプレート","textPreview":"情報設計／画面設計／テンプレート","textChars":16,"textLines":1,"bbox":[307,391,450,31]}
+{"kind":"shape","id":"sh/4n6tsf2l","slide":33,"name":"estimate-1-cell-2","bbox":[766,385,226,43]}
+{"kind":"textbox","id":"sh/uhkjm1w7","slide":33,"name":"estimate-1-text-2","text":"3,720,000円","textPreview":"3,720,000円","textChars":10,"textLines":1,"bbox":[775,391,208,31]}
+{"kind":"shape","id":"sh/vit0f6ds","slide":33,"name":"estimate-2-cell-0","bbox":[48,428,250,43]}
+{"kind":"textbox","id":"sh/gj21ored","slide":33,"name":"estimate-2-text-0","text":"WordPress構築","textPreview":"WordPress構築","textChars":11,"textLines":1,"bbox":[57,434,232,31]}
+{"kind":"shape","id":"sh/h4bihwvy","slide":33,"name":"estimate-2-cell-1","bbox":[298,428,468,43]}
+{"kind":"textbox","id":"sh/i5kjq1w3","slide":33,"name":"estimate-2-text-1","text":"テーマ／投稿6種／権限／フォーム5種","textPreview":"テーマ／投稿6種／権限／フォーム5種","textChars":18,"textLines":1,"bbox":[307,434,450,31]}
+{"kind":"shape","id":"sh/36d0j6do","slide":33,"name":"estimate-2-cell-2","bbox":[766,428,226,43]}
+{"kind":"textbox","id":"sh/47m1sbe9","slide":33,"name":"estimate-2-text-2","text":"2,880,000円","textPreview":"2,880,000円","textChars":10,"textLines":1,"bbox":[775,434,208,31]}
+{"kind":"shape","id":"sh/58v2lgvu","slide":33,"name":"estimate-3-cell-0","bbox":[48,471,250,43]}
+{"kind":"textbox","id":"sh/y90jehwz","slide":33,"name":"estimate-3-text-0","text":"移行・SEO","textPreview":"移行・SEO","textChars":6,"textLines":1,"bbox":[57,477,232,31]}
+{"kind":"shape","id":"sh/ja9072xk","slide":33,"name":"estimate-3-cell-1","bbox":[298,471,468,43]}
+{"kind":"textbox","id":"sh/z61gbyp8","slide":33,"name":"estimate-3-text-1","text":"移行 最大200P×8,400円／301／GA4","textPreview":"移行 最大200P×8,400円／301／GA4","textChars":24,"textLines":1,"bbox":[307,477,450,31]}
+{"kind":"shape","id":"sh/y5sz2ton","slide":33,"name":"estimate-3-cell-2","bbox":[766,471,226,43]}
+{"kind":"textbox","id":"sh/l8jyd87e","slide":33,"name":"estimate-3-text-2","text":"2,640,000円","textPreview":"2,640,000円","textChars":10,"textLines":1,"bbox":[775,477,208,31]}
+{"kind":"shape","id":"sh/07ah436t","slide":33,"name":"estimate-4-cell-0","bbox":[48,514,250,43]}
+{"kind":"textbox","id":"sh/na1gfipk","slide":33,"name":"estimate-4-text-0","text":"検証・公開","textPreview":"検証・公開","textChars":5,"textLines":1,"bbox":[57,520,232,31]}
+{"kind":"shape","id":"sh/m9sz6doz","slide":33,"name":"estimate-4-cell-1","bbox":[298,514,468,43]}
+{"kind":"textbox","id":"sh/9c3yh87q","slide":33,"name":"estimate-4-text-1","text":"総合試験／研修／公開・監視","textPreview":"総合試験／研修／公開・監視","textChars":13,"textLines":1,"bbox":[307,520,450,31]}
+{"kind":"shape","id":"sh/8buh8n65","slide":33,"name":"estimate-4-cell-2","bbox":[766,514,226,43]}
+{"kind":"textbox","id":"sh/vylgjipg","slide":33,"name":"estimate-4-text-2","text":"1,080,000円","textPreview":"1,080,000円","textChars":10,"textLines":1,"bbox":[775,520,208,31]}
+{"kind":"textbox","id":"sh/axczadov","slide":33,"name":"estimate-options","text":"追加提案：法人AI 初期360万円＋月6万円｜EC 180万円　※いずれも税抜・必須見積とは分離","textPreview":"追加提案：法人AI 初期360万円＋月6万円｜EC 180万円　※いずれも税抜・必須見積とは分離","textChars":48,"textLines":1,"bbox":[48,574,944,30]}
+{"kind":"textbox","id":"sh/s3ex0nm9","slide":33,"name":"estimate-owner","text":"協会向け正式見積書は株式会社インフォネットより提出し、本内訳は正式見積書と突合のうえ最終確定します。\n","textPreview":"協会向け正式見積書は株式会社インフォネットより提出し、本内訳は正式見積書と突合のうえ最終確定します。 |","textChars":51,"textLines":2,"bbox":[48,610,944,24]}
+{"kind":"notes","id":"nt/nax4b2dk","slide":33,"text":""}
+{"kind":"slide","id":"sl/ofu103u5","slide":34,"title":"基本提案／有償AIオプション／有償ECオプションの区分（税別）","textShapes":2}
+{"kind":"textbox","id":"sh/pwzm1kbm","slide":34,"name":"Title 1","placeholder":"title","text":"基本提案／有償AIオプション／有償ECオプションの区分（税別）","textPreview":"基本提案／有償AIオプション／有償ECオプションの区分（税別）","textChars":31,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/byh43utc","slide":34,"name":"Rectangle 3","text":"※ 制作工程で当社が内部利用するAI（基本提案に含む・専任ライター追加費用0円）と、稼働後に協会職員がお使いになる有償AIオプションは別のものです。利用条件の詳細は正式見積・前提条件に明記します。","textPreview":"※ 制作工程で当社が内部利用するAI（基本提案に含む・専任ライター追加費用0円）と、稼働後に協会職員がお使いになる有償AIオプションは別のものです。利用条件の詳細は正式見積・前提条件に明記します。","textChars":98,"textLines":1,"bbox":[43.2,590.4,960,81.6]}
+{"kind":"table","id":"tb/369of6do","slide":34,"name":"Table 2","rows":6,"cols":4,"preview":"項目 | 基本提案 | 有償AIオプション | 有償ECオプション","bbox":[43.2,105.6,960,470.4]}
+{"kind":"notes","id":"nt/ofu103u5","slide":34,"text":""}
+{"kind":"slide","id":"sl/1obmtofm","slide":35,"title":"協会の懸念を、公開前に一つずつ解消します","textShapes":16}
+{"kind":"textbox","id":"sh/idonexon","slide":35,"name":"タイトル 1","placeholder":"title","text":"協会の懸念を、公開前に一つずつ解消します","textPreview":"協会の懸念を、公開前に一つずつ解消します","textChars":20,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/3ex47ip8","slide":35,"name":"スライド番号プレースホルダー 2","placeholder":"slideNumber","text":"30","textPreview":"30","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/gb6lcn6x","slide":35,"name":"takeaway","text":"このリニューアルを、翌日から職員が改善できる仕組みにします。","textPreview":"このリニューアルを、翌日から職員が改善できる仕組みにします。","textChars":30,"textLines":1,"bbox":[48,106,944,58]}
+{"kind":"shape","id":"sh/hcfm5s72","slide":35,"name":"promise-num-bg-0","bbox":[90,194,58,58]}
+{"kind":"textbox","id":"sh/u943ador","slide":35,"name":"promise-num-0","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[100,201,38,44]}
+{"kind":"textbox","id":"sh/vad43ipc","slide":35,"name":"promise-title-0","text":"漏れなく移す","textPreview":"漏れなく移す","textChars":6,"textLines":1,"bbox":[178,196,240,34]}
+{"kind":"textbox","id":"sh/87ml836l","slide":35,"name":"promise-body-0","text":"911ページを台帳で追跡し、承認済みだけを移行","textPreview":"911ページを台帳で追跡し、承認済みだけを移行","textChars":23,"textLines":1,"bbox":[424,196,518,56]}
+{"kind":"shape","id":"sh/t8vm1876","slide":35,"name":"promise-num-bg-1","bbox":[90,284,58,58]}
+{"kind":"textbox","id":"sh/5of6xcbi","slide":35,"name":"promise-num-1","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[100,291,38,44]}
+{"kind":"textbox","id":"sh/4n65o7ax","slide":35,"name":"promise-title-1","text":"迷わせない","textPreview":"迷わせない","textChars":5,"textLines":1,"bbox":[178,286,240,34]}
+{"kind":"textbox","id":"sh/3mxov2tc","slide":35,"name":"promise-body-1","text":"資格取得希望者を主役に、目的別の最短導線を実現","textPreview":"資格取得希望者を主役に、目的別の最短導線を実現","textChars":23,"textLines":1,"bbox":[424,286,518,56]}
+{"kind":"shape","id":"sh/ilonmxsr","slide":35,"name":"promise-num-bg-2","bbox":[90,374,58,58]}
+{"kind":"textbox","id":"sh/hkv6tsb6","slide":35,"name":"promise-num-2","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[100,381,38,44]}
+{"kind":"textbox","id":"sh/gjm5knal","slide":35,"name":"promise-title-2","text":"職員で回せる","textPreview":"職員で回せる","textChars":6,"textLines":1,"bbox":[178,376,240,34]}
+{"kind":"textbox","id":"sh/vidorit0","slide":35,"name":"promise-body-2","text":"講座・LP・公開期限を共通マスターで管理","textPreview":"講座・LP・公開期限を共通マスターで管理","textChars":20,"textLines":1,"bbox":[424,376,518,56]}
+{"kind":"shape","id":"sh/uh4nidsv","slide":35,"name":"promise-num-bg-3","bbox":[90,464,58,58]}
+{"kind":"textbox","id":"sh/tgv6psba","slide":35,"name":"promise-num-3","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[100,471,38,44]}
+{"kind":"textbox","id":"sh/8fm5gnap","slide":35,"name":"promise-title-3","text":"責任と費用を透明に","textPreview":"責任と費用を透明に","textChars":9,"textLines":1,"bbox":[178,466,240,34]}
+{"kind":"textbox","id":"sh/kzq5wnil","slide":35,"name":"promise-body-3","text":"元請責任、SLA、検収、単価×数量を明示","textPreview":"元請責任、SLA、検収、単価×数量を明示","textChars":20,"textLines":1,"bbox":[424,466,518,56]}
+{"kind":"shape","id":"sh/l0z65sj6","slide":35,"name":"closing-bg","bbox":[178,570,764,58]}
+{"kind":"textbox","id":"sh/yxonud0f","slide":35,"name":"closing-text","text":"インフォネット＋ITLINEが、2027年5月6日の公開とその後の運用を一つの責任で支えます。","textPreview":"インフォネット＋ITLINEが、2027年5月6日の公開とその後の運用を一つの責任で支えます。","textChars":47,"textLines":1,"bbox":[198,580,724,38]}
+{"kind":"notes","id":"nt/1obmtofm","slide":35,"text":""}
